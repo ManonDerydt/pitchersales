@@ -111,9 +111,150 @@
 }
 
 .special-color{
-    background: linear-gradient(112deg, rgba(0,212,255,1) 0%, rgba(36,191,184,1) 26%, rgba(146,142,213,1) 51%, rgba(133,115,194,1) 61%, rgba(98,41,143,1) 93%, rgba(90,25,132,1) 100%, rgba(82,9,121,1) 100%);;
+    background: linear-gradient(112deg, rgba(0,212,255,1) 0%, rgba(36,191,184,1) 26%, rgba(146,142,213,1) 51%, rgba(133,115,194,1) 61%, rgba(98,41,143,1) 93%, rgba(90,25,132,1) 100%, rgba(82,9,121,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+}
+
+
+/**************************PARTNERS*************************/
+.content-partners{
+    display: flex;
+    justify-content: space-between;
+    font-size: 3em;
+    color: dimgrey;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: 800;
+    margin-top: 5%;
+}
+
+/**************************Buyer*************************/
+
+.content-advantage{
+    margin-top: 5%;
+}
+
+.pic-advantage{
+    height: 35em;
+    width: 50em;
+    object-fit: cover;
+    margin-left: 10%;
+    border-radius: 1.5em;
+}
+
+.title-advantage{
+    color: white;
+    margin-left: 5%;
+    font-size: 2.7em;
+    margin-bottom: 5%;
+}
+
+.block-ad-1{
+    background: rgba(0,212,255,1) 0%;
+    height: 15em;
+    width: 20em;
+    border-radius: 1.5em;
+}
+
+.block-ad-2{
+    background: rgba(82,9,121,1) 100%;
+    height: 15em;
+    width: 20em;
+    margin-top: 5em;
+    border-radius: 1.5em;
+}
+
+.content-block-adv{
+    display: flex;
+}
+
+.content-colored-block{
+    margin-left: 10em;
+}
+
+.text-blue{
+    margin-top: 0;
+    color: white;
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+/************************MEETINGS****************************/
+
+.section-meeting{
+    margin-top: 5%;
+}
+
+.title-meetings{
+    color: white;
+    margin-left: 5%;
+    font-size: 2.7em;
+    margin-bottom: 3%;
+}
+
+.subtitle-meeting{
+    color: white;
+    margin-left: 5%;
+    width: 60%;
+    font-size: 1.5em;
+}
+
+.m{
+    width: 25em;
+    height: 15em;
+    object-fit: cover;
+    margin-left: 5%;
+    border-radius: 1.5em;
+}
+
+.content-m{
+    justify-content: space-between;
+}
+
+
+/************************Speaker****************************/
+
+.title-speaker{
+    color: white;
+    margin-left: 5%;
+    font-size: 2.7em;
+    margin-bottom: 3%;
+}
+
+/************************FAQ****************************/
+
+.title-faq{
+    color: white;
+    margin-left: 5%;
+    font-size: 2.7em;
+    margin-bottom: 3%;
+}
+
+/************************Footer****************************/
+
+.section-footer{
+    border-top: 1em white solid;
+    height: 30em;
+}
+
+.meeting-btn{
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 50px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background: #5C88FF;
+    border: none;
+    width: 10%;
+    height: 2.5em;
+    margin-bottom: 3%;
+    margin-top: 1%;
 }
