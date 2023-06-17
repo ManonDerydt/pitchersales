@@ -5,15 +5,15 @@ class Menu extends React.Component {
         return (
             <div className="content-menu">
                     <h2 className="title"><span className="violet">Pitcher</span><span className="blue">Sales</span></h2>
-                    <ul className="menu">
-                        <li>Accueil</li>
-                        <li>Produits</li>
-                        <li>Meeting</li>
-                        <li>FAQ</li>
-                    </ul>
+                    {/*<ul className="menu">*/}
+                    {/*    <li>Accueil</li>*/}
+                    {/*    <li>Produits</li>*/}
+                    {/*    <li>Meeting</li>*/}
+                    {/*    <li>FAQ</li>*/}
+                    {/*</ul>*/}
                 <div className="buttons-menu">
-                    <button className="signIn">Inscription</button>
-                    <button className="logIn">Connexion</button>
+                    <button className="signIn">Connexion</button>
+                    <button className="logIn">Inscription</button>
                 </div>
 
 

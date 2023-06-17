@@ -1,5 +1,9 @@
 /****************************HEADER*********************************/
 
+.App-header{
+    margin-top: -2%;
+}
+
 .content-menu{
     display: flex;
     margin-top: 2%;
@@ -40,7 +44,7 @@
     font-size: 1.3em;
     border-radius: 50px;
     padding-left: 1.5em;
-    border: 2px solid;
+    border: 2px solid rgba(36,191,184,1);
     height: 2.5em;
     padding-right: 1.5em;
     background: none;
@@ -55,20 +59,21 @@
 .big-title{
     text-align: center;
     color: white;
-    font-size: 5em;
-    width: 70%;
-    margin-left: 15%;
+    font-size: 6em;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 
 .subtitle{
-    color: white;
-    margin-top: 3%;
-    width: 60%;
+    color: lightgrey;
+    margin-top: -1%;
+    width: 50%;
     font-size: 1.8em;
     text-align: center;
-    font-weight: 100;
-    margin-left: 20%;
+    margin-left: 25%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 .button-header{
@@ -77,13 +82,13 @@
     border-radius: 50px;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    background: #5C88FF;
+    background: rgb(82, 9, 121);
     border: none;
     width: 10%;
     height: 2.5em;
     margin-left: 45%;
     margin-bottom: 3%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .pictures{
@@ -91,7 +96,7 @@
     width: 90%;
     justify-content: space-between;
     margin-left: 5%;
-    margin-top: -7%;
+    margin-top: -10%;
     align-items: end;
 }
 
@@ -103,11 +108,12 @@
 }
 
 .pic-2{
-    height: 25em;
+    height: 27em;
     width: 52em;
     margin-top: 13%;
     object-fit: cover;
     border-radius: 1.5em;
+    object-position: top;
 }
 
 .special-color{
@@ -115,7 +121,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 
@@ -135,11 +140,15 @@
 
 .content-advantage{
     margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 3em;
+    padding-top: 5em;
 }
 
 .pic-advantage{
     height: 35em;
-    width: 50em;
+    width: 40em;
     object-fit: cover;
     margin-left: 10%;
     border-radius: 1.5em;
@@ -169,6 +178,7 @@
 
 .content-block-adv{
     display: flex;
+    justify-content: space-between;
 }
 
 .content-colored-block{
@@ -185,10 +195,43 @@
     font-size: 1.2em;
 }
 
+.title-solution{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.big-title-solution{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.block-solution{
+    width: 25em;
+    height: 13em;
+    background: #5C556F;
+    border-radius: 2em;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+.title-block-solution{
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.small-text-block-solution{
+    color: white;
+    font-size: 1.5em;
+}
 /************************MEETINGS****************************/
 
 .section-meeting{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .title-meetings{
@@ -205,16 +248,44 @@
     font-size: 1.5em;
 }
 
+.block-m{
+    width: 35%;
+}
+
 .m{
     width: 25em;
     height: 15em;
     object-fit: cover;
-    margin-left: 5%;
     border-radius: 1.5em;
+    margin-top: 5%;
+    margin-top: 20%;
 }
 
 .content-m{
     justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin-left: 5%;
+
+}
+
+.tags-meeting{
+    display: flex;
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 5%;
+}
+
+.tag{
+    margin-right: 5%;
+    font-size: 1.5em;
+    color: white;
+    border: 2px solid rgba(36,191,184,1);
+    padding: 0.5em;
+    font-weight: bold;
+    border-radius: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
@@ -236,25 +307,59 @@
     margin-bottom: 3%;
 }
 
+.option-1{
+    width: 35em;
+    height: 45em;
+    background: ghostwhite;
+}
+
+.option-2{
+    width: 35em;
+    height: 45em;
+    background: ghostwhite;
+}
+
+.content-options{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
 /************************Footer****************************/
 
 .section-footer{
-    border-top: 1em white solid;
-    height: 30em;
+    border-top: 0.1em white solid;
+    height: 27em;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .meeting-btn{
     margin-left: 5%;
-    margin-top: 5%;
     color: white;
     font-size: 1.5em;
     border-radius: 50px;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    background: #5C88FF;
+    background: rgba(36,191,184,1);
     border: none;
     width: 10%;
     height: 2.5em;
     margin-bottom: 3%;
-    margin-top: 1%;
+    margin-top: 5%;
+}
+
+.title-header{
+    color: white;
+    margin-top: 5%;
+    font-size: 3.5em;
+    width: 55%;
+}
+
+.subtitle-footer{
+    color: white;
+    width: 60%;
+    font-size: 1.5em;
 }

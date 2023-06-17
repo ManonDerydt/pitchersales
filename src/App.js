@@ -15,20 +15,20 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-       <section>
-            <Parters />
-       </section>
-        <section>
+       {/*<section>*/}
+       {/*     <Parters />*/}
+       {/*</section>*/}
+        <section className="buyer-section">
             <Buyer />
        </section>
-        <section>
-            <Speaker />
-       </section>
-        <section>
-            <Meetings />
-        </section>
+       {/* <section>*/}
+       {/*     <Speaker />*/}
+       {/*</section>*/}
         <section>
             <Faq />
+        </section>
+        <section>
+            <Meetings />
         </section>
         <section>
             <Footer />
