@@ -3,11 +3,13 @@ import './App.css';
 import Menu from './Menu'
 import Header from "./Header";
 import Parters from "./Partners";
-import Buyer from "./Buyer";
+import Solution from "./Solution";
 import Meetings from "./Meetings";
 import Faq from "./Faq";
 import Footer from "./Footer";
 import Speaker from "./Speaker";
+import Concept from "./Concept";
+
 function App() {
   return (
     <div className="App">
@@ -15,21 +17,27 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
+
+        <section>
+            <Concept />
+        </section>
        {/*<section>*/}
        {/*     <Parters />*/}
        {/*</section>*/}
         <section className="buyer-section">
-            <Buyer />
+            <Solution />
        </section>
        {/* <section>*/}
        {/*     <Speaker />*/}
        {/*</section>*/}
         <section>
-            <Faq />
-        </section>
-        <section>
             <Meetings />
         </section>
+
+        <section>
+            <Faq />
+        </section>
+
         <section>
             <Footer />
         </section>
