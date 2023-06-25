@@ -9,6 +9,7 @@ import Faq from "./Faq";
 import Footer from "./Footer";
 import Speaker from "./Speaker";
 import Concept from "./Concept";
+import Advantages from "./Advantages";
 
 function App() {
   return (
@@ -21,15 +22,14 @@ function App() {
         <section>
             <Concept />
         </section>
-       {/*<section>*/}
-       {/*     <Parters />*/}
+
+       {/* <section className="buyer-section">*/}
+       {/*     <Solution />*/}
        {/*</section>*/}
-        <section className="buyer-section">
-            <Solution />
-       </section>
-       {/* <section>*/}
-       {/*     <Speaker />*/}
-       {/*</section>*/}
+
+        {/*<section>*/}
+        {/*    <Advantages />*/}
+        {/*</section>*/}
         <section>
             <Meetings />
         </section>

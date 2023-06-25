@@ -7,21 +7,25 @@ import m2 from '../src/assets/m2.jpg'
 import m3 from '../src/assets/m3.jpg'
 import m4 from '../src/assets/m4.jpg'
 import drow from '../src/assets/drow.png'
+import splash from '../src/assets/splash.png'
 class Concept extends React.Component {
     render() {
         return (
             <div>
-                <img src={drow} className="drow"/>
+                <img src={splash} className="drow"/>
                 <div  className="section-concept">
                     <div className="d-flex justify-content-between w-100 content-box-meeting">
                         <div className="block-text-meeting">
                             <div>
-                                <h3 className="title-concept ">Nom d'un des concept</h3>
+                                <h3 className="title-concept">PitcherSales, c'est quoi exactement ?</h3>
                                 <p className="text-concept">
-                                    Le lorem ipsum est, en imprimerie, une suite de mots sans signification
-                                    utilisée à titre provisoire pour calibrerLe lorem ipsum est, en imprimerie, une suite de mots sans signification
-                                    utilisée à titre provisoire pour calibrerLe lorem ipsum est, en imprimerie, une suite de mots sans signification
-                                    utilisée à titre provisoire pour calibrer
+                                    PitcherSales c'est la plateforme qui permet aux entreprises de vendre leurs
+                                    produits et services via des présentations en ligne.
+                                    Avec PitcherSales, vous pouvez économiser du temps et de l'argent en évitant les
+                                    déplacements et atteindre un grand nombre de clients potentiels intéressés par vos offres.
+                                    démontrez la qualité de vos produits et services de manière professionnelle et personnalisée en utilisant des outils
+                                    de présentation modernes et interactifs pour maximiser vos chances de conclure des ventes
+                                    rapidement et efficacement.
                                 </p>
                             </div>
                             <button className="btn-concept">Découvrir</button>

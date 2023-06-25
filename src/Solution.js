@@ -9,26 +9,38 @@ class Solution extends React.Component {
     render() {
         return (
             <div className="content-advantage">
-                <h2 className="title-solution">Nos solutions</h2>
+                <h2 className="title-solution text-center">Explorez nos solutions</h2>
+                <p>
+
+                </p>
                 <div className="content-block-adv">
                     <div className="block-solution-1">
+                        <hr className="hr"/>
                         <div className="content-text-solution">
                             <h3 className="title-block-solution">Title</h3>
                             <p className="small-text-block-solution">Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.</p>
                         </div>
+
                     </div>
                     <div className="block-solution-2">
+                        <hr className="hr"/>
                         <div className="content-text-solution">
                             <h3 className="title-block-solution">Title</h3>
                             <p className="small-text-block-solution">Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.</p>
                         </div>
                     </div>
-                    <div>
-                        <div className="block-solution-3">
-                            <div className="content-text-solution">
-                                <h3 className="title-block-solution">Title</h3>
-                                <p className="small-text-block-solution">Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.</p>
-                            </div>
+                    <div className="block-solution-3">
+                        <hr className="hr"/>
+                        <div className="content-text-solution">
+                            <h3 className="title-block-solution">Title</h3>
+                            <p className="small-text-block-solution">Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.</p>
+                        </div>
+                    </div>
+                    <div className="block-solution-4">
+                        <hr className="hr"/>
+                        <div className="content-text-solution">
+                            <h3 className="title-block-solution">Title</h3>
+                            <p className="small-text-block-solution">Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.Ce sous-titre parle d'une solution.</p>
                         </div>
                     </div>
 

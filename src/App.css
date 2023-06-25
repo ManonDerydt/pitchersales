@@ -115,13 +115,13 @@
 
 .pic-1{
     height: 37em;
-    width: 25em;
+    width: 23em;
     object-fit: cover;
     border-radius: 1.5em;
 }
 
 .pic-2{
-    height: 27em;
+    height: 24em;
     width: 52em;
     margin-top: 13%;
     object-fit: cover;
@@ -157,16 +157,58 @@
 
 /**************************Solution*************************/
 
+.content-advantages{
+    width: 70%;
+    height: 30em;
+    background-color: white;
+    transform: rotate(-2deg);
+    transform-origin: center;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding-bottom: 2%;
+    border-radius: 1.5em;
+}
+
+.title-advantages{
+    font-size: 2.5em;
+    transform: rotate(2deg);
+    text-align: center;
+    padding-top: 6%;
+}
+
+.check{
+    width: 5em;
+    object-fit: contain;
+}
+
+.block-advantage{
+    transform: rotate(2deg);
+    width: 50%;
+    margin-left: 30%;
+}
+
+.button-advantage{
+    color: white;
+    font-size: 1.5em;
+    border-radius: 50px;
+    background: rgb(82, 9, 121);
+    border: none;
+    width: 15%;
+    height: 2.5em;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    transform: rotate(2deg);
+}
+/**************************Solution*************************/
+
 .content-advantage{
-    margin-top: 5%;
     width: 90%;
-    border-radius: 3em;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    /* height: 30em; */
-    font-family: 'Roboto', sans-serif;
+    height: 30em;
+    transform-origin: center;
+    margin-left: 5%;
+    margin-top: 10%;
+    padding-bottom: 2%;
 }
 
 .pic-advantage{
@@ -205,6 +247,8 @@
     align-items: end;
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .content-colored-block{
@@ -236,35 +280,39 @@
 }
 
 .block-solution-1{
-    width: 30em;
-    height: 16em;
-    border-radius: 2em;
-    margin-top: 3%;
-    padding-left: 2%;
-    background: rgba(146,142,213,1);
-}
-
-.block-solution-2{
-    background: rgba(98,41,143,1);
-    height: 16em;
-    border-radius: 2em;
-    width: 30em;
-}
-
-.block-solution-3{
-    width: 30em;
-    height: 16em;
+    width: 10em;
+    height: 10em;
     border-radius: 2em;
     margin-top: 3%;
     background: rgba(36,191,184,1);
 }
 
-.block-solution-4{
-    width: 30em;
-    height: 16em;
+.block-solution-2{
+    width: 10em;
+    height: 10em;
     border-radius: 2em;
     margin-top: 3%;
     background: rgba(146,142,213,1);
+}
+
+.block-solution-3{
+    width: 10em;
+    height: 10em;
+    border-radius: 2em;
+    margin-top: 3%;
+    background: rgba(0,212,255,1);
+}
+
+.block-solution-4{
+    width: 10em;
+    height: 10em;
+    border-radius: 2em;
+    margin-top: 3%;
+    background: rgba(82,9,121,1) ;
+}
+
+.hr{
+    margin-top: 110%;
 }
 
 .title-block-solution{
@@ -553,7 +601,7 @@
 }
 
 .searchbar{
-    width: 94%;
+    width: 50em;
     border-radius: 1em 1em 0 0;
     height: 2em;
     position: relative;
@@ -585,12 +633,14 @@
 .title-concept{
     color: rgba(36,191,184,1);
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .text-concept{
     color: white;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
 }
 
 .number-mt{
@@ -605,7 +655,7 @@
     background: none;
     height: 2em;
     margin-bottom: 3%;
-    margin-top: 3%;
+    margin-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -615,7 +665,7 @@
 }
 
 .block-m{
-    width: 90%;
+    width: 48em;
 }
 
 .ml1{
@@ -641,9 +691,10 @@
 }
 
 .drow{
-    margin-left: -5%;
+    margin-left: -4%;
     width: 20em;
     margin-top: 5%;
+    transform: rotate(-10deg);
 }
 
 .block-card{

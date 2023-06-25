@@ -2,6 +2,10 @@ import React from 'react';
 import pic1 from './assets/pic-4.jpg'
 import pic2 from './assets/pic-5.jpg'
 import pic3 from './assets/img-hands.jpg'
+import test1 from './assets/test1.jpg'
+import test2 from './assets/test2.jpg'
+import test3 from './assets/test3.jpeg'
+import test4 from './assets/test4.jpg'
 
 class Header extends React.Component {
     render() {
