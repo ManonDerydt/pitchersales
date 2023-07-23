@@ -3,13 +3,10 @@ import './App.css';
 import Menu from './Menu'
 import Header from "./Header";
 import Parters from "./Partners";
-import Solution from "./Solution";
-import Meetings from "./Meetings";
-import Faq from "./Faq";
 import Footer from "./Footer";
-import Speaker from "./Speaker";
 import Concept from "./Concept";
-import Advantages from "./Advantages";
+import Subscribe from "./Subscribe";
+import Visio from "./Visio";
 
 function App() {
   return (
@@ -20,11 +17,15 @@ function App() {
       </header>
 
         <section>
-            <Parters />
+            <Concept />
         </section>
 
+        {/*<section>*/}
+        {/*    <Visio />*/}
+        {/*</section>*/}
+
         <section>
-            <Concept />
+            <Parters />
         </section>
 
        {/* <section className="buyer-section">*/}
@@ -34,13 +35,17 @@ function App() {
         {/*<section>*/}
         {/*    <Advantages />*/}
         {/*</section>*/}
-        <section>
-            <Meetings />
-        </section>
+        {/*<section>*/}
+        {/*    <Meetings />*/}
+        {/*</section>*/}
 
         <section>
-            <Faq />
+            <Subscribe />
         </section>
+
+        {/*<section>*/}
+        {/*    <Faq />*/}
+        {/*</section>*/}
 
         <section>
             <Footer />

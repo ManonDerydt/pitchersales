@@ -12,10 +12,10 @@ class Header extends React.Component {
         return (
             <div>
                 <h1 className="big-title">
-                    <span className="special-color">Allez</span> à l'essentiel<br/>Moins de <span className="special-color">pitch</span>, plus de <span className="special-color">ventes</span>
+                    <span className="special-color">Allez</span> à l'essentiel<br/>Moins de <span className="special-color">pitch</span>, plus d'<span className="special-color">impact</span>
                 </h1>
                 <h2 className="subtitle">
-                    PitcherSales vous permet de présenter vos solutions à des prospects cibles lors de meeting groupés en ligne.
+                    Pitchersales vous permet de pitcher votre projet à un réseau mondial d'investisseurs lors de séances de pitch en ligne.
                 </h2>
                 <button className="learn-more">Découvrir</button>
 

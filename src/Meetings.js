@@ -3,7 +3,6 @@ import m1 from "./assets/m1.jpg"
 import m2 from "./assets/m2.jpg"
 import m3 from "./assets/m3.jpg"
 import arrow from "./assets/arrow.png"
-import {Card, CardContent, CardMedia} from '@material-ui/core';
 class Meetings extends React.Component {
     render() {
         return (
@@ -20,11 +19,6 @@ class Meetings extends React.Component {
                     <div className="tag">Ecologie</div>
                 </div>
                 <div>
-                    <Card
-                        title="Ma card"
-                        description="description"
-                        image={m1}
-                    />
                     <div>
                         <div className="content-m">
                             <div className="block-card">

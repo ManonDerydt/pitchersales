@@ -1,41 +1,24 @@
 import React from 'react';
+import logo from '../src/assets/Pitchersales-black.jpg'
 class Footer extends React.Component {
     render() {
-        return (
-            <div className="section-footer">
+        return (<div className="section-footer">
                 <footer className="footer">
-                    <div className="colonne">
-                        <h3>Colonne 1</h3>
-                        <ul>
-                            <li><a href="#">Lien 1</a></li>
-                            <li><a href="#">Lien 2</a></li>
-                            <li><a href="#">Lien 3</a></li>
-                        </ul>
+                   <h2 className="join-footer">Vous souhaitez rejoindre notre équipe ?</h2>
+                    <div className="d-flex text-center">
+                        <button className="btn-footer">
+                            <a href="mailto:derydtmanon@gmail.com">Contactez-nous <span className="emoji-item-footer">&#128233;</span></a>
+                        </button>
                     </div>
-                    <div className="colonne">
-                        <h3>Colonne 2</h3>
-                        <ul>
-                            <li><a href="#">Lien 1</a></li>
-                            <li><a href="#">Lien 2</a></li>
-                            <li><a href="#">Lien 3</a></li>
-                        </ul>
+
+                    <div className="block-footer">
+                        <img src={logo} className="black-logo" alt="logo"/>
+                        <div className="d-flex">
+                            <h2 className="pitchersales">©2023 | Pitchersales</h2>
+                            <h2 className="pitchersales">Rejoignez-nous</h2>
+                        </div>
                     </div>
-                    <div className="colonne">
-                        <h3>Colonne 3</h3>
-                        <ul>
-                            <li><a href="#">Lien 1</a></li>
-                            <li><a href="#">Lien 2</a></li>
-                            <li><a href="#">Lien 3</a></li>
-                        </ul>
-                    </div>
-                    <div className="colonne">
-                        <h3>Colonne 4</h3>
-                        <ul>
-                            <li><a href="#">Lien 1</a></li>
-                            <li><a href="#">Lien 2</a></li>
-                            <li><a href="#">Lien 3</a></li>
-                        </ul>
-                    </div>
+
                 </footer>
             </div>
         )
