@@ -12,52 +12,38 @@ class Concept extends React.Component {
     render() {
         return (
             <div>
-                <img src={splash} className="drow"/>
+                {/*<img src={splash} className="drow"/>*/}
                 <div  className="section-concept">
-                    <div className="d-flex justify-content-between w-100 content-box-meeting">
+                    <div className="w-100 content-box-meeting text-center">
                         <div className="block-text-meeting">
                             <div>
                                 <h3 className="title-concept">PitcherSales, c'est quoi exactement ?</h3>
                                 <p className="text-concept">
                                     PitcherSales c'est la plateforme qui permet aux entreprises de vendre leurs
                                     produits et services via des présentations en ligne.
-                                    Avec PitcherSales, vous pouvez économiser du temps et de l'argent en évitant les
-                                    déplacements et atteindre un grand nombre de clients potentiels intéressés par vos offres.
-                                    démontrez la qualité de vos produits et services de manière professionnelle et personnalisée en utilisant des outils
-                                    de présentation modernes et interactifs pour maximiser vos chances de conclure des ventes
-                                    rapidement et efficacement.
                                 </p>
                             </div>
-                            <button className="btn-concept">Découvrir</button>
-                        </div>
-                        <div className="block-img-meeting">
-                            <img src={searchbar2} className="searchbar"/>
-                            <div className="block-m">
-                                <div className="d-flex justify-content-between">
-                                    <div className="block-img-m">
-                                        <img src={m1} className="m ml1"/>
-                                        <p className="tag-meeting"> Julie, Total</p>
+                            <div className="text-center">
+                                <div className="d-flex">
+                                    <div className="block-concept">
+                                        <h2>Accédez à un panel d'investisseurs </h2>
                                     </div>
-                                    <div className="block-img-m">
-                                        <img src={m3} className="m"/>
-                                        <p className="tag-meeting"> Julie, Total</p>
+                                    <div className="block-concept">
+                                        <h2>Gagnez du temps </h2>
                                     </div>
                                 </div>
-                                <div className="d-flex justify-content-between second-m">
-                                    <div className="block-img-m">
-                                        <img src={m2} className="m ml1"/>
-                                        <p className="tag-meeting"> Julie, Total</p>
+                                <div className="d-flex">
+                                    <div className="block-concept">
+                                        <h2>Rentrez dans une communauté</h2>
                                     </div>
-                                    <div className="block-img-m">
-                                        <img src={m4} className="m"/>
-                                        <p className="tag-meeting"> Julie, Total</p>
+                                    <div className="block-concept">
+                                        <h2>Formez-vous et devenez meilleur</h2>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
-
                     </div>
+                    <button className="learn-more">Découvrir</button>
                 </div>
 
 

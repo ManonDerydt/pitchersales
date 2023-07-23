@@ -51,24 +51,6 @@ class Meetings extends React.Component {
                                     signification utilisée à titre provisoire pour calibrer
                                 </p>
                             </div>
-                        </div>
-                        <div className="content-m">
-                            <div className="block-card">
-                                <img src={m1} className="meeting-img"/>
-                                <p className="meeting-date">29 JUIN 19:00</p>
-                                <h3 className="title-meeting">Immobilier</h3>
-                                <p className="text-meeting">Le lorem ipsum est, en imprimerie, une suite de mots sans
-                                    signification utilisée à titre provisoire pour calibrer
-                                </p>
-                            </div>
-                            <div className="block-card">
-                                <img src={m2} className="meeting-img"/>
-                                <p className="meeting-date">29 JUIN 19:00</p>
-                                <h3 className="title-meeting">Immobilier</h3>
-                                <p className="text-meeting">Le lorem ipsum est, en imprimerie, une suite de mots sans
-                                    signification utilisée à titre provisoire pour calibrer
-                                </p>
-                            </div>
                             <div className="block-card">
                                 <img src={m3} className="meeting-img"/>
                                 <p className="meeting-date">29 JUIN 19:00</p>

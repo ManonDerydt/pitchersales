@@ -17,7 +17,7 @@ class Header extends React.Component {
                 <h2 className="subtitle">
                     PitcherSales vous permet de présenter vos solutions à des prospects cibles lors de meeting groupés en ligne.
                 </h2>
-                <button className="button-header">Découvrir</button>
+                <button className="learn-more">Découvrir</button>
 
                 <div className="pictures">
                     <img src={pic1} className="pic-1"/>

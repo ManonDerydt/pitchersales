@@ -20,6 +20,10 @@ function App() {
       </header>
 
         <section>
+            <Parters />
+        </section>
+
+        <section>
             <Concept />
         </section>
 
