@@ -2,7 +2,8 @@ import React from 'react';
 import logo from '../src/assets/Pitchersales-black.jpg'
 class Footer extends React.Component {
     render() {
-        return (<div className="section-footer">
+        return (
+            <div className="section-footer" id="#footer">
                 <footer className="footer">
                    <h2 className="join-footer">Vous souhaitez rejoindre notre équipe ?</h2>
                     <div className="d-flex text-center">

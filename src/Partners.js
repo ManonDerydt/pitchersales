@@ -8,7 +8,7 @@ class Partners extends React.Component {
                 {/*<span className="emoji-item">&#128077;</span>*/}
               <p className="subtitle-step">Découvrez le programme que nous avons créer pour une levée de fond efficace et impactante.</p>
 
-                <div className="d-flex content-items">
+                <div className="d-flex-desktop content-items">
                     <div className="item">
                         <p className="emoji-item">&#128221;</p>
                         <div className="d-flex align-baseline">

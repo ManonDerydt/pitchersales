@@ -7,6 +7,8 @@ import Footer from "./Footer";
 import Concept from "./Concept";
 import Subscribe from "./Subscribe";
 import Visio from "./Visio";
+import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify'
 
 function App() {
   return (
