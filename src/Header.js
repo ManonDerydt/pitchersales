@@ -11,9 +11,9 @@ class Header extends React.Component {
                     <span className="special-color">Allez</span> à l'essentiel<br/>Moins de <span className="special-color">pitch</span>, plus d'<span className="special-color">impact</span>
                 </h1>
                 <h2 className="subtitle">
-                    Avec Pitchersales, pitchez votre projet à un réseau mondial d'investisseurs lors de séances de pitch en ligne
+                    Avec Pitchersales, présentez votre projet à un réseau mondial d'investisseurs lors de séances de pitch en ligne
                 </h2>
-                <button className="learn-more">Découvrir</button>
+                <a href="#concept"><button className="learn-more">Découvrir</button></a>
 
                 <div className="pictures">
                     <img src={pic1} className="pic-1"/>

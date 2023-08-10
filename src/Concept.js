@@ -6,7 +6,7 @@ class Concept extends React.Component {
         return (
             <div>
                 {/*<img src={splash} className="drow"/>*/}
-                <div  className="section-concept">
+                <div  className="section-concept" id="concept">
                     <div className="w-100 content-box-meeting text-center">
                         <div className="block-text-meeting">
                             <div>
@@ -15,8 +15,8 @@ class Concept extends React.Component {
                                 </div>
 
                                 <p className="text-concept">
-                                    PitcherSales c'est la plateforme qui permet aux entreprises de vendre leurs
-                                    produits et services via des présentations en ligne.
+                                    Chaque projet mérite une chance de briller. Avec notre réseau d'investisseurs
+                                    et nos outils dédiés, nous mettons tout en œuvre pour transformer votre vision en réalité
                                 </p>
                             </div>
                             <div className="text-center">
@@ -46,7 +46,7 @@ class Concept extends React.Component {
                                     <Fade left delay={1600}>
                                         <div className="block-concept align-baseline">
                                             <h2 className="big-title-concept">PitcherSales, c'est aussi une communauté solidaire de startups unies
-                                                et se soutiennent dans la poursuite de leur réussite.
+                                                qui se soutiennent dans la poursuite de leur réussite
                                             </h2>
                                             <p className="emoji-item-concept">&#127919;</p>
                                         </div>
@@ -54,8 +54,8 @@ class Concept extends React.Component {
                                     <Fade right delay={1800}>
                                         <div className="block-concept align-baseline">
                                             <h2 className="big-title-concept">
-                                                Nous proposons des formations pour affiner vos pitchs et atteindre un niveau de performance optimal.
-                                                Faites la différence.
+                                                Nous proposons des formations pour affiner vos pitchs et atteindre un niveau de performance optimal
+                                                Faites la différence
                                             </h2>
                                             <p className="emoji-item-concept">&#128081;</p>
                                         </div>
@@ -64,7 +64,7 @@ class Concept extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <button className="learn-more learn-more-concept">Découvrir</button>
+                    <a href="#step"><button className="learn-more learn-more-concept">Découvrir</button></a>
                 </div>
             </div>
         )

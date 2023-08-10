@@ -22,25 +22,41 @@ class Menu extends React.Component {
 
     render() {
         return (
-            <div className="content-menu">
-                <img src={logo} className="logo" alt="pitchersales"/>
+            <div>
+                <div className="mobile-only">
+                    <div className="content-menu-mobile">
+                        <img src={logo} className="logo" alt="pitchersales"/>
 
-                {this.state.isMenuOpen && (
-                    <div id="navLinks" className='open'>
-                        <a href="#subscribe" className="btn-contact"><button className="join-us">Rejoignez-nous</button></a>
-                        <a href={Subscribe}><button className="contact">Contactez-nous</button></a>
+                        {this.state.isMenuOpen && (
+                            <div id="navLinks" className='open'>
+                                <a href="#subscribe" className="btn-contact"><button className="join-us">Rejoignez-nous</button></a>
+                                <a href="#footer" className="btn-contact"><button className="contact">Contactez-nous</button></a>
+                            </div>
+                        )}
+
+                        <div className="buttons-menu">
+                            <img
+                                src={this.state.isMenuOpen ? cross : menu}
+                                className="menu-burger"
+                                alt="menu-icon"
+                                onClick={this.toggleMenu}
+                            />
+                        </div>
                     </div>
-                )}
+                </div>
 
-                <div className="buttons-menu">
-                    <img
-                        src={this.state.isMenuOpen ? cross : menu}
-                        className="menu-burger"
-                        alt="menu-icon"
-                        onClick={this.toggleMenu}
-                    />
+                <div className="desktop-only">
+                    <div className="content-menu-desktop d-flex-desktop">
+                        <img src={logo} className="logo" alt="pitchersales"/>
+                        <div>
+                            <a href="#subscribe" className="btn-contact"><button className="join-us">Rejoignez-nous</button></a>
+                            <a href="#footer"><button className="contact">Contactez-nous</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
         );
     }
 }

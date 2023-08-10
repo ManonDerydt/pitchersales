@@ -45,7 +45,7 @@ function Subscribe() {
     };
 
     return (
-        <div className="content-subscribe">
+        <div className="content-subscribe" id="subscribe">
             <ToastContainer />
             <div className="d-flex-desktop">
                 <h2 className="title-subscribe">Prêt à tenter l'aventure ? </h2>
