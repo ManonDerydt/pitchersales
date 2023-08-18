@@ -54,7 +54,7 @@ class Concept extends React.Component {
                                     <Fade right delay={1800}>
                                         <div className="block-concept align-baseline">
                                             <h2 className="big-title-concept">
-                                                Nous proposons des formations pour affiner vos pitchs et atteindre un niveau de performance optimal
+                                                Nous proposons des formations pour affiner vos pitchs et atteindre un niveau de performance optimal.
                                                 Faites la différence
                                             </h2>
                                             <p className="emoji-item-concept">&#128081;</p>

@@ -53,6 +53,7 @@
     margin-right: 10%;
     width: 25%;
     margin-top: 3%;
+    color: black;
 }
 
 .refuse-cookie{
@@ -60,6 +61,7 @@
     padding: 2%;
     width: 25%;
     margin-top: 3%;
+    color: black;
 }
 
 
@@ -894,7 +896,6 @@ button.learn-more:active::before {
     margin-left: 10%;
     letter-spacing: 1px;
     margin-top: 0;
-    font-weight: 700;
     font-size: 1.4em;
 }
 
