@@ -7,10 +7,12 @@ import Footer from "./Footer";
 import Concept from "./Concept";
 import Subscribe from "./Subscribe";
 import cookie from "../src/assets/cookie.png"
-import Visio from "./Visio";
 import 'react-toastify/dist/ReactToastify.css';
 import { toast } from 'react-toastify'
 import React, { useState, useEffect } from 'react';
+import Solution from "./Solution";
+import Headband from "./HeadBand";
+import Offers from "./Offers";
 
 function App() {
     const [showBanner, setShowBanner] = useState(false);
@@ -58,35 +60,28 @@ function App() {
       </header>
 
         <section>
-            <Concept />
+            <Headband />
         </section>
 
-        {/*<section>*/}
-        {/*    <Visio />*/}
-        {/*</section>*/}
 
         <section>
             <Parters />
         </section>
 
-       {/* <section className="buyer-section">*/}
-       {/*     <Solution />*/}
-       {/*</section>*/}
+        <section>
+            <Solution />
+        </section>
 
-        {/*<section>*/}
-        {/*    <Advantages />*/}
-        {/*</section>*/}
-        {/*<section>*/}
-        {/*    <Meetings />*/}
-        {/*</section>*/}
+        <section>
+            <Concept />
+        </section>
+        <section>
+            <Offers />
+        </section>
 
         <section>
             <Subscribe />
         </section>
-
-        {/*<section>*/}
-        {/*    <Faq />*/}
-        {/*</section>*/}
 
         <section>
             <Footer />

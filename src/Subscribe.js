@@ -53,8 +53,7 @@ function Subscribe() {
             </div>
 
             <p className="text-form">
-                Vous voulez convaincre lors de votre prochain pitch ?
-                Décrivez-nous votre besoin, on vous répond sous 24h.
+                Le projet vous intéresse ? Enregistrez vos données, on vous répond sous 24h.
             </p>
 
             <form onSubmit={handleSubmit} className="form">

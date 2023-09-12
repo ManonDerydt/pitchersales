@@ -136,17 +136,43 @@
 .big-title{
     text-align: center;
     color: black;
-    font-size: 5em;
-    width: 90%;
-    margin-left: 5%;
+    font-size: 6.5em;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 3%;
     margin-bottom: 4%;
     font-family: 'Poppins', sans-serif;
 }
 
+.content-block-offers{
+    justify-content: space-between;
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+}
+
+.block-tarif{
+    width: 20em;
+    height: 30em;
+    border: black 3px solid;
+    border-radius: 30px
+}
+
+.block-1{
+
+}
+
+.block-2{
+
+}
+
+.block-3{
+
+}
+
 .subtitle{
     width: 50%;
-    font-size: 1.5em;
+    font-size: 25px;
     text-align: center;
     margin-left: 25%;
     letter-spacing: 1px;
@@ -320,6 +346,7 @@ button.learn-more:active::before {
 }
 
 .title-subscribe{
+    font-family: 'Rowdies', cursive;
     font-size: 2.7em;
     color: black;
     width: 90%;
@@ -407,8 +434,11 @@ button.learn-more:active::before {
 }
 
 .text-solution{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 2%;
     font-weight: 100;
-    font-size: 0.9em;
 }
 /**************************Solution*************************/
 
@@ -455,10 +485,7 @@ button.learn-more:active::before {
 
 .content-block-adv {
     align-items: end;
-    display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin-left: 10%;
 }
 
 .content-colored-block{
@@ -476,17 +503,13 @@ button.learn-more:active::before {
 }
 
 .title-solution{
-    color: white;
     font-size: 3em;
     margin-top: 0;
 }
 
 .big-title-solution{
-    color: white;
-    font-size: 1.5em;
-    text-align: left;
-    width: 30%;
-    font-weight: 100;
+    font-size: 40px;
+    font-family: 'Rowdies', cursive;
 }
 
 .block-solution-1{
@@ -526,7 +549,6 @@ button.learn-more:active::before {
 }
 
 .title-block-solution{
-    color: white;
     font-size: 2.5em;
     margin-bottom: 0;
     padding-top: 10%;
@@ -535,14 +557,9 @@ button.learn-more:active::before {
 }
 
 .small-text-block-solution{
-    color: white;
     font-size: 1.5em;
     padding-left: 5%;
     padding-right: 5%;
-}
-
-.content-text-solution{
-
 }
 
 .small-text-block-solution{
@@ -551,6 +568,10 @@ button.learn-more:active::before {
 
 .text-center{
     text-align: center;
+}
+
+.text-left{
+    text-align: left;
 }
 /************************MEETINGS****************************/
 
@@ -863,8 +884,8 @@ button.learn-more:active::before {
 }
 
 .block-text-meeting{
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .block-concept{
@@ -886,10 +907,12 @@ button.learn-more:active::before {
     color: black;
     font-weight: 600;
     font-size: 3.2em;
+    font-family: 'Rowdies', cursive;
 }
 
 .text-concept{
     color: black;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
     width: 80%;
     text-align: center;
@@ -1028,32 +1051,32 @@ button.learn-more:active::before {
 }
 
 .button--submit {
-min-height: 50px;
-padding: 0.5em 1em;
-border: none;
-border-radius: 0 6px 6px 0;
-background-color: rgb(82, 9, 121);
-color: #fff;
-font-size: 1.3em;
-cursor: pointer;
-transition: background-color .3s ease-in-out;
-width: 15%;
-text-align: center;
+    min-height: 50px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: rgb(82, 9, 121);
+    color: #fff;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    width: 15%;
+    text-align: center;
 }
 
 .button--submit:hover {
-background-color: #5e5dcd;
+    background-color: #5e5dcd;
 }
 
 .input:focus, .input:focus-visible {
-border-color: #3898EC;
-outline: none;
+    border-color: #3898EC;
+    outline: none;
 }
 
 .title-solution{
-color: white;
-font-size: 2.7em;
-margin-bottom: 3%;
+    font-size: 35px;
+    margin-bottom: 3%;
+    font-family: 'Rowdies', cursive;
 }
 
 /************* VISIO *************/
@@ -1075,6 +1098,7 @@ margin-bottom: 3%;
     font-size: 2.1em;
     width: 50%;
     margin-left: 25%;
+    font-family: 'Rowdies', cursive;
 }
 
 .subtitle-step{
@@ -1143,6 +1167,7 @@ a{
 }
 
 .join-footer{
+    font-family: 'Rowdies', cursive;
     text-align: center;
     margin-top: 3%;
     font-size: 3.2em;
@@ -1191,6 +1216,21 @@ a{
 @media screen and (min-width: 768px) {
     .d-flex-desktop{
         display: flex !important;
+    }
+
+    .success{
+        border-radius: 1.5em;
+        border: black 4px solid;
+        height: 30em;
+        object-fit: cover;
+        width: 32em;
+    }
+
+    .content-headband{
+        width: 100%;
+        height: 10em;
+        background-color: #FFCD3B;
+        margin-top: 5%;
     }
 }
 
@@ -1331,6 +1371,7 @@ a{
         font-size: 16px;
         width: 100%;
         margin: 0 auto;
+        font-weight: bold;
     }
 
     .big-title-concept{
@@ -1344,10 +1385,6 @@ a{
         font-size: 1em;
         height: 13em;
         margin-top: 10% !important;
-    }
-
-    .text-solution{
-        font-size: 17px;
     }
 
     .title-subscribe{
@@ -1605,3 +1642,53 @@ and (orientation: portrait) {
         border-radius: 0.8em;
     }
 }
+
+.carousel-container {
+    margin: 0 auto;
+    max-width: 50%;
+    margin-left: 10%;
+}
+
+.slick-prev:before, .slick-next:before {
+    content: none !important;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.slick-prev {
+    background: url("./assets/left-arrow.png") no-repeat center;
+    left: -60px;
+}
+
+.slick-next {
+    background: url("./assets/right-arrow.png") no-repeat center;
+    right: -60px;
+}
+
+.carousel-item {
+    padding: 20px;
+}
+
+.slick-prev:active,
+.slick-next:active,
+.slick-prev:focus,
+.slick-next:focus {
+    box-shadow: none;
+    outline: none;
+}
+

@@ -16,7 +16,7 @@ class Concept extends React.Component {
 
                                 <p className="text-concept">
                                     Chaque projet mérite une chance de briller. Avec notre réseau d'investisseurs
-                                    et nos outils dédiés, nous mettons tout en œuvre pour transformer votre vision en réalité
+                                    et nos outils dédiés, nous mettons tout en œuvre pour transformer votre vision en réalité.
                                 </p>
                             </div>
                             <div className="text-center">

@@ -8,18 +8,18 @@ class Header extends React.Component {
         return (
             <div>
                 <h1 className="big-title">
-                    <span className="special-color">Allez</span> à l'essentiel<br/>Moins de <span className="special-color">pitch</span>, plus d'<span className="special-color">impact</span>
+                    <span className="special-color">Levez 50.000 euros en moins de 50 jours</span>
                 </h1>
                 <h2 className="subtitle">
                     Avec Pitchersales, présentez votre projet à un réseau mondial d'investisseurs lors de séances de pitch en ligne
                 </h2>
                 <a href="#concept"><button className="learn-more">Découvrir</button></a>
 
-                <div className="pictures">
-                    <img src={pic1} className="pic-1"/>
-                    <img src={pic2} className="pic-2"/>
-                    <img src={pic3} className="pic-1"/>
-                </div>
+                {/*<div className="pictures">*/}
+                {/*    <img src={pic1} className="pic-1"/>*/}
+                {/*    <img src={pic2} className="pic-2"/>*/}
+                {/*    <img src={pic3} className="pic-1"/>*/}
+                {/*</div>*/}
             </div>
         )
     }
