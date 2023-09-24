@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Fade from "react-reveal/Fade";
 
 function Subscribe() {
     const [role, setRole] = useState('');
@@ -45,42 +46,46 @@ function Subscribe() {
     };
 
     return (
-        <div className="content-subscribe" id="subscribe">
-            <ToastContainer />
-            <div className="d-flex-desktop">
-                <h2 className="title-subscribe">Prêt à tenter l'aventure ? </h2>
-                <p className="emoji-item-form-subscribe">&#127942;</p>
+        <div>
+            <div className="content-subscribe" id="subscribe">
+                <ToastContainer />
+                <h2 className="title-hidden">Vos paroles, Votre succès</h2>
+                <Fade bottom delay={200}>
+                    <div className>
+                        <h2 className="title-subscribe">Prêt à tenter l'aventure<br/><span className="color-orange">Essayez Pitchersales dès maintenant</span></h2>
+                    </div>
+
+                    <p className="text-form">
+                        Le projet vous intéresse ? Enregistrez vos données, on vous répond sous 24h.
+                    </p>
+
+                    <form onSubmit={handleSubmit} className="form">
+                        <label>
+                            <select value={role} onChange={e => setRole(e.target.value)} className="input-contact-select" required>
+                                <option value="role">Choisissez une option</option>
+                                <option value="startup">Startup</option>
+                                <option value="investisseur">Investisseur</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </label><br/>
+                        {role === 'startup' && (
+                            <label>
+                                <input required className="input-contact valueStartupName" placeholder="Nom de votre startup" type="text" value={startupName} onChange={e => setStartupName(e.target.value)} />
+                            </label>
+                        )}<br/>
+                        {/*<label>*/}
+                        {/*    <input required className="input-contact" placeholder="Votre nom et prénom" type="text" value={fullName} onChange={e => setFullName(e.target.value)}/>*/}
+                        {/*</label><br/>*/}
+                        {/*<label>*/}
+                        {/*    <input required className="input-contact" placeholder="Votre adresse email" type="email" value={email} onChange={e => setEmail(e.target.value)} />*/}
+                        {/*</label><br/>*/}
+                        {/*<label>*/}
+                        {/*    <textarea className="input-description" value={description} placeholder="Décrivrez vos besoins" onChange={e => setDescription(e.target.value)} />*/}
+                        {/*</label><br/>*/}
+                        {/*<button className="learn-more-form learn-more btn-form" type="submit">Soumettre</button>*/}
+                    </form>
+                </Fade>
             </div>
-
-            <p className="text-form">
-                Le projet vous intéresse ? Enregistrez vos données, on vous répond sous 24h.
-            </p>
-
-            <form onSubmit={handleSubmit} className="form">
-                <label>
-                    <select value={role} onChange={e => setRole(e.target.value)} className="input-contact-select" required>
-                        <option value="role">Choisissez une option</option>
-                        <option value="startup">Startup</option>
-                        <option value="investisseur">Investisseur</option>
-                        <option value="autre">Autre</option>
-                    </select>
-                </label><br/>
-                {role === 'startup' && (
-                    <label>
-                        <input required className="input-contact valueStartupName" placeholder="Nom de votre startup" type="text" value={startupName} onChange={e => setStartupName(e.target.value)} />
-                    </label>
-                    )}<br/>
-                <label>
-                    <input required className="input-contact" placeholder="Votre nom et prénom" type="text" value={fullName} onChange={e => setFullName(e.target.value)}/>
-                </label><br/>
-                <label>
-                    <input required className="input-contact" placeholder="Votre adresse email" type="email" value={email} onChange={e => setEmail(e.target.value)} />
-                </label><br/>
-                <label>
-                    <textarea className="input-description" value={description} placeholder="Décrivrez vos besoins" onChange={e => setDescription(e.target.value)} />
-                </label><br/>
-                <button className="learn-more-form learn-more btn-form" type="submit">Soumettre</button>
-            </form>
         </div>
     );
 }

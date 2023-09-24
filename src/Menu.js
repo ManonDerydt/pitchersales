@@ -1,22 +1,19 @@
 import React from 'react';
-import logo from "./assets/Pitchersales.jpg"
-import menu from "./assets/menu-burger.png";
-import cross from "./assets/cross.png"; // Importez votre image de croix ici
-import Subscribe from "./Subscribe";
-import { Transition } from 'react-transition-group';
-
-
+import logo from "./assets/logo-2.png";
+import { Link } from 'react-router-dom';
 
 class Menu extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isMenuOpen: false,
-            isCrossVisible: false  // Utilisez cet état pour savoir si l'image de la croix est affichée
+            isCrossVisible: false,
         };
+
+        this.toggleMenu = this.toggleMenu.bind(this);
     }
 
-    toggleMenu = () => {
+    toggleMenu() {
         this.setState(prevState => ({ isMenuOpen: !prevState.isMenuOpen }));
     }
 
@@ -25,38 +22,29 @@ class Menu extends React.Component {
             <div>
                 <div className="mobile-only">
                     <div className="content-menu-mobile">
-                        <img src={logo} className="logo" alt="pitchersales"/>
+                        <Link to="/"><a><img src={logo} className="logo" alt="pitchersales"/></a></Link>
+
 
                         {this.state.isMenuOpen && (
                             <div id="navLinks" className='open'>
-                                <a href="#subscribe" className="btn-contact"><button className="join-us">Rejoignez-nous</button></a>
-                                <a href="#footer" className="btn-contact"><button className="contact">Contactez-nous</button></a>
+                                <Link to="/" className="btn-contact"><button className="join-us">Home</button></Link>
+                                <Link to="/investors"><button>Investisseurs</button></Link>
                             </div>
                         )}
-
-                        <div className="buttons-menu">
-                            <img
-                                src={this.state.isMenuOpen ? cross : menu}
-                                className="menu-burger"
-                                alt="menu-icon"
-                                onClick={this.toggleMenu}
-                            />
-                        </div>
                     </div>
                 </div>
 
                 <div className="desktop-only">
                     <div className="content-menu-desktop d-flex-desktop">
-                        <img src={logo} className="logo" alt="pitchersales"/>
+                        <Link to="/"><button className="btn"><img src={logo} className="logo" alt="pitchersales"/></button></Link>
                         <div>
-                            <a href="#subscribe" className="btn-contact"><button className="join-us">Rejoignez-nous</button></a>
-                            <a href="#footer"><button className="contact">Contactez-nous</button></a>
+                            <Link to="/" className="btn-contact"><button className="join-us">Home</button></Link>
+                            <Link to="/investors"><button className="join-us">Investisseurs</button></Link>
+                            <button className="btn-menu-subscribe">Je m'inscris gratuitement</button>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         );
     }
 }
