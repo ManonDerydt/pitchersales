@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from "react-reveal/Fade";
-import bg from "../assets/gift.png"
+import bg from "../assets/solution/pic-14.png"
 import styled from "styled-components";
 
 // const Background = styled.div`
@@ -18,16 +18,22 @@ class Partners extends React.Component {
                 <Fade bottom delay={200}>
                     <div id="step" className="content-solutions d-flex-desktop">
                         {/*<Background>*/}
-                        <div>
-                            <h2 className="title-step">Pitchersales, c'est la certitude <span className="pink-color">d'un financement réussi</span></h2>
-                            {/*<span className="emoji-item">&#128077;</span>*/}
-                            <p className="subtitle-step">
-                                "Pitchersales est une solution unique qui permet à n'importe quel porteur de projet de lancer son business. "
+                        <div className="block-1-solution">
+                            <h2 className="title-step">Dépasse tes limites et ose le pas<span className="color-orange"><br/>Pitchersales te soutient.</span></h2>
+                            <p className="txt-solutions">
+                                Ton succès est notre priorité, nous sommes là pour t'épauler. Quelque soit ton niveau, nous nous chargeons de l'organisation, de la mise en place de tes présentations et de ton parcours de financement.
                             </p>
+                            <button className="btn-cta-end">Je découvre</button>
+
+                            {/*<p>        t*/}
+                            {/*    </p>*/}
+                            {/*/!*<span className="emoji-item">&#128077;</span>*!/*/}
+                            {/*<p className="subtitle-step">*/}
+                            {/*    "Pitchersales est une solution unique qui permet à n'importe quel porteur de projet de lancer son business. "*/}
+                            {/*</p>*/}
                         </div>
 
-                            <img src={bg} className="gift"/>
-                        {/*</Background>*/}
+                        <img src={bg} className="gift"/>
                     </div>
                 </Fade>
 

@@ -5,8 +5,7 @@ import pic2 from '../assets/header/header-2.png'
 import pic3 from '../assets/header/header-3.png'
 import pic4 from '../assets/header/header-4.png'
 import speak from '../assets/header/speak.png'
-import Investors from "../Investors";
-import Builder from "../Builder";
+import Investors from "../Investors/Investors";
 import screen from "../assets/screen.png";
 import yellowG from "../assets/header/10.png"
 import yellowO from "../assets/header/11.png"
@@ -18,7 +17,7 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            selected: null,
+            selected: "investisseur",
         };
     }
 
@@ -32,20 +31,20 @@ class Header extends React.Component {
         let imageO = selected === 'startup' ? whiteO : yellowO;
 
         return (
-            <div className="content-header-Investors d-flex-desktop">
+            <div className="content-header-home d-flex-desktop">
                 <div>
                     <div className="button-container-investors">
-                        <h2 className="big-title-investors">Pitchersales, <br/><span className="color-orange">Levez 50 000 euros en moins de 50 jours.</span></h2>
-                        <p className="subtitle-header">On est convaincus : chaque projet mérite une chance de briller à condition d'être bien entouré.</p>
+                        <h2 className="big-title-investors">Pitchersales, <br/><span className="color-orange">Levez 50.000 euros <br/>en moins de 50 jours.</span></h2>
+                        <p className="subtitle-header">On est convaincus : quelque soit le niveau de ton projet, on peut t'aider à <span className="bold">lever des fonds sans stress.</span></p>
                         <div className="buttons-investors">
                             <button className={selected === 'investisseur' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected' } onClick={() => this.selectOption('investisseur')}>
                                 <img src={imageG} className="icon-btn-menu"/>
-                                Investisseur
+                                Réserve ta place
                             </button>
-                            <button className={selected === 'startup' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected'} onClick={() => this.selectOption('startup')}>
-                                <img src={imageO} className="icon-btn-menu"/>
-                                Startup
-                            </button>
+                            {/*<button className={selected === 'startup' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected'} onClick={() => this.selectOption('startup')}>*/}
+                            {/*    <img src={imageO} className="icon-btn-menu"/>*/}
+                            {/*    Investisseurs*/}
+                            {/*</button>*/}
                             {/*{selected === 'investisseur' && <div>Contenu pour Investisseur</div>}*/}
                             {/*{selected === 'startup' && <div>Contenu pour Startups</div>}*/}
                         </div>

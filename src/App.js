@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Switch, Redirect, useLocation} from 'react-router-dom';
-import Menu from './Menu'
+import MenuHome from './Home/Menu-home'
 import Header from "./Home/Header";
 import Parters from "./Home/Partners";
 import Footer from "./Footer";
-import Concept from "./Concept";
+import Concept from "./Home/Concept";
 import Subscribe from "./Subscribe";
 import cookie from "../src/assets/cookie.png"
 import 'react-toastify/dist/ReactToastify.css';
@@ -14,11 +14,10 @@ import React, { useState, useEffect } from 'react';
 import Solution from "./Home/Solution";
 import Headband from "./Home/HeadBand";
 import Offers from "./Home/Offers";
-import Investors from "./Investors";
-import Builder from "./Builder";
-import Product from "./Product";
-import Advantages from "./Home/Advantages";
+import Investors from "./Investors/Investors";
 import HeaderInvestors from "./Investors/Header-investors";
+import Community from "./Home/Community";
+import Consultant from "./Consultant/Consultant";
 
 function SectionInvestors() {
     const location = useLocation();
@@ -34,11 +33,11 @@ function SectionInvestors() {
     );
 }
 
-function SectionBuilders() {
+function SectionConsultant() {
     const location = useLocation();
 
-    if (location.pathname === '/builders') {
-        return <Builder />;
+    if (location.pathname === '/consultant') {
+        return <Consultant />;
     }
 
     return (
@@ -78,17 +77,21 @@ function App() {
             )}
 
             <BrowserRouter>
-                <div className="menu-header-bg">
-                    <Menu />
-                </div>
                 <Switch>
                     <Route path="/investors" component={Investors} exact />
-                    <Route path="/builders" component={Builder} exact />
+                    <Route path="/consultant" component={Consultant} exact />
                     <Route path="/home" render={() => (
                         <>
                             <SectionInvestors />
-                            <SectionBuilders />
+                            <SectionConsultant />
+                            <div className="menu-header-bg">
+                                <MenuHome />
+                            </div>
                             <Header/>
+
+                            <section>
+                                <Headband/>
+                            </section>
 
                             <section>
                                 <Concept/>
@@ -108,6 +111,10 @@ function App() {
 
                             <section>
                                 <Offers />
+                            </section>
+
+                            <section>
+                                <Community/>
                             </section>
 
                             <section className="section-subscribe">

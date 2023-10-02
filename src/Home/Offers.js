@@ -12,9 +12,7 @@ class Header extends React.Component {
             <div>
                 <Fade bottom>
                     <div className="content-offers">
-                        <p className="mini-title-offers">À votre tour</p>
-                        <h2 className="special-color title-offers">Découvrez nos offres et <br/><span className="color-orange">commencez l'aventure</span></h2>
-
+                        <h2 className="special-color title-offers">Découvre nos offres pour <br/><span className="color-orange">accéder aux investisseurs.</span></h2>
                         <div className="content-block-offers">
                             <Fade bottom delay={200}>
                                 <div className="block-tarif">
@@ -28,44 +26,50 @@ class Header extends React.Component {
                                                 <div className="content-offers-price">
                                                     <h3 className="tittle-offers-1">Offre Premium</h3>
                                                     <h3 className="price">1000€</h3>
-                                                    <p className="small-title-offers">Paiement en une fois</p>
+                                                    <p className="small-title-offers">Paiement en plusieurs fois possible</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <hr className="hr"/>
                                         <div className="text-left text-offers">
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une présentation devant 15 investisseurs</p>
+                                                <p className="m-b-0 small-txt-offers">Un meeting devant <span className="light-green">5 investisseurs</span></p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une sélection d'investisseurs </p>
+                                                <p className="m-b-0 small-txt-offers">Une sélection d'investisseurs dédiés</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Accès à la communauté Pitchersales</p>
+                                                <p className="m-b-0 small-txt-offers">Des créneaux selons tes horaires</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Accès à un conseiller</p>
+                                                <p className="m-b-0 small-txt-offers">Promotion de l'entreprise sur nos réseaux </p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Support de présentation</p>
+                                                <p className="m-b-0 small-txt-offers">Accès à la communauté Pitchersales</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une présentation devant 10 investisseurs</p>
+                                                <p className="m-b-0 small-txt-offers">Accès à nos événements exclusifs </p>
+                                                <img src={check} className="yellow-check"/>
+                                            </div>
+
+                                            <div className="d-flex-desktop justify-content-between">
+                                                <p className="m-b-0 small-txt-offers">Coaching personnalisé</p>
                                                 <img src={cadenas} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une sélection d'investisseurs </p>
+                                                <p className="m-b-0 small-txt-offers">Support et deck de présentation</p>
                                                 <img src={cadenas} className="yellow-check"/>
                                             </div>
-                                            <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-O">Accès à la communauté Pitchersales</p>
-                                                <img src={cadenas} className="yellow-check"/>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -83,45 +87,49 @@ class Header extends React.Component {
                                                 <div className="content-offers-price">
                                                     <h3 className="tittle-offers-2">Offre Silver</h3>
                                                     <h3 className="price">1800€</h3>
-                                                    <p className="small-title-offers">Paiement en une fois</p>
+                                                    <p className="small-title-offers">Paiement en plusieurs fois possible</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <hr className="hr"/>
                                         <div className="text-left text-offers">
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une présentation devant 15 investisseurs</p>
+                                                <p className="m-b-0 small-txt-offers">Deux meetings devant <span className="light-blue">10 investisseurs</span></p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une sélection d'investisseurs </p>
+                                                <p className="m-b-0 small-txt-offers">Une sélection d'investisseurs dédiés</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Accès à la communauté Pitchersales</p>
+                                                <p className="m-b-0 small-txt-offers">Accès à la communauté Pitchersales</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Accès à un conseiller</p>
+                                                <p className="m-b-0 small-txt-offers">Des créneaux selons vos horaires</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Support de présentation</p>
+                                                <p className="m-b-0 small-txt-offers">Promotion de l'entreprise sur nos réseaux </p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une présentation devant 10 investisseurs</p>
+                                                <p className="m-b-0 small-txt-offers">Coaching personnalisé</p>
                                                 <img src={cadenas} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une sélection d'investisseurs </p>
+                                                <p className="m-b-0 small-txt-offers">Support et deck de présentation</p>
                                                 <img src={cadenas} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-O">Accès à la communauté Pitchersales</p>
+                                                <p className="m-b-0 small-txt-offers">Accès à des événements exclusifs </p>
                                                 <img src={cadenas} className="yellow-check"/>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </Fade>
@@ -139,7 +147,7 @@ class Header extends React.Component {
                                                 <div className="content-offers-price">
                                                     <h3 className="tittle-offers-3">Offre Gold</h3>
                                                     <h3 className="price">3000€</h3>
-                                                    <p className="small-title-offers">Paiement en une fois</p>
+                                                    <p className="small-title-offers">Paiement en plusieurs fois possible</p>
                                                 </div>
 
                                             </div>
@@ -148,36 +156,39 @@ class Header extends React.Component {
 
                                         <div className="text-left text-offers">
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une présentation devant 15 investisseurs</p>
+                                                <p className="m-b-0 small-txt-offers">Trois meetings devant <span className="violet-color">15 investisseurs</span></p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une sélection d'investisseurs </p>
+                                                <p className="m-b-0 small-txt-offers">Une sélection d'investisseurs dédiés</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Accès à la communauté Pitchersales</p>
+                                                <p className="m-b-0 small-txt-offers">Accès à la communauté Pitchersales</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Accès à un conseiller</p>
+                                                <p className="m-b-0 small-txt-offers">Des créneaux selons vos horaires</p>
+                                                <img src={check} className="yellow-check"/>
+                                            </div>
+
+                                            <div className="d-flex-desktop justify-content-between">
+                                                <p className="m-b-0 small-txt-offers">Promotion de l'entreprise sur nos réseaux </p>
+                                                <img src={check} className="yellow-check"/>
+                                            </div>
+
+                                            <div className="d-flex-desktop justify-content-between">
+                                                <p className="m-b-0 small-txt-offers">Coaching personnalisé</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Support de présentation</p>
+                                                <p className="m-b-0 small-txt-offers">Support et deck de présentation</p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
+
                                             <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une présentation devant 10 investisseurs</p>
-                                                <img src={cadenas} className="yellow-check"/>
-                                            </div>
-                                            <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-0">Une sélection d'investisseurs </p>
-                                                <img src={cadenas} className="yellow-check"/>
-                                            </div>
-                                            <div className="d-flex-desktop justify-content-between">
-                                                <p className="m-b-O">Accès à la communauté Pitchersales</p>
-                                                <img src={cadenas} className="yellow-check"/>
+                                                <p className="m-b-0 small-txt-offers">Accès à des événements exclusifs </p>
+                                                <img src={check} className="yellow-check"/>
                                             </div>
                                         </div>
                                     </div>
@@ -185,6 +196,10 @@ class Header extends React.Component {
                             </Fade>
                         </div>
                     </div>
+                    <div className="text-center">
+                        <button className="btn-offers">Je découvre Pitchersales</button>
+                    </div>
+
                 </Fade>
 
             </div>

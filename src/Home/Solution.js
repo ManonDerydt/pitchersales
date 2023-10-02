@@ -1,8 +1,8 @@
 import React from 'react';
 import success from '../assets/success.jpeg';
-import pic1 from '../assets/solution/pic-4.png';
-import pic2 from '../assets/solution/pic-5.png';
-import pic3 from '../assets/solution/pic-6.png';
+import pic1 from '../assets/solution/pic-13.png';
+import pic2 from '../assets/solution/pic-9.jpg';
+import pic3 from '../assets/solution/pic-12.png';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -69,54 +69,61 @@ class Solution extends React.Component {
         return (
             <div className="content-advantage">
 
-                    <div className="content_solution">
-                        <Fade bottom delay={200}>
-                            <div className="d-flex-desktop">
-                                <Fade bottom>
-                                <img src={pic1} className="pic_solution"/>
-                                </Fade>
-                                <Fade bottom delay={200}>
-                                    <div className="content-block-solution">
-                                        <h2 className="big-title-solution m-l-10">Porteur de projet ou <span className="color-orange">fondateur de startup</span></h2>
-                                        <p className="text-solution-right">
-                                            Présentez votre startup ou projet directement à un réseau
-                                            exclusif d'investisseurs intéressés. Plus besoin de passer des mois à réseauter, nous faisons le rapprochement pour vous.
-                                        </p>
-                                    </div>
-                                </Fade>
-                            </div>
+                    <div>
+                        {/*<h2 className="special-color title-offers">Une nouvelle approche <br/><span className="color-orange">de financement.</span></h2>*/}
+                        <div className="m-t-5">
+                            <Fade bottom>
+                                <div className="d-flex-desktop m-t-10">
+                                    <Fade>
+                                        <img src={pic1} className="pic_solution"/>
+                                    </Fade>
+                                    <Fade bottom delay={200}>
+                                        <div className="content-block-solution">
+                                            <p className="mini-title-solution color-orange">Concept</p>
+                                            <h2 className="big-title-solution ">Pitch en ligne devant <span className="color-orange"><br/>un panel d'investisseurs.</span></h2>
+                                            <p className="text-solution-right">
+                                                Nous te proposons trois solutions pour trouver ton partenaire financier idéal. Selon ton choix, pitch ton projet devant 5, 10 ou 15 investisseurs spécialisés dans ton secteur d'activité.
 
-                        </Fade>
-                        <Fade bottom>
-                            <div className="d-flex-desktop m-t-10">
-                                <div className="content-block-solution">
-                                    <h2 className="big-title-solution">Optimisation du temps et <span className="color-orange">des ressources</span></h2>
-                                    <p className="text-solution-left">
-                                        Focalisez votre énergie sur ce qui compte vraiment: développer votre entreprise. Nous nous chargeons de l'organisation et
-                                        de la mise en place de vos présentations, vous économisant ainsi un temps précieux.
-                                    </p>
+                                                {/*Au delà du financement,*/}
+                                                {/*ils t'accompagnerons dans le développement et le succès de ton projet.*/}
+                                            </p>
+                                        </div>
+                                    </Fade>
                                 </div>
-                                <Fade bottom delay={200}>
-                                    <img src={pic2} className="pic_solution"/>
-                                </Fade>
-                            </div>
-                        </Fade>
 
-                        <Fade bottom>
-                            <div className="d-flex-desktop m-t-10">
-                                <img src={pic3} className="pic_solution"/>
-                                <Fade bottom delay={200}>
+                            </Fade>
+                            <Fade bottom>
+                                <div className="d-flex-desktop m-t-10">
                                     <div className="content-block-solution">
-                                        <h2 className="big-title-solution m-l-10">Soutien et <span className="color-orange">accompagnement</span></h2>
-                                        <p className="text-solution-right">
-                                            Nous vous offrons également des formations et des ressources pour améliorer vos compétences en matière de pitch. Vous ne serez jamais seul dans votre quête de financement.
+                                        <p className="mini-title-solution  green-color m-l-0">Concept</p>
+                                        <h2 className="big-title-solution big-title-solution-left">Des professionnels dédiés<span className="green-color"> pour t'assister.</span></h2>
+                                        <p className="text-solution-left">
+                                            Tu n'es pas seul dans ta quête de financement. Nous mettons à ta disposition des ressources et des conseillers expérimentés en investissement
+                                            pour t'accompagner dans ton pitch et ta levée de fond.
                                         </p>
                                     </div>
-                                </Fade>
+                                    <Fade bottom>
+                                        <img src={pic2} className="pic_solution"/>
+                                    </Fade>
+                                </div>
+                            </Fade>
+                            <Fade bottom>
+                                <div className="d-flex-desktop m-t-10">
+                                    <img src={pic3} className="pic_solution"/>
+                                    <Fade bottom>
+                                        <div className="content-block-solution">
+                                            <p className="mini-title-solution blue-color-o">Concept</p>
+                                            <h2 className="big-title-solution m-l-10">Reçois ton financement<span className="blue-color-o"> <br/> en moins de 50 jours.</span></h2>
+                                            <p className="text-solution-right">
+                                                Selon l'intérêt des investisseurs pour ton projet, ils s'engagent à effectuer le processus d'étude et de financement dans un délai de 50 jours.
+                                                Cet engagement vise à optimiser le démarrage et la progression de ta boîte sans délai superflu.
+                                            </p>
+                                        </div>
+                                    </Fade>
 
-                            </div>
-                        </Fade>
-
+                                </div>
+                            </Fade>
+                        </div>
                     </div>
 
             </div>
