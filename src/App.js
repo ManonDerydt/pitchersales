@@ -64,17 +64,17 @@ function App() {
 
     return (
         <div className="App">
-            {showBanner && (
-                <div className="cookie-banner">
-                    <img src={cookie} alt="cookie" className="cookie-image" />
-                    <p>
-                        Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser notre site, vous acceptez notre politique en matière de cookies.
-                    </p>
-                    <button className="accept-button" onClick={acceptCookies}>
-                        Accepter
-                    </button>
-                </div>
-            )}
+            {/*{showBanner && (*/}
+            {/*    <div className="cookie-banner">*/}
+            {/*        <img src={cookie} alt="cookie" className="cookie-image" />*/}
+            {/*        <p>*/}
+            {/*            Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser notre site, vous acceptez notre politique en matière de cookies.*/}
+            {/*        </p>*/}
+            {/*        <button className="accept-button" onClick={acceptCookies}>*/}
+            {/*            Accepter*/}
+            {/*        </button>*/}
+            {/*    </div>*/}
+            {/*)}*/}
 
             <BrowserRouter>
                 <Switch>

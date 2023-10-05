@@ -2023,6 +2023,9 @@ a{
     font-weight: 300;
 }>
 
+.cookie-image{
+    width: 55px;
+ }
  .text {
      font-size: 35px;
      font-family: 'Rowdies', cursive;
