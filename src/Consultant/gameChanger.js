@@ -19,7 +19,7 @@ class GameChanger extends React.Component {
                     <div id="step" className="content-solutions text-center">
                         {/*<Background>*/}
                         <div className="block-1-solution">
-                            <h2 className="title-step-c">Soyez un Game Changer<span className="red-colork"><br/>pour les startups de demain.</span></h2>
+                            <h2 className="title-step-c">Soyez un Game Changer<span className="red-color"><br/>pour les startups de demain.</span></h2>
                             <p className="txt-solutions-c">
                                 Chaque conseil, chaque insight, chaque moment de mentorat peut bouleverser le destin d'un projet. En tant que conseiller chez Pitchersales, vous avez le
                                 pouvoir d'être ce pivot décisif dans la trajectoire d'une startup. Votre expertise et votre engagement peuvent transformer une idée prometteuse en

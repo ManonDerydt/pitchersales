@@ -76,7 +76,7 @@ class AdvantagesInvestors extends React.Component {
                     </div>
                 </Fade>
 
-                <br/>
+                <br className="desktop-only"/>
                 <Fade bottom>
                     <div className="d-flex-desktop content-block-i">
                         <div className="block-i block-i-1">
@@ -96,7 +96,8 @@ class AdvantagesInvestors extends React.Component {
                     </div>
                 </Fade>
 
-                <br/>
+
+                <br className="desktop-only"/>
                 <Fade bottom>
                     <div className="d-flex-desktop content-block-i">
                         <div className="block-i block-i-6">

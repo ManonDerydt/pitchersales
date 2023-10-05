@@ -14,7 +14,7 @@ class Community extends React.Component {
                             <div className="text-com">
                                 <h2 className="title-com">Arrivé jusqu'ici, il te reste<br/><span className="color-orange">3 solutions.</span></h2>
                                 <p className="txt-com">1. Tu ne fais rien et penses que tu n'es pas prêt. <br/>2. Tu continues à courir seul derrière les
-                                    investisseurs sans succès.<br/> 3. Tu décides de rejoindre la communauté Pitchersales pour bénéficier de notre éco-système taillé pour que tu réussises.
+                                    investisseurs sans succès.<br/> 3. Tu décides de rejoindre la communauté Pitchersales pour bénéficier de notre écosystème taillé pour que tu réussises.
                                 </p>
                                 <button className="btn-com">Je passe à l'étape supérieure</button>
                             </div>

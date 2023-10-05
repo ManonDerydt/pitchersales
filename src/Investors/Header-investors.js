@@ -6,11 +6,12 @@ import pic3 from '../assets/header/header-3.png'
 import pic4 from '../assets/header/header-4.png'
 import speak from '../assets/header/speak.png'
 import Investors from "./Investors";
-import screen from "../assets/screen.png";
 import yellowG from "../assets/header/10.png"
 import yellowO from "../assets/header/11.png"
 import whiteG from "../assets/header/12.png"
 import whiteO from "../assets/header/13.png"
+import screen from "../assets/header/pic-header-5.png"
+import bonhomme from "../assets/one-b.png"
 
 class Header extends React.Component {
 
@@ -27,18 +28,15 @@ class Header extends React.Component {
     render() {
         const { selected } = this.state;
 
-        let imageG = selected === 'investisseur' ? whiteG : yellowG;
-        let imageO = selected === 'startup' ? whiteO : yellowO;
-
         return (
-            <div className="content-header-Investors d-flex-desktop">
+            <div className="content-header-Investors content-header d-flex-desktop">
                 <div>
                     <div className="button-container-investors">
-                        <h2 className="big-title-investors">Pitchersales, <br/><span className="violet-color">Dynamiser votre portefeuille de projets.</span></h2>
+                        <h2 className="big-title-investors big-title">Pitchersales, <br/><span className="violet-color">Dynamiser votre <br/>portefeuille de projets.</span></h2>
                         <p className="subtitle-header">On est convaincus : quelque soit vos investissements, on peut vous proposer des <span className="bold">projets dignes d'intérêts.</span></p>
                         <div className="buttons-investors">
                             <button className={selected === 'investisseur' ? 'mix-btn selected-button-i' : 'mix-btn deselected-button mix-btn-deselected' } onClick={() => this.selectOption('investisseur')}>
-                                <img src={imageG} className="icon-btn-menu"/>
+                                <img src={bonhomme} className="icon-btn-menu-i"/>
                                 Demander une démo
                             </button>
                             {/*<button className={selected === 'startup' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected'} onClick={() => this.selectOption('startup')}>*/}
@@ -52,7 +50,9 @@ class Header extends React.Component {
                     </div>
                 </div>
 
-                <img src={screen} className="screen"/>
+                <div className="content-img-header">
+                    <img src={screen} className="screen"/>
+                </div>
             </div>
             // <div className="d-flex-desktop">
             //     {/*<div className="content-icon-1">*/}

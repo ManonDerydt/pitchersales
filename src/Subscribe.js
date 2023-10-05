@@ -57,7 +57,7 @@ function Subscribe() {
                         <h2 className="title-subscribe">On s'inscrit ?<br /><span className="color-orange">Tout d'abord, faisons connaissance !</span></h2>
                     </div>
                     <form onSubmit={handleSubmit} className="form">
-                        <div className="d-flex-desktop content-card-s">
+                        <div className="d-flex-desktop d-flex-mobile content-card-s">
                             <div
                                 className={`card-s ${selectedRole === 'porteur_projet' ? 'selected-img' : ''}`}
                                 onClick={() => handleCardClick('porteur_projet')}

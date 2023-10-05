@@ -79,8 +79,8 @@ class AdvantagesConsultant extends React.Component {
                                 </Fade>
                                 <Fade bottom delay={200}>
                                     <div className="content-block-solution">
-                                        <p className="mini-title-solution color-orange">Concept</p>
-                                        <h2 className="big-title-solution ">Coache des entrepreneurs <span className="color-orange"><br/>lors de meetings en ligne.</span></h2>
+                                        <p className="mini-title-solution red-color">Concept</p>
+                                        <h2 className="big-title-solution ">Coache des entrepreneurs <span className="red-color"><br/>lors de meetings en ligne.</span></h2>
                                         <p className="text-solution-right">
                                             Nous vous offrons la possibilité d'intervenir et d'accompagner les startups lors de leurs pitchs face à des investisseurs.
                                             Selon le choix de la startup, vous aurez l'opportunité de préparer ces talents émergents pour leurs présentations devant 5, 10 ou 15 investisseurs
@@ -94,7 +94,7 @@ class AdvantagesConsultant extends React.Component {
 
                         </Fade>
                         <Fade bottom>
-                            <div className="d-flex-desktop m-t-10">
+                            <div className="d-flex-desktop m-t-10 content-solution-mobile">
                                 <div className="content-block-solution">
                                     <p className="mini-title-solution  green-color m-l-0">Concept</p>
                                     <h2 className="big-title-solution big-title-solution-left">Intégrez une équipe de <span className="green-color">professionnels dévoués.</span></h2>

@@ -6,7 +6,7 @@ class BannerC extends React.Component {
             <div className="content-headband">
 
                 <Fade top>
-                    <h2 className="text-container"> Il est temps d'être <span className="red-color">un game changer.</span></h2>
+                    <h2 className="text-container"> Il est temps de <span className="red-color">gagner de l'argent.</span></h2>
                 </Fade>
             </div>
         )

@@ -93,7 +93,7 @@ class Solution extends React.Component {
 
                             </Fade>
                             <Fade bottom>
-                                <div className="d-flex-desktop m-t-10">
+                                <div className="d-flex-desktop m-t-10 content-solution-mobile">
                                     <div className="content-block-solution">
                                         <p className="mini-title-solution  green-color m-l-0">Concept</p>
                                         <h2 className="big-title-solution big-title-solution-left">Des professionnels dédiés<span className="green-color"> pour t'assister.</span></h2>

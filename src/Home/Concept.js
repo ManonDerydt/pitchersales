@@ -61,7 +61,7 @@ class Concept extends React.Component {
                                         </div>
                                     </Fade>
                                 </div>
-                                <button className="btn-cta">
+                                <button className="btn-cta-h btn-cta">
                                     Réserve ta place
                                 </button>
                             </Fade>

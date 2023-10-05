@@ -6,7 +6,8 @@ import pic3 from '../assets/header/header-3.png'
 import pic4 from '../assets/header/header-4.png'
 import speak from '../assets/header/speak.png'
 import Investors from "../Investors/Investors";
-import screen from "../assets/screen.png";
+import screen from "../assets/header/pic-header-4.png";
+import bonhomme from "../assets/one-b.png"
 import yellowG from "../assets/header/10.png"
 import yellowO from "../assets/header/11.png"
 import whiteG from "../assets/header/12.png"
@@ -27,21 +28,19 @@ class Header extends React.Component {
     render() {
         const { selected } = this.state;
 
-        let imageG = selected === 'investisseur' ? whiteG : yellowG;
-        let imageO = selected === 'startup' ? whiteO : yellowO;
 
         return (
-            <div className="content-header-Consultant d-flex-desktop">
+            <div className="content-header-Consultant content-header d-flex-desktop">
                 <div>
                     <div className="button-container-investors">
-                        <h2 className="big-title-investors">Pitchersales, <br/>
-                            <span className="red-color">Conseillez en toute tranquilité</span>
+                        <h2 className="big-title-investors big-title">Pitchersales, <br/>
+                            <span className="red-color">Multipliez vos revenus en conseillant sereinement</span>
                         </h2>
-                        <p className="subtitle-header">On est convaincus : chaque startup et/ou projet peut prospérer avec le bon mentorat.</p>
+                        <p className="subtitle-header">On est convaincus, quelque soit votre expertise en levée de fonds : coachez des <span className="bold">projets à forte valeur ajoutée.</span></p>
                         <div className="buttons-investors">
                             <button className={selected === 'investisseur' ? 'mix-btn selected-button-c' : 'mix-btn deselected-button mix-btn-deselected' } onClick={() => this.selectOption('investisseur')}>
-                                <img src={imageG} className="icon-btn-menu"/>
-                                Investisseur
+                                <img src={bonhomme} className="icon-btn-menu-c"/>
+                                Demander une démo
                             </button>
                             {/*{selected === 'investisseur' && <div>Contenu pour Investisseur</div>}*/}
                             {/*{selected === 'startup' && <div>Contenu pour Startups</div>}*/}
@@ -49,8 +48,9 @@ class Header extends React.Component {
 
                     </div>
                 </div>
-
-                <img src={screen} className="screen"/>
+                <div className="content-img-header">
+                    <img src={screen} className="screen"/>
+                </div>
             </div>
             // <div className="d-flex-desktop">
             //     {/*<div className="content-icon-1">*/}

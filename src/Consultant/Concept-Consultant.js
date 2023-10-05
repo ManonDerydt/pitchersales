@@ -13,16 +13,14 @@ class ConceptInvestors extends React.Component {
                     <div  className="section-concept" id="concept">
                         <div className="w-100 content-box-meeting text-center">
                             <div>
-                                <h2 className="special-color title-offers">Transformer les talents en <br/><span className="red-color"> success stories.</span></h2>
+                                <h2 className="special-color title-offers">Une nouvelle manière de<br/><span className="red-color"> générer vos revenus.</span></h2>
                             </div>
 
                             <p className="text-concept">
-                                De nos jours, accompagner les startups prometteuses à peaufiner leur discours, leur vision et leur stratégie est un défi.
-                                Cela exige d'être constamment au fait des tendances, d'avoir une pédagogie adaptée et une véritable empathie pour ces entrepreneurs
-                                en herbe. Avec Pitchersales, cet accompagnement est porté à un autre niveau ! Fini les séances de coaching génériques.
-                                Nous vous connectons directement avec des startups et porteurs de projets dynamiques, vous permettant de les guider,
-                                de les conseiller et de les préparer à des présentations impactantes devant des investisseurs en ligne. Ne vous contentez
-                                pas d'être un simple conseiller, devenez le mentor qui propulse les pépites de demain.
+                                Aujourd’hui, les levées de fonds sont pénibles pour les porteurs de projets. Ça prend du temps, de l’énergie et les investisseurs leur demande de l'expérience.
+                                Il est crucial d'aider les startups à affiner leur projet et stratégie d'investissement. Avec Pitchersales,
+                                nous vous mettons en relation avec ces startups pour les guider vers des présentations réussies devant des investisseurs.
+                                Plus qu'un conseiller, devenez le mentor des futurs leaders.
                             </p>
 
                             <Fade bottom delay={100}>
@@ -44,7 +42,7 @@ class ConceptInvestors extends React.Component {
                                             {/*<h3 className="txt-w">Des investisseurs au top</h3>*/}
                                             <h3 className="txt-w text-center">2. Configurez votre profil conseiller</h3>
                                             <p className="small-title-w text-center">
-                                                Personnalisez vos préférences en termes de secteur, du stade de maturité et d'investissement.
+                                                Définnissez votre expertise en terme de levée de fonds, de secteur d'activité et de montant.
                                             </p>
                                         </div>
                                     </Fade>
@@ -53,7 +51,7 @@ class ConceptInvestors extends React.Component {
                                         <div className="w-30">
                                             <img src={consultant} className="pic-concept"/>
                                             {/*<h3 className="txt-w">Des conseillers dédiés</h3>*/}
-                                            <h3 className="txt-w text-center">3. Coacher les pitchers <br/>en ligne et lancez-vous</h3>
+                                            <h3 className="txt-w text-center">3. Coacher les startups <br/>en ligne</h3>
                                             <p className="small-title-w text-center">
                                                 Rencontrez les fondateurs, découvrez leurs projets et trouver la stratégie parfaite.
                                             </p>
