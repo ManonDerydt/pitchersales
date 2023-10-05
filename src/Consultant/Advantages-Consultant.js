@@ -2,7 +2,7 @@ import React from 'react';
 import success from '../assets/success.jpeg';
 import pic1 from '../assets/solution/pic-13.png';
 import pic2 from '../assets/solution/pic-9.jpg';
-import pic3 from '../assets/solution/pic-12.png';
+import pic3 from '../assets/team-building.png';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -75,18 +75,15 @@ class AdvantagesConsultant extends React.Component {
                         <Fade bottom>
                             <div className="d-flex-desktop m-t-10">
                                 <Fade>
-                                    <img src={pic1} className="pic_solution"/>
+                                    <img src={pic2} className="pic_solution"/>
                                 </Fade>
                                 <Fade bottom delay={200}>
                                     <div className="content-block-solution">
                                         <p className="mini-title-solution red-color">Concept</p>
-                                        <h2 className="big-title-solution ">Coache des entrepreneurs <span className="red-color"><br/>lors de meetings en ligne.</span></h2>
+                                        <h2 className="big-title-solution ">Mentorez des startups <span className="red-color"><br/>pour leurs parcours de financement.</span></h2>
                                         <p className="text-solution-right">
-                                            Nous vous offrons la possibilité d'intervenir et d'accompagner les startups lors de leurs pitchs face à des investisseurs.
-                                            Selon le choix de la startup, vous aurez l'opportunité de préparer ces talents émergents pour leurs présentations devant 5, 10 ou 15 investisseurs
-                                            spécialisés dans divers secteurs d'activité.
-                                            {/*Au delà du financement,*/}
-                                            {/*ils t'accompagnerons dans le développement et le succès de ton projet.*/}
+                                            Nous vous offrons la possibilité d'accompagner les startups lors de leur levée de fonds auprès à des investisseurs.
+                                            En fonction de l'offre sélectionnée, Les porteurs de projets peuvent pitcher devant 5, 10 ou 15 investisseurs.
                                         </p>
                                     </div>
                                 </Fade>
@@ -96,16 +93,16 @@ class AdvantagesConsultant extends React.Component {
                         <Fade bottom>
                             <div className="d-flex-desktop m-t-10 content-solution-mobile">
                                 <div className="content-block-solution">
-                                    <p className="mini-title-solution  green-color m-l-0">Concept</p>
-                                    <h2 className="big-title-solution big-title-solution-left">Intégrez une équipe de <span className="green-color">professionnels dévoués.</span></h2>
+                                    <p className="mini-title-solution  dark-blue m-l-0">Concept</p>
+                                    <h2 className="big-title-solution big-title-solution-left">Intégrez une équipe de <span className="dark-blue">professionnels dévoués.</span></h2>
                                     <p className="text-solution-left">
                                         En tant que conseiller chez Pitchersales, vous faites partie intégrante de notre mission. Vous bénéficierez
                                         du soutien de notre équipe et de ressources adaptées pour optimiser votre coaching. Votre expertise combinée
-                                        à nos outils assurera la réussite des entrepreneurs que vous guiderez.
+                                        à nos outils assure la réussite des entrepreneurs que vous guiderez.
                                     </p>
                                 </div>
                                 <Fade bottom>
-                                    <img src={pic2} className="pic_solution"/>
+                                    <img src={pic3} className="pic_solution"/>
                                 </Fade>
                             </div>
                         </Fade>
@@ -127,7 +124,6 @@ class AdvantagesConsultant extends React.Component {
                         </Fade>*/}
                     </div>
                 </div>
-
             </div>
         );
     }
