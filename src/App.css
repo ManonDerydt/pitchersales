@@ -2290,7 +2290,7 @@ a{
     }
 
     .footer{
-        height: 25em;
+        height: 30em;
     }
 }
 
@@ -2793,7 +2793,7 @@ and (orientation: portrait) {
 
     .screen{
         width: 350px;
-        margin-left: 0;
+        margin-left: 10%;
     }
 
     .content-img-header{
@@ -2850,7 +2850,7 @@ and (orientation: portrait) {
     /***************BANNER**************/
 
     .content-headband{
-        margin-top: 40%;
+        margin-top: 50%;
         font-size: 18px;
         width: auto;
     }
@@ -3203,6 +3203,7 @@ and (orientation: portrait) {
     margin-top: 7%;
     font-size: 20px;
     background: none;
+    color: black;
 }
 
 .home-btn-menu-mobile{

@@ -191,7 +191,7 @@ class Header extends React.Component {
                                                 <img src={check} className="yellow-check"/>
                                             </div>
 
-                                            <div className="d-flex-desktop justify-content-between">
+                                            <div className="d-flex-desktop d-flex-mobile justify-content-between">
                                                 <p className="m-b-0 small-txt-offers">Accès à des événements exclusifs </p>
                                                 <img src={check} className="yellow-check"/>
                                             </div>
