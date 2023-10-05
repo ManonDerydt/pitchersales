@@ -2008,6 +2008,19 @@ a{
     color: white;
     font-family: 'GilroyLight', sans-serif !important;
     font-weight: 300;
+}
+
+.content-headband-c {
+    width: 100%;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 30px;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'GilroyLight', sans-serif !important;
+    font-weight: 300;
 }>
 
  .text {
@@ -2839,6 +2852,12 @@ and (orientation: portrait) {
         width: auto;
     }
 
+    .content-headband-c{
+        margin-top: 60%;
+        font-size: 18px;
+        width: auto;
+    }
+
     .btn-cta-i{
         width: 70% !important;
     }
@@ -2907,6 +2926,11 @@ and (orientation: portrait) {
 
     .icon-btn-menu{
         margin-right: 0;
+    }
+
+    .content-solutions-c{
+        width: 90%;
+        margin-left: 5%;
     }
 
         /***************CONCEPT**************/
