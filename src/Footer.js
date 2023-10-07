@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../src/assets/Pitchersales-black.jpg'
+import logo from '../src/assets/white-logo.png'
 class Footer extends React.Component {
     render() {
         return (

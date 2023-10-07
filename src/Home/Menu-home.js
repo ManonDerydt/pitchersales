@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import logo from "../assets/logo-2.png";
+import React, {useEffect, useState} from 'react';
+import logo from "../assets/logo-3.png";
 import { Link, withRouter } from 'react-router-dom';
 import Hamburger from 'hamburger-react';
 import menu from "../assets/menu.png";
+
 
 const MenuHome = ({ location }) => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -10,11 +11,19 @@ const MenuHome = ({ location }) => {
 
     const toggleMenu = () => {
         setMenuOpen(prevState => !prevState);
+        const body = document.body;
+        body.classList.add('show-loader');
     }
 
     const handleSetActiveButton = (buttonId) => {
         setActiveButton(buttonId);
     }
+
+    useEffect(() => {
+        const body = document.body;
+        body.classList.remove('show-loader');
+    }, [location]);
+
 
     return (
         <div>

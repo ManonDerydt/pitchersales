@@ -48,6 +48,7 @@ function SectionConsultant() {
 
 
 function App() {
+
     const [showBanner, setShowBanner] = useState(false);
 
     useEffect(() => {
@@ -64,6 +65,11 @@ function App() {
 
     return (
         <div className="App">
+            <div className="loader">
+                <svg>
+                    <circle cx="50" cy="50" r="45"></circle>
+                </svg>
+            </div>
             {/*{showBanner && (*/}
             {/*    <div className="cookie-banner">*/}
             {/*        <img src={cookie} alt="cookie" className="cookie-image" />*/}

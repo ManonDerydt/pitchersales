@@ -10,7 +10,7 @@
     color: #FFB325;
 }
 .color-black{
-    color: black !important;
+    color: #271350 !important;
 }
 
 .pink-color{
@@ -111,12 +111,17 @@
     background: none;
 }
 
+.btn:hover{
+    background: none;
+}
+
 .btn-menu-subscribe-h{
     background: #FFCD3B;
     width: 200px !important;
     height: 3em;
     font-size: 20px;
     border-radius: 4em;
+    color: #271350;
 }
 
 .btn-menu-subscribe-i{
@@ -137,7 +142,7 @@
     border-radius: 4em;
 }
 
-.btn-menu-subscribe::before, .btn-menu-subscribe::after {
+button::before, button::after {
     content: '';
     display: block;
     width: 50px;
@@ -149,7 +154,7 @@
     transition: 0.5s ease;
 }
 
-.btn-menu-subscribe{
+button{
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -158,27 +163,27 @@
 }
 
 
-.btn-menu-subscribe::before {
+button::before {
     top: -1em;
     left: -1em;
 }
 
-.btn-menu-subscribe::after {
+button::after {
     left: calc(100% + 1em);
     top: calc(100% + 1em);
 }
 
-.btn-menu-subscribe:hover::before, .btn-menu-subscribe:hover::after {
+button:hover::before, button:hover::after {
     height: 410px;
     width: 410px;
 }
 
-.btn-menu-subscribe:hover {
+button:hover {
     color: white;
-    background: black;
+    background: #271350;
 }
 
-.btn-menu-subscribe:active {
+button:active {
     filter: brightness(.8);
 }
 
@@ -217,7 +222,7 @@
     /* margin-left: 20%; */
     font-family: 'GilroyLight', sans-serif;
     margin-top: 0;
-    color: #1b1d20;
+    color: #271350;
     line-height: 24px;
     font-weight: 600;
     width: 60%;
@@ -292,11 +297,16 @@ width: 3em;
     background: #FFCD3B;
     z-index: 2;
     width: 350px !important;
-    color: black;
+    color: #271350;
     font-size: 22px;
     letter-spacing: 0px;
     align-items: center;
     display: flex;
+}
+
+.selected-button:hover {
+    background: #271350;
+    color: white;
 }
 
 .selected-button-c {
@@ -339,6 +349,7 @@ width: 3em;
     font-family: 'GilroyLight', sans-serif;
     width: 50%;
     line-height: 35px;
+    color: #271350;
 }
 
 .deselected-button {
@@ -459,17 +470,18 @@ color: black;
 }
 
 .join-us{
-    color: black;
     background: none;
     font-size: 1.3em;
     padding-left: 1.5em;
     height: 2.5em;
     padding-right: 1.5em;
     border: none;
+    color: #271350;
 }
 
 .join-us:hover{
     color: #FFCD3B;
+    background: none;
 }
 
 .join-us-investors:hover{
@@ -507,6 +519,7 @@ color: black;
     font-size: 18px;
     font-family: 'GilroyLight', sans-serif;
     font-weight: bold;
+    color: #271350;
 }
 
 .content-offers{
@@ -591,7 +604,7 @@ color: black;
     text-align: left;
     letter-spacing: 3px;
     font-size: 45px;
-    color: black;
+    color: #271350;
     width: 105%;
     margin-bottom: 0;
     margin-top: 0;
@@ -603,6 +616,7 @@ color: black;
     font-family: 'GilroyLight', sans-serif;
     line-height: 35px;
     font-weight: 800;
+    color: #271350;
 }
 
 .content-img-com{
@@ -623,7 +637,7 @@ color: black;
 
 .btn-com{
     background: #FFCD3B;
-    color: black;
+    color: #271350;
     letter-spacing: 0px;
     width: 370px !important;
     height: 3em;
@@ -659,6 +673,7 @@ color: black;
     font-size: 45px;
     margin-top: 0;
     margin-bottom: 3%;
+    color: #271350 !important;
 }
 
 .mini-title-offers{
@@ -685,6 +700,7 @@ color: black;
     font-size: 22px;
     font-family: 'GilroyLight', sans-serif;
     font-weight: 700;
+    color: #271350;
 }
 
 .text-offers{
@@ -939,7 +955,7 @@ button.learn-more:active::before {
 }
 
 .title-subscribe{
-    color: black;
+    color: #271350;
     font-weight: 800;
     text-align: center;
     padding-top: 0px;
@@ -1060,6 +1076,7 @@ button.learn-more:active::before {
     font-weight: 700;
     width: 65%;
     line-height: 30px;
+    color: #271350;;
 }
 
 .text-solution-left{
@@ -1068,6 +1085,7 @@ button.learn-more:active::before {
     font-weight: 700;
     width: 65%;
     line-height: 30px;
+    color: #271350;
 }
 
 .content-block-solution{
@@ -1089,7 +1107,7 @@ button.learn-more:active::before {
     margin-top: 5%;
     background: #FFCD3B;
     z-index: 2;
-    color: black;
+    color: #271350;
     font-size: 22px;
     letter-spacing: 0px;
     align-items: center;
@@ -1102,9 +1120,14 @@ button.learn-more:active::before {
     transition: 0.3s;
 }
 
+.btn-cta-h:hover{
+    background: #271350;
+    color: white;
+}
+
 .btn-cta-end{
     background: #FFCD3B;
-    color: black;
+    color: #271350;
     letter-spacing: 0px;
     width: 270px !important;
     height: 3em;
@@ -1113,6 +1136,16 @@ button.learn-more:active::before {
     border: none;
     margin-left: 5%;
     margin-top: 1%;
+}
+
+.btn-cta-end:hover{
+    background: #271350;
+    color: white;
+}
+
+.btn-offers:hover{
+    background: #271350;
+    color: white;
 }
 
 .btn-cta-end-c{
@@ -1190,6 +1223,7 @@ button.learn-more:active::before {
     width: 85%;
     margin-left: 10%;
     margin-top: 2%;
+    color: #271350;
 }
 
 .big-title-solution-left{
@@ -1502,7 +1536,7 @@ button.learn-more:active::before {
 .footer{
     border-top: 2px solid white;
     width: 100%;
-    background: black;
+    background: #271350;
     margin-top: -3%;
     padding-bottom: 3%;
 }
@@ -1616,7 +1650,7 @@ button.learn-more:active::before {
 }
 
 .text-concept{
-    color: black;
+    color: #271350;
     width: 56%;
     text-align: center;
     margin-left: 22%;
@@ -1863,7 +1897,7 @@ button.learn-more:active::before {
     text-align: left;
     letter-spacing: 3px;
     font-size: 45px;
-    color: black;
+    color: #271350;
     width: 105%;
     margin-bottom: 0;
     margin-top: 0;
@@ -2002,7 +2036,7 @@ a{
     margin-top: 8%;
     text-align: center;
     font-size: 30px;
-    background: black;
+    background: #271350;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -2071,6 +2105,7 @@ a{
     justify-content: space-between;
     margin-left: 15%;
     width: 70%;
+    margin-top: 3%;
 }
 
 
@@ -2471,55 +2506,6 @@ and (orientation: portrait) {
     }
 }
 
-.carousel-container {
-    margin: 0 auto;
-    max-width: 50%;
-    margin-left: 10%;
-}
-
-.slick-prev:before, .slick-next:before {
-    content: none !important;
-}
-
-.slick-prev,
-.slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 50%;
-    display: block;
-    width: 50px;
-    height: 50px;
-    padding: 0;
-    transform: translate(0, -50%);
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
-
-.slick-prev {
-    background: url("./assets/left-arrow.png") no-repeat center;
-    left: -60px;
-}
-
-.slick-next {
-    background: url("./assets/right-arrow.png") no-repeat center;
-    right: -60px;
-}
-
-.carousel-item {
-    padding: 20px;
-}
-
-.slick-prev:active,
-.slick-next:active,
-.slick-prev:focus,
-.slick-next:focus {
-    box-shadow: none;
-    outline: none;
-}
-
 .section-subscribe{
     background: linear-gradient(white 0%, rgba(255, 205, 59, 0.6) 95%);
 }
@@ -2565,11 +2551,12 @@ and (orientation: portrait) {
     width: 90%;
     line-height: 80px;
     margin-bottom: 3%;
+    color: #271350;;
 }
 
 .screen{
     margin-left: -50%;
-    width: 700px;
+    width: 770px;
 }
 
 .buttons-investors{
@@ -2638,6 +2625,7 @@ and (orientation: portrait) {
     font-size: 20px;
     line-height: 27px;
     text-align: center;
+    color: #271350;
 }
 
 .pic-todo{
@@ -2657,6 +2645,7 @@ and (orientation: portrait) {
     margin-bottom: 5%;
     font-weight: 100;
     text-align: center;
+    color: #271350;
 }
 
 .block-H{
@@ -2751,7 +2740,7 @@ and (orientation: portrait) {
 
 .btn-offers{
     background: #FFCD3B;
-    color: black;
+    color: #271350;
     letter-spacing: 0px;
     width: 320px !important;
     height: 3em;
@@ -2810,7 +2799,7 @@ and (orientation: portrait) {
         font-size: 20px;
         font-family: 'GilroyLight', sans-serif;
         margin-top: 8%;
-        color: #1b1d20;
+        color: #271350;;
         line-height: 24px;
         font-weight: 600;
         width: 95%;
@@ -2818,7 +2807,7 @@ and (orientation: portrait) {
 
     .selected-button{
         width: 80% !important;
-        color: black;
+        color: #271350;;
         font-size: 20px;
         letter-spacing: 0px;
         align-items: center;
@@ -2872,6 +2861,7 @@ and (orientation: portrait) {
         text-align: left;
         width: 85%;
         margin-left: 10%;
+        color: #271350;
     }
 
     .btn-cta-c{
@@ -2908,6 +2898,7 @@ and (orientation: portrait) {
         line-height: 27px;
         text-align: center;
         letter-spacing: 1px;
+        color: #271350;
     }
 
     .img-i-t{
@@ -2955,10 +2946,12 @@ and (orientation: portrait) {
         margin-left: 0;
         width: 100%;
         font-size: 20px;
+        color: #271350;
     }
 
     .text-solution-left{
         width: 100%;
+        color: #271350;
     }
 
     .content-solution-mobile{
@@ -3018,6 +3011,7 @@ and (orientation: portrait) {
         width: 90%;
         margin-left: 0%;
         margin-top: 10%;
+        color: #271350;
     }
 
     .pic-header{
@@ -3042,6 +3036,7 @@ and (orientation: portrait) {
         font-size: 20px;
         font-family: 'GilroyLight', sans-serif;
         width: 80%;
+        color: #271350;
 
     }
 
@@ -3225,4 +3220,19 @@ and (orientation: portrait) {
     border-radius: 40px;
     color: white;
 }
+.loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
 
+body.show-loader .loader {
+    display: flex;
+}
