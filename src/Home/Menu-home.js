@@ -11,8 +11,8 @@ const MenuHome = ({ location }) => {
 
     const toggleMenu = () => {
         setMenuOpen(prevState => !prevState);
-        const body = document.body;
-        body.classList.add('show-loader');
+        // const body = document.body;
+        // body.classList.add('show-loader');
     }
 
     const handleSetActiveButton = (buttonId) => {
