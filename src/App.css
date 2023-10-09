@@ -2775,7 +2775,7 @@ and (orientation: portrait) {
         /* margin: 0 auto; */
         margin-left: 0;
         margin-right: 0;
-        height: 75vh !important;
+        height: 80vh !important;
     }
 
     .big-title{
@@ -3390,5 +3390,12 @@ and (orientation: portrait) {
     .img-i-4 {
         width: 25%;
         margin-top: 0;
+    }
+}
+/* Ecran desktop moyen */
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .App{
+        zoom: 70%;
     }
 }
