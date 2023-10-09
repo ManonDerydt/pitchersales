@@ -3392,9 +3392,8 @@ and (orientation: portrait) {
         margin-top: 0;
     }
 }
-/* Ecran desktop moyen */
 
-@media (min-width: 1366px) and (max-width: 1919px) {
+@media (min-width: 1920px) {
     .App{
         zoom: 70%;
     }
