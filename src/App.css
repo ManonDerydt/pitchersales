@@ -2546,7 +2546,6 @@ and (orientation: portrait) {
     padding-right: 15%;
     padding-left: 15%;
     justify-content: space-between;
-    zoom: 85%;
 }
 
 .big-title-investors{
@@ -3402,4 +3401,14 @@ and (orientation: portrait) {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1) {
     /* CSS */
+}
+
+@media (min-width: 13.1in) and (max-width: 14in) {
+    .App{
+        zoom: 70%
+    }
+
+    .content-header-home{
+        zoom: 60%;
+    }
 }
