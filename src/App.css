@@ -120,7 +120,7 @@
     background: #FFCD3B;
     width: 200px !important;
     height: 3em;
-    font-size: 20px;
+    font-size: 1.3em;
     border-radius: 4em;
     color: #271350;
 }
@@ -219,12 +219,11 @@ button:active {
 }
 
 .subtitle-header{
-    font-size: 20px;
-    /* margin-left: 20%; */
+    font-size: 1.3em;
     font-family: 'GilroyLight', sans-serif;
     margin-top: 0;
     color: #271350;
-    line-height: 24px;
+    line-height: 1.3em;
     font-weight: 600;
     width: 60%;
 }
@@ -2542,14 +2541,14 @@ and (orientation: portrait) {
     height: 66vh;
     margin-top: -15%;
     align-items: center;
-    padding-top: 15%;
+    padding-top: 17%;
     padding-right: 15%;
     padding-left: 15%;
     justify-content: space-between;
 }
 
 .big-title-investors{
-    font-size: 67px;
+    font-size: 4em;
     text-align: left;
     font-weight: bold;
     width: 90%;
@@ -2560,7 +2559,7 @@ and (orientation: portrait) {
 
 .screen{
     margin-left: -50%;
-    width: 770px;
+    width: 45rem;
 }
 
 .buttons-investors{
@@ -3399,9 +3398,6 @@ and (orientation: portrait) {
 /*    }*/
 /*}*/
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
     /* CSS */
-    .App{
-        zoom: 70%
-    }
 }
