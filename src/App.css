@@ -84,7 +84,7 @@
 /**************************FONT****************************/
 @font-face {
     font-family: 'GilroyLight';
-    src: url('../Radomir Tinkov - Gilroy-Light.otf') format('woff');
+    src: url('../Radomir Tinkov - Gilroy-Light.otf') format('opentype');
 }
 
 @font-face {
