@@ -79,7 +79,7 @@
 }
 
 .content-img-header{
-    width: 30%;
+    width: 33%;
 }
 /**************************FONT****************************/
 @font-face {
@@ -1064,9 +1064,9 @@ button.learn-more:active::before {
 }
 /**************************Solution*************************/
 .pic_solution{
-    width: 35em;
+    width: 30em;
     border-radius: 40px;
-    height: 35em;
+    height: 30em;
     object-fit: cover;
 }
 
@@ -2107,6 +2107,7 @@ a{
     margin-left: 15%;
     width: 70%;
     margin-top: 3%;
+    zoom: 85%;
 }
 
 
@@ -2545,6 +2546,7 @@ and (orientation: portrait) {
     padding-right: 15%;
     padding-left: 15%;
     justify-content: space-between;
+    zoom: 85%;
 }
 
 .big-title-investors{
