@@ -3393,8 +3393,15 @@ and (orientation: portrait) {
     }
 }
 
-@media (min-width: 1920px) {
+/*@media (min-width: 1920px) {*/
+/*    .App{*/
+/*        zoom: 70%;*/
+/*    }*/
+/*}*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* CSS */
     .App{
-        zoom: 70%;
+        zoom: 70%
     }
 }
