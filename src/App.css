@@ -84,12 +84,12 @@
 /**************************FONT****************************/
 @font-face {
     font-family: 'GilroyLight';
-    src: url('../Radomir Tinkov - Gilroy-Light.otf') format('opentype');
+    src: url('../Radomir Tinkov - Gilroy-Light.otf') format('woff');
 }
 
 @font-face {
     font-family: 'GilroyBold';
-    src: url('../Gilroy-Bold.woff') format('opentype');
+    src: url('../Gilroy-Bold.woff') format('woff');
 }
 
 .active-home {
@@ -2155,6 +2155,7 @@ a{
         object-fit: contain;
         position: absolute;
         transition: opacity 0.10s ease-in-out;
+        color: #271350;
     }
 
     .buttons-menu{
@@ -2546,13 +2547,13 @@ and (orientation: portrait) {
 }
 
 .big-title-investors{
-    font-size: 3.5em;
+    font-size: 67px;
     text-align: left;
     font-weight: bold;
     width: 90%;
-    line-height: 80px;
     margin-bottom: 3%;
-    color: #271350;;
+    color: #271350;
+    line-height: 85px;
 }
 
 .screen{
@@ -3199,7 +3200,7 @@ and (orientation: portrait) {
     margin-top: 7%;
     font-size: 20px;
     background: none;
-    color: black;
+    color: #271350;
 }
 
 .home-btn-menu-mobile{
