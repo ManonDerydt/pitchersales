@@ -3418,7 +3418,11 @@ and (orientation: portrait) {
 }
 
 @media (max-width: 13in) {
+    .App{
+        zoom: 70%
+    }
     .content-header-home{
+
         padding-top: 20% !important;
     }
 
