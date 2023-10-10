@@ -120,7 +120,7 @@
     background: #FFCD3B;
     width: 200px !important;
     height: 3em;
-    font-size: 1.3em;
+    font-size: 22px;
     border-radius: 4em;
     color: #271350;
 }
@@ -219,7 +219,7 @@ button:active {
 }
 
 .subtitle-header{
-    font-size: 1.3em;
+    font-size: 20px;
     font-family: 'GilroyLight', sans-serif;
     margin-top: 0;
     color: #271350;
@@ -472,7 +472,7 @@ color: black;
 
 .join-us{
     background: none;
-    font-size: 1.3em;
+    font-size: 22px;
     padding-left: 1.5em;
     height: 2.5em;
     padding-right: 1.5em;
@@ -1064,9 +1064,9 @@ button.learn-more:active::before {
 }
 /**************************Solution*************************/
 .pic_solution{
-    width: 30em;
+    width: 35em;
     border-radius: 40px;
-    height: 30em;
+    height: 35em;
     object-fit: cover;
 }
 
@@ -3409,6 +3409,11 @@ and (orientation: portrait) {
     }
 
     .content-header-home{
-        zoom: 60%;
+        padding-top: 20% !important;
     }
+
+    .content-header-Investors{
+        padding-top: 20% !important;
+    }
+
 }
