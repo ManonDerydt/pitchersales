@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@200&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
-    font-family: 'GilroyBold', sans-serif;
+    /*font-family: 'GilroyBold', sans-serif;*/
+    /*font-family: 'Righteous', sans-serif;*/
+    /*font-family: 'Titan One', sans-serif;*/
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    font-family: 'Lexend Deca', sans-serif;
+
+
 }
+
 
 .color-orange{
     color: #FFCD3B;
@@ -66,8 +75,8 @@
 }
 
 .bold{
-    font-family: 'GilroyBold', sans-serif;
-    font-weight: 100;
+    /*font-family: 'GilroyBold', sans-serif;*/
+    /*font-weight: 100;*/
 }
 
 .w-30{
@@ -82,16 +91,16 @@
     width: 33%;
 }
 /**************************FONT****************************/
-@font-face {
-    font-family: 'GilroyLight';
-    src: url('../Radomir Tinkov - Gilroy-Light.otf') format('opentype');
-}
+/*@font-face {*/
+/*    font-family: 'GilroyLight';*/
+/*    src: url('../Radomir Tinkov - Gilroy-Light.otf') format('opentype');*/
+/*}*/
 
 
-@font-face {
-    font-family: 'GilroyBold';
-    src: url('../Gilroy-Bold.woff') format('woff');
-}
+/*@font-face {*/
+/*    font-family: 'GilroyBold';*/
+/*    src: url('../Gilroy-Bold.woff') format('woff');*/
+/*}*/
 
 .active-home {
     background-color: red;
@@ -123,6 +132,8 @@
     font-size: 22px;
     border-radius: 4em;
     color: #271350;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .btn-menu-subscribe-i{
@@ -220,7 +231,8 @@ button:active {
 
 .subtitle-header{
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     margin-top: 0;
     color: #271350;
     line-height: 1.3em;
@@ -263,7 +275,8 @@ width: 3em;
     line-height: 0;
     align-self: center;
     margin-top: 5%;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
 }
 
 .mix-btn{
@@ -335,7 +348,8 @@ width: 3em;
 .txt-solutions-c{
     text-align: center;
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
     line-height: 35px;
@@ -347,7 +361,8 @@ width: 3em;
     margin-left: 5%;
     text-align: left;
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     width: 50%;
     line-height: 35px;
     color: #271350;
@@ -478,6 +493,8 @@ color: black;
     padding-right: 1.5em;
     border: none;
     color: #271350;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .join-us:hover{
@@ -518,7 +535,8 @@ color: black;
 
 .small-txt-offers{
     font-size: 18px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: bold;
     color: #271350;
 }
@@ -530,7 +548,8 @@ color: black;
 .subtitle-offers{
     margin-left: 15%;
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700;
 }
 .content-block-offers{
@@ -614,7 +633,8 @@ color: black;
 .txt-com{
     text-align: left;
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     line-height: 35px;
     font-weight: 800;
     color: #271350;
@@ -670,11 +690,11 @@ color: black;
 
 .title-offers{
     text-align: center;
-    letter-spacing: 3px;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 3%;
     color: #271350 !important;
+    font-weight: 800;
 }
 
 .mini-title-offers{
@@ -699,7 +719,8 @@ color: black;
 
 .price{
     font-size: 22px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700;
     color: #271350;
 }
@@ -709,7 +730,8 @@ color: black;
     align-self: center;
     margin-top: 5%;
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     margin-bottom: 0;
 }
 
@@ -719,7 +741,8 @@ color: black;
     text-align: center;
     letter-spacing: 1px;
     margin-top: 3%;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     margin-left: 20%;
     color: #444;
 }
@@ -771,7 +794,8 @@ color: black;
     text-align: center;
     margin-top: 0%;
     font-size: 18px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
 }
 
 .pic{
@@ -1011,13 +1035,15 @@ button.learn-more:active::before {
     text-align: left;
     padding-top: 6%;
     margin-left: 15%;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
 }
 
 .text-advantage{
     margin-left: 5%;
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700;
 }
 
@@ -1073,7 +1099,8 @@ button.learn-more:active::before {
 .text-solution-right{
     margin-left: 10%;
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700;
     width: 65%;
     line-height: 30px;
@@ -1082,7 +1109,8 @@ button.learn-more:active::before {
 
 .text-solution-left{
     font-size: 20px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700;
     width: 65%;
     line-height: 30px;
@@ -1219,12 +1247,12 @@ button.learn-more:active::before {
 
 .big-title-solution{
     align-self: center;
-    letter-spacing: 3px;
-    font-size: 45px;
-    width: 85%;
+    letter-spacing: 0;
+    font-size: 40px;
     margin-left: 10%;
     margin-top: 2%;
     color: #271350;
+    font-weight: 800;
 }
 
 .big-title-solution-left{
@@ -1615,7 +1643,8 @@ button.learn-more:active::before {
 .mini-text-concept{
     width: 215px;
     font-size: 18px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700;
     text-align: center;
     margin: 0 auto;
@@ -1658,7 +1687,8 @@ button.learn-more:active::before {
     letter-spacing: 1px;
     margin-top: 0;
     font-size: 22px;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700;
     line-height: 35px;
 }
@@ -1896,12 +1926,12 @@ button.learn-more:active::before {
 .title-step{
     margin-left: 5%;
     text-align: left;
-    letter-spacing: 3px;
-    font-size: 45px;
+    font-size: 40px;
     color: #271350;
     width: 105%;
     margin-bottom: 0;
     margin-top: 0;
+    font-weight: 800;
 }
 
 .title-step-c{
@@ -1919,7 +1949,8 @@ button.learn-more:active::before {
     margin-left: 10%;
     font-size: 22px;
     text-align: left;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     margin-top: 5%;
 }
 
@@ -2041,7 +2072,8 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    font-family: 'GilroyLight', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif !important;*/
     font-weight: 300;
 }
 
@@ -2054,7 +2086,8 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    font-family: 'GilroyLight', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif !important;*/
     font-weight: 300;
 }>
 
@@ -2276,7 +2309,8 @@ a{
         margin-left: 5%;
         font-size: 22px;
         text-align: left;
-        font-family: 'GilroyLight', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        /*font-family: 'GilroyLight', sans-serif;*/
         margin-top: 5%;
     }
 
@@ -2550,7 +2584,7 @@ and (orientation: portrait) {
 .big-title-investors{
     font-size: 60px;
     text-align: left;
-    font-weight: bold;
+    font-weight: 800;
     width: 90%;
     margin-bottom: 3%;
     color: #271350;
@@ -2622,7 +2656,8 @@ and (orientation: portrait) {
 .small-title-w{
     width: 80%;
     margin-left: 10%;
-    font-family: 'GilroyLight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'GilroyLight', sans-serif;*/
     font-weight: 700 !important;
     margin-top: 0;
     font-size: 20px;
@@ -2671,12 +2706,12 @@ and (orientation: portrait) {
 
 .text-i-1{
     color: white;
-    font-size: 42px;
+    font-size: 40px;
     padding-top: 15%;
     padding-left: 5%;
     margin-top: 0;
-    font-family: 'GilroyBold', sans-serif;
     width: 85%;
+    font-weight: 800;
 }
 
 .img-i{
@@ -2804,7 +2839,8 @@ and (orientation: portrait) {
 
     .subtitle-header{
         font-size: 20px;
-        font-family: 'GilroyLight', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        /*font-family: 'GilroyLight', sans-serif;*/
         margin-top: 8%;
         color: #271350;;
         line-height: 24px;
@@ -2909,7 +2945,8 @@ and (orientation: portrait) {
     .small-title-w{
         width: 80%;
         margin-left: 10%;
-        font-family: 'GilroyLight', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        /*font-family: 'GilroyLight', sans-serif;*/
         font-weight: 700 !important;
         margin-top: 0;
         font-size: 18px;
@@ -3052,7 +3089,8 @@ and (orientation: portrait) {
         margin-left: 10%;
         text-align: left;
         font-size: 20px;
-        font-family: 'GilroyLight', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        /*font-family: 'GilroyLight', sans-serif;*/
         width: 80%;
         color: #271350;
 

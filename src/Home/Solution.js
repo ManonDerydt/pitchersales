@@ -96,7 +96,7 @@ class Solution extends React.Component {
                                 <div className="d-flex-desktop m-t-10 content-solution-mobile">
                                     <div className="content-block-solution">
                                         <p className="mini-title-solution  green-color m-l-0">Concept</p>
-                                        <h2 className="big-title-solution big-title-solution-left">Des professionnels dédiés<span className="green-color"> pour t'assister.</span></h2>
+                                        <h2 className="big-title-solution big-title-solution-left">Des professionnels dédiés<span className="green-color"><br/> pour t'assister.</span></h2>
                                         <p className="text-solution-left">
                                             Tu n'es pas seul dans ta quête de financement. Nous mettons à ta disposition des ressources et des conseillers expérimentés en investissement
                                             pour t'accompagner dans ton pitch et ta levée de fond.
