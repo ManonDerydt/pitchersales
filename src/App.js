@@ -93,7 +93,7 @@ function App() {
                             <div className="menu-header-bg">
                                 <MenuHome />
                             </div>
-                            <section>
+                            <section className="section-HEADER">
                                 <Header/>
                             </section>
 

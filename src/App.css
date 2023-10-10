@@ -2796,6 +2796,10 @@ and (orientation: portrait) {
     .d-flex-mobile{
         display: flex;
     }
+
+    .section-HEADER{
+        height: 105vh;
+    }
     /***************HEADER**************/
     .content-header{
         align-items: center;
@@ -3406,7 +3410,7 @@ and (orientation: portrait) {
     }
 
     .content-headband{
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .content-headband-c {
