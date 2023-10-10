@@ -93,7 +93,10 @@ function App() {
                             <div className="menu-header-bg">
                                 <MenuHome />
                             </div>
-                            <Header/>
+                            <section>
+                                <Header/>
+                            </section>
+
 
                             <section>
                                 <Headband/>

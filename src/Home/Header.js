@@ -31,21 +31,32 @@ class Header extends React.Component {
         let imageO = selected === 'startup' ? whiteO : yellowO;
 
         return (
-            <div className="content-header-home content-header d-flex-desktop">
-                    <div className="button-container-investors">
-                        <h2 className="big-title-investors big-title">Pitchersales, <br/><span className="color-orange">Levez 50.000 euros <br/>en moins de 50 jours.</span></h2>
-                        <p className="subtitle-header">On est convaincus : quelque soit le niveau de ton projet, on peut t'aider à <span className="bold">lever des fonds sans stress.</span></p>
-                        <div className="buttons-investors">
-                            <button className={selected === 'investisseur' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected' } onClick={() => this.selectOption('investisseur')}>
-                                <img src={imageG} className="icon-btn-menu"/>
-                                Réserve ta place
-                            </button>
-                        </div>
+            <div>
+                <div className="container">
+                    <div className="content-header-home content-header d-flex-desktop">
 
+                        <div className="button-container-investors">
+                            <div className="element-1">
+                                <h2 className="big-title-investors big-title">Pitchersales, <br/><span className="color-orange">Levez 50.000 euros <br/>en moins de 50 jours.</span></h2>
+                                <p className="subtitle-header">On est convaincus : quelque soit le niveau de ton projet, on peut t'aider à <span className="bold">lever des fonds sans stress.</span></p>
+                            </div>
+                            <div className="element-2">
+                                <div className="buttons-investors">
+                                    <button className={selected === 'investisseur' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected' } onClick={() => this.selectOption('investisseur')}>
+                                        <img src={imageG} className="icon-btn-menu"/>
+                                        Réserve ta place
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="content-img-header">
+                            <div className="element-4">
+                                <img src={screen} className="screen"/>
+                            </div>
+                        </div>
                     </div>
-                <div className="content-img-header">
-                    <img src={screen} className="screen"/>
                 </div>
+
 
 
             </div>
