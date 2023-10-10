@@ -34,7 +34,7 @@ class Header extends React.Component {
                 <div>
                     <div className="button-container-investors">
                         <h2 className="big-title-investors big-title">Pitchersales, <br/>
-                            <span className="red-color">Multipliez vos revenus en conseillant sereinement</span>
+                            <span className="red-color">Élevez vos revenus, sérénité en prime.</span>
                         </h2>
                         <p className="subtitle-header">On est convaincus, quelque soit votre expertise en levée de fonds : coachez des <span className="bold">projets à forte valeur ajoutée.</span></p>
                         <div className="buttons-investors">

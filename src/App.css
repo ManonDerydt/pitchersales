@@ -2813,22 +2813,24 @@ and (orientation: portrait) {
     }
 
     .big-title{
-        font-size: 35px;
+        font-size: 38px;
         font-weight: 700;
         line-height: 47px;
         margin-bottom: 3%;
-        text-align: left;
-        width: 100%;
+        text-align: center;
         margin-left: 0;
     }
 
     .screen{
-        width: 300px;
+        width: 380px;
         margin: 0 auto;
     }
 
     .content-img-header{
         grid-row: 1;
+        width: inherit;
+        text-align: center;
+        margin-top: 10%;
     }
 
     .icon-btn-menu{
@@ -2837,15 +2839,14 @@ and (orientation: portrait) {
         margin-right: 5%;
     }
 
-    .subtitle-header{
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        /*font-family: 'GilroyLight', sans-serif;*/
-        margin-top: 8%;
-        color: #271350;;
-        line-height: 24px;
-        font-weight: 600;
-        width: 95%;
+        .subtitle-header{
+            font-size: 22px;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 8%;
+            color: #271350;
+            line-height: 30px;
+            font-weight: 600;
+            width: 95%;
     }
 
     .selected-button{
@@ -3234,15 +3235,17 @@ and (orientation: portrait) {
     top: 0;
     left: 0;
     width: 100%;
-    height: 20em;
     z-index: 1000;
     background-color: white;
     overflow-y: auto;
     transform: translateY(-100%);
-    transition: transform 0.6s;
+    transition: transform 0.3s;
     text-align: center;
-    padding-top: 20%;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    padding-top: 10%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    align-content: center;
+    padding-bottom: 10%;
+
 }
 
 .mobile-menu.show-menu {
@@ -3253,7 +3256,7 @@ and (orientation: portrait) {
 .mobile-menu-button {
     margin-bottom: 10px;
     margin-top: 7%;
-    font-size: 20px;
+    font-size: 22px;
     background: none;
     color: #271350;
 }
