@@ -2908,7 +2908,7 @@ and (orientation: portrait) {
 
     .btn-cta-i{
         width: 70% !important;
-
+    }
 
     /***************OFFERS**************/
 
@@ -3386,6 +3386,17 @@ and (orientation: portrait) {
     .content-header{
         padding-bottom: 30%;
     }
+}
+
+@media (min-width: 329px) and (max-width: 400px){
+    .content-headband-c {
+        margin-top: 20%;
+    }
+
+    .content-headband {
+        margin-top: 20%;
+    }
+
 }
 
 /* Styles pour les mobiles moyens */
