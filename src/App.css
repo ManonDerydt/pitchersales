@@ -2160,7 +2160,7 @@ a{
 
 @media only screen and (max-width: 768px) {
     .logo{
-        width: 9em;
+        width: 11em;
         margin-top: 2em;
     }
 
@@ -2798,18 +2798,15 @@ and (orientation: portrait) {
     }
     /***************HEADER**************/
     .content-header{
-        margin-top: -25% !important;
         align-items: center;
-        padding-top: 30%;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         width: 90%;
         padding-left: 10%;
         padding-right: 0;
-        /* margin: 0 auto; */
         margin-left: 0;
         margin-right: 0;
-        height: 80vh !important;
+        padding-bottom: 20%;
     }
 
     .big-title{
@@ -2839,46 +2836,54 @@ and (orientation: portrait) {
         margin-right: 5%;
     }
 
-        .subtitle-header{
-            font-size: 22px;
-            font-family: 'Montserrat', sans-serif;
-            margin-top: 8%;
-            color: #271350;
-            line-height: 30px;
-            font-weight: 600;
-            width: 95%;
+    .subtitle-header{
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 8%;
+        color: #271350;
+        line-height: 30px;
+        font-weight: 600;
+        width: 95%;
     }
 
     .selected-button{
-        width: 80% !important;
-        color: #271350;;
-        font-size: 20px;
+        width: 68% !important;
+        color: #271350;
+        font-size: 24px;
         letter-spacing: 0px;
         align-items: center;
         display: flex;
-        margin-top: 8%;
-        margin-left: 5%;
+        height: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-left: 8%;
     }
 
     .selected-button-i{
-        width: 86% !important;
-        font-size: 20px;
+        width: 75% !important;
+        color: white;
+        font-size: 24px;
         letter-spacing: 0px;
         align-items: center;
         display: flex;
-        margin-top: 8%;
-        margin-left: 7%;
+        height: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-left: 8%;
     }
 
     .selected-button-c{
-        width: 86% !important;
-        font-size: 22px;
+        width: 68% !important;
+        color: white;
+        font-size: 24px;
         letter-spacing: 0px;
         align-items: center;
         display: flex;
-        margin-top: 8%;
-        margin-left: 0;
-        padding-left: 13%;
+        height: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-left: 8%;
+        padding-left: 8%;
     }
 
     .icon-btn-menu-c{
@@ -2890,19 +2895,20 @@ and (orientation: portrait) {
     .content-headband{
         font-size: 18px;
         width: auto;
-        margin-top: 12%;
         padding: 1%;
+        margin-top: -10%;
+
     }
 
     .content-headband-c{
-        margin-top: 30%;
+        margin-top: -15%;
         font-size: 18px;
         width: auto;
     }
 
     .btn-cta-i{
         width: 70% !important;
-    }
+
 
     /***************OFFERS**************/
 
@@ -3318,10 +3324,10 @@ and (orientation: portrait) {
     }
 
     .selected-button-i{
-        margin-left: 0 !important;
+        margin-left: 10% !important;
         text-align: center;
         margin: 0;
-        padding-left: 12%;
+        padding-left: 8%;
     }
 
 
@@ -3370,20 +3376,36 @@ and (orientation: portrait) {
     }
 }
 
+@media (min-width: 390px) and (max-width: 410px){
+    .content-header{
+        padding-bottom: 50%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 370px){
+    .content-header{
+        padding-bottom: 30%;
+    }
+}
+
 /* Styles pour les mobiles moyens */
 @media (min-width: 400px) and (max-width: 450px){
     .screen{
-       width: 330px;
+       width: 440px;
     }
 
     .content-headband{
-        margin-top: 0;
+        margin-top: 20%;
     }
 
     .content-headband-c {
         margin-top: 5%;
         font-size: 18px;
         width: auto;
+    }
+
+    .content-headband-c{
+        margin-top: 15%;
     }
 
 }
@@ -3463,7 +3485,6 @@ and (orientation: portrait) {
         zoom: 70%
     }
     .content-header-home{
-
         padding-top: 20% !important;
     }
 

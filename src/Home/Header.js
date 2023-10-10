@@ -32,7 +32,6 @@ class Header extends React.Component {
 
         return (
             <div className="content-header-home content-header d-flex-desktop">
-                <div>
                     <div className="button-container-investors">
                         <h2 className="big-title-investors big-title">Pitchersales, <br/><span className="color-orange">Levez 50.000 euros <br/>en moins de 50 jours.</span></h2>
                         <p className="subtitle-header">On est convaincus : quelque soit le niveau de ton projet, on peut t'aider à <span className="bold">lever des fonds sans stress.</span></p>
@@ -41,20 +40,13 @@ class Header extends React.Component {
                                 <img src={imageG} className="icon-btn-menu"/>
                                 Réserve ta place
                             </button>
-                            {/*<button className={selected === 'startup' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected'} onClick={() => this.selectOption('startup')}>*/}
-                            {/*    <img src={imageO} className="icon-btn-menu"/>*/}
-                            {/*    Investisseurs*/}
-                            {/*</button>*/}
-                            {/*{selected === 'investisseur' && <div>Contenu pour Investisseur</div>}*/}
-                            {/*{selected === 'startup' && <div>Contenu pour Startups</div>}*/}
                         </div>
 
                     </div>
-                </div>
-
                 <div className="content-img-header">
                     <img src={screen} className="screen"/>
                 </div>
+
 
             </div>
             // <div className="d-flex-desktop">
