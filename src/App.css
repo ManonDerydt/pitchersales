@@ -2337,7 +2337,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/*Tablette vertical*/
+/*Tablette verticale*/
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {
     .content-menu-mobile{
@@ -2519,8 +2519,7 @@ and (orientation: portrait) {
     height: 66vh;
     margin-top: -15%;
     align-items: center;
-    padding-top: 15%;
-    width: 70%;
+    padding-top: 17%;
     padding-right: 15%;
     padding-left: 15%;
     justify-content: space-between;
@@ -2531,7 +2530,7 @@ and (orientation: portrait) {
     height: 66vh;
     margin-top: -15%;
     align-items: center;
-    padding-top: 15%;
+    padding-top: 17%;
     padding-right: 15%;
     padding-left: 15%;
     justify-content: space-between;
@@ -2549,7 +2548,7 @@ and (orientation: portrait) {
 }
 
 .big-title-investors{
-    font-size: 4em;
+    font-size: 60px;
     text-align: left;
     font-weight: bold;
     width: 90%;
@@ -2560,7 +2559,7 @@ and (orientation: portrait) {
 
 .screen{
     margin-left: -50%;
-    width: 45rem;
+    width: 730px;
 }
 
 .buttons-investors{
@@ -3416,4 +3415,18 @@ and (orientation: portrait) {
         padding-top: 20% !important;
     }
 
+}
+
+@media (max-width: 13in) {
+    .content-header-home{
+        padding-top: 20% !important;
+    }
+
+    .content-header-Investors{
+        padding-top: 20% !important;
+    }
+
+    .content-header-Consultant{
+        padding-top: 20% !important;
+    }
 }

@@ -52,66 +52,6 @@ class Header extends React.Component {
                     <img src={screen} className="screen"/>
                 </div>
             </div>
-            // <div className="d-flex-desktop">
-            //     {/*<div className="content-icon-1">*/}
-            //     {/*    <img src={speak} className="speak"/>*/}
-            //     {/*</div>*/}
-            //   <div className="d-flex-desktop content-header">
-            //       <div>
-            //           <h1 className="big-title">
-            //               <span className="special-color">Levez <span className="color-orange">50.000</span> euros en moins de <span className="color-orange">50</span> jours</span>
-            //           </h1>
-            //           <h2 className="subtitle">
-            //               Avec Pitchersales, présentez votre projet à un réseau mondial d'investisseurs lors de séances de pitch en ligne.
-            //           </h2>
-            //           <div className="button-container">
-            //               <button className={selected === 'investisseur' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected'} onClick={() => this.selectOption('investisseur')}>Investisseur</button>
-            //
-            //               <button className={selected === 'startup' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected'} onClick={() => this.selectOption('startup')}>Startups</button>
-            //           </div>
-            //
-            //           {selected === 'investisseur' && <div><Investors/></div>}
-            //           {selected === 'startup' && <div>
-            //           </div>}
-            //
-            //       </div>
-            //
-            //       {/*<div className="container-bg">*/}
-            //       {/*    <img src={bg} className="bg"/>*/}
-            //       {/*</div>*/}
-            //   </div>
-            //
-            //
-            //
-            //
-            //
-            //     {/*<div className="pictures">*/}
-            //     {/*    <div className="d-flex-desktop">*/}
-            //     {/*        <div className="pic-1">*/}
-            //     {/*            <p className="text-center">Entrepreneur</p>*/}
-            //     {/*            <img src={pic1} className="pic"/>*/}
-            //     {/*        </div>*/}
-            //     {/*        <div className="pic-4">*/}
-            //     {/*            <p className="text-center">Porteur de projet</p>*/}
-            //     {/*            <img src={pic4} className="pic"/>*/}
-            //     {/*        </div>*/}
-            //
-            //     {/*    </div>*/}
-            //
-            //     {/*    <div className="d-flex-desktop">*/}
-            //     {/*        <div className="pic-3">*/}
-            //     {/*            <p className="text-center">Conseillers</p>*/}
-            //     {/*            <img src={pic3} className=" pic"/>*/}
-            //     {/*        </div>*/}
-            //     {/*        <div className="pic-2">*/}
-            //     {/*            <p className="text-center">Investisseurs</p>*/}
-            //     {/*            <img src={pic2} className="pic"/>*/}
-            //     {/*        </div>*/}
-            //     {/*    </div>*/}
-            //
-            //
-            //     {/*</div>*/}
-            // </div>
         )
     }
 }
