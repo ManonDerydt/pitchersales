@@ -2793,13 +2793,27 @@ and (orientation: portrait) {
 /************************RESPONSIVE MOBILE******************************/
 
 @media only screen and (max-width: 768px) {
+    .content-header-home{
+        height: 50em;
+    }
+
     .d-flex-mobile{
         display: flex;
     }
 
-    .section-HEADER{
-        height: 105vh;
+    .section-HEADER {
+        position: relative; /* Définit la position relative pour permettre le positionnement en dessous */
+        z-index: 1; /* Définit le z-index pour empiler le Header au-dessus du Headband */
     }
+
+    .section-Headband {
+        position: relative; /* Définit la position relative pour permettre le positionnement en dessous */
+        z-index: 0; /* Définit le z-index pour empiler le Headband en dessous du Header */
+    }
+
+
+
+
     /***************HEADER**************/
     .content-header{
         align-items: center;
@@ -2851,16 +2865,18 @@ and (orientation: portrait) {
     }
 
     .selected-button{
-        width: 68% !important;
+        width: 80% !important;
         color: #271350;
         font-size: 24px;
         letter-spacing: 0px;
         align-items: center;
         display: flex;
-        height: 70px;
+        height: 80px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        margin-left: 8%;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-left: 8%;
     }
 
     .selected-button-i{
@@ -2905,7 +2921,7 @@ and (orientation: portrait) {
     }
 
     .content-headband-c{
-        margin-top: 0%;
+        /*margin-top: 0%;*/
         font-size: 18px;
         width: auto;
     }
@@ -3293,9 +3309,9 @@ and (orientation: portrait) {
 
 /* Styles pour les petits mobiles */
 @media (max-width: 380px) {
-    .content-header {
-        height: 110vh !important;
-    }
+    /*.content-header {*/
+    /*    height: 110vh !important;*/
+    /*}*/
 
     .content-headband{
         padding: 1%;
@@ -3381,25 +3397,25 @@ and (orientation: portrait) {
 }
 
 @media (min-width: 390px) and (max-width: 410px){
-    .content-header{
-        padding-bottom: 40%;
-    }
+    /*.content-header{*/
+    /*    padding-bottom: 40%;*/
+    /*}*/
 }
 
 @media (min-width: 360px) and (max-width: 370px){
-    .content-header{
-        padding-bottom: 0%;
-    }
+    /*.content-header{*/
+    /*    padding-bottom: 0%;*/
+    /*}*/
 }
 
 @media (min-width: 329px) and (max-width: 400px){
-    .content-headband-c {
-        margin-top: 0%;
-    }
+    /*.content-headband-c {*/
+    /*    margin-top: 0%;*/
+    /*}*/
 
-    .content-headband {
-        margin-top: 0%;
-    }
+    /*.content-headband {*/
+    /*    margin-top: 0%;*/
+    /*}*/
 
 }
 
@@ -3414,7 +3430,7 @@ and (orientation: portrait) {
     }
 
     .content-headband-c {
-        margin-top: 5%;
+        /*margin-top: 5%;*/
         font-size: 18px;
         width: auto;
     }
@@ -3429,9 +3445,9 @@ and (orientation: portrait) {
 }
 
 @media (min-width: 270px) and (max-width: 300px){
-    .content-header {
-        height: 95vh !important;
-    }
+    /*.content-header {*/
+    /*    height: 95vh !important;*/
+    /*}*/
 
     .selected-button{
         padding-left: 10%;

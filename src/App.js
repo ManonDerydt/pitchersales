@@ -98,7 +98,7 @@ function App() {
                             </section>
 
 
-                            <section>
+                            <section className="section-Headband">
                                 <Headband/>
                             </section>
 
