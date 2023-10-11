@@ -561,11 +561,13 @@ color: black;
 }
 
 .block-tarif{
-    width: 25em;
+    width: 27em;
     border-radius: 30px;
     border: 4px solid #f1f4f8;
-    height: 40em;
+    height: auto;
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
 }
 
@@ -2674,16 +2676,15 @@ and (orientation: portrait) {
 }
 
 .txt-w{
-    font-size: 25px;
+    font-size: 24px;
     padding-top: 10%;
     margin-top: 0;
-    font-family: 'GilroyBold', sans-serif;
     width: 76%;
     margin-left: 12%;
     margin-bottom: 5%;
-    font-weight: 100;
     text-align: center;
     color: #271350;
+    font-weight: bold;
 }
 
 .block-H{
@@ -2723,22 +2724,22 @@ and (orientation: portrait) {
 }
 
 .img-i-p{
-    width: 35%;
+    width: 30%;
     margin-top: 5%;
 }
 
 .img-i-b{
-    width: 45%;
+    width: 30%;
 }
 
 .img-i-j{
-    width: 35%;
-    margin-top: 10%;
+    width: 25%;
+    margin-top: 5%;
 }
 
 .img-i-4{
-    width: 25%;
-    margin-top: 10%;
+    width: 20%;
+    margin-top: 0%;
 }
 
 .r1{
@@ -2797,21 +2798,36 @@ and (orientation: portrait) {
         height: 50em;
     }
 
+    .content-header-Investors{
+        height: 48em;
+    }
+
+    .content-header-Consultant{
+        height: 45em;
+    }
+
+
+    .small-txt-offers{
+        font-size: 23px;
+    }
+
     .d-flex-mobile{
         display: flex;
     }
 
     .section-HEADER {
-        position: relative; /* Définit la position relative pour permettre le positionnement en dessous */
-        z-index: 1; /* Définit le z-index pour empiler le Header au-dessus du Headband */
+        position: relative;
+        z-index: 1;
     }
 
     .section-Headband {
-        position: relative; /* Définit la position relative pour permettre le positionnement en dessous */
-        z-index: 0; /* Définit le z-index pour empiler le Headband en dessous du Header */
+        position: relative;
+        z-index: 0;
     }
 
-
+    .txt-w {
+        font-size: 25px;
+    }
 
 
     /***************HEADER**************/
@@ -2855,7 +2871,7 @@ and (orientation: portrait) {
     }
 
     .subtitle-header{
-        font-size: 22px;
+        font-size: 23px;
         font-family: 'Montserrat', sans-serif;
         margin-top: 8%;
         color: #271350;
@@ -2886,10 +2902,11 @@ and (orientation: portrait) {
         letter-spacing: 0px;
         align-items: center;
         display: flex;
-        height: 70px;
+        height: 80px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         margin-left: 8%;
+        margin-top: 5%;
     }
 
     .selected-button-c{
@@ -2921,7 +2938,7 @@ and (orientation: portrait) {
     }
 
     .content-headband-c{
-        /*margin-top: 0%;*/
+        margin-top: 0%;
         font-size: 18px;
         width: auto;
     }
@@ -2938,7 +2955,7 @@ and (orientation: portrait) {
         width: 85%;
         margin-left: 10%;
         color: #271350;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     .btn-offers{
@@ -2954,16 +2971,14 @@ and (orientation: portrait) {
         text-align: left;
         line-height: 30px;
         width: 80%;
-        font-size: 18px;
+        font-size: 23px;
     }
 
     .block-text-meeting{
         flex-direction: column;
         width: auto;
         margin-left: 0;
-
     }
-
 
     .w-30{
         width: initial;
@@ -2976,7 +2991,7 @@ and (orientation: portrait) {
         /*font-family: 'GilroyLight', sans-serif;*/
         font-weight: 700 !important;
         margin-top: 0;
-        font-size: 18px;
+        font-size: 23px;
         line-height: 27px;
         text-align: center;
         letter-spacing: 1px;
@@ -2984,7 +2999,7 @@ and (orientation: portrait) {
     }
 
     .img-i-t{
-        width: 28%;
+        width: 25%;
     }
 
     .pic-concept{
@@ -3027,8 +3042,9 @@ and (orientation: portrait) {
     .text-solution-right{
         margin-left: 0;
         width: 100%;
-        font-size: 20px;
+        font-size: 23px;
         color: #271350;
+        margin-bottom: 20%;
     }
 
     .text-solution-left{
@@ -3054,7 +3070,7 @@ and (orientation: portrait) {
     }
 
     .img-i{
-        width: 60%;
+        width: 45%;
     }
 
     .content-block-i{
@@ -3115,12 +3131,15 @@ and (orientation: portrait) {
     .txt-solutions {
         margin-left: 10%;
         text-align: left;
-        font-size: 20px;
+        font-size: 23px;
         font-family: 'Montserrat', sans-serif;
         /*font-family: 'GilroyLight', sans-serif;*/
         width: 80%;
         color: #271350;
+    }
 
+    .txt-com{
+        font-size: 23px;
     }
 
     .gift{
@@ -3142,7 +3161,7 @@ and (orientation: portrait) {
         margin-top: 10%;
         padding-top: 5%;
         padding-bottom: 10%;
-        height: 80vh;
+        height: auto;
     }
 
     .title-step-c{
@@ -3317,10 +3336,6 @@ and (orientation: portrait) {
         padding: 1%;
     }
 
-    .block-tarif{
-        height: 105vh;
-    }
-
     .selected-button-i {
         margin-left: 0 !important;
     }
@@ -3330,12 +3345,12 @@ and (orientation: portrait) {
     }
 
     .img-i-t {
-        width: 25%;
+        width: 20%;
         margin-top: -6%;
     }
 
     .img-i-4 {
-        width: 22%;
+        width: 18%;
         margin-top: 0;
     }
 
@@ -3425,6 +3440,14 @@ and (orientation: portrait) {
        width: 440px;
     }
 
+    .text-w{
+        font-size: 30px;
+    }
+
+    .small-txt-offers{
+        font-size: 23px;
+    }
+
     .content-headband{
         margin-top: 10%;
     }
@@ -3436,7 +3459,7 @@ and (orientation: portrait) {
     }
 
     .content-headband-c{
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
 }
