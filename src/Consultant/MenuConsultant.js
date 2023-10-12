@@ -46,6 +46,32 @@ const MenuHome = ({ location }) => {
                     </div>
                 </div>
             </div>
+
+            <div className="tablette-only">
+                <div className="content-menu-mobile">
+                    <img src={logo} className="logo"/>
+                    <Hamburger toggled={isMenuOpen} toggle={toggleMenu} className="menu-burger" />
+                </div>
+                {/* Menu mobile */}
+                <div className={`mobile-menu ${isMenuOpen ? 'show-menu' : ''}`}>
+                    <Link to="/" onClick={toggleMenu}>
+                        <button className="mobile-menu-button">
+                            Porteur de projet
+                        </button>
+                    </Link><br/>
+                    <Link to="/investors" onClick={toggleMenu}>
+                        <button className="mobile-menu-button">
+                            Investisseurs
+                        </button>
+                    </Link><br/>
+                    <Link to="/consultant" onClick={toggleMenu}>
+                        <button className="mobile-menu-button">
+                            Conseillers
+                        </button>
+                    </Link><br/>
+                    <button className="mobile-menu-button home-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button>
+                </div>
+            </div>
         </div>
     );
 }

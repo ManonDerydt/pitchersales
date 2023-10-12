@@ -707,7 +707,6 @@ color: black;
 
 .mini-title-solution{
     text-align: left;
-    margin-left: 10%;
     margin-bottom: 0;
     font-size: 20px;
 }
@@ -2108,6 +2107,10 @@ a{
         display: flex !important;
     }
 
+    .tablette-only{
+        display:  none;
+    }
+
     .success {
         border-radius: 1.5em;
         border: black 4px solid;
@@ -2794,6 +2797,9 @@ and (orientation: portrait) {
 /************************RESPONSIVE MOBILE******************************/
 
 @media only screen and (max-width: 768px) {
+    .tablette-only{
+        display: none;
+    }
     .content-header-home{
         height: 50em;
     }
@@ -3467,54 +3473,6 @@ and (orientation: portrait) {
 @media (min-width: 350px) and (max-width: 370px){
 }
 
-@media (min-width: 270px) and (max-width: 300px){
-    /*.content-header {*/
-    /*    height: 95vh !important;*/
-    /*}*/
-
-    .selected-button{
-        padding-left: 10%;
-    }
-
-    .tittle-offers-1{
-        font-size: 28px;
-        line-height: 30px;
-    }
-
-    .icon-btn-menu-i {
-       display: none;
-    }
-
-    .selected-button-i{
-        margin-left: 0 ;
-        padding-left: 5%;
-    }
-
-    .img-i-p {
-        width: 35%;
-        margin-top: 0;
-    }
-
-    .img-i-t {
-        width: 28%;
-        margin-top: -10%;
-    }
-
-    .img-i-4 {
-        width: 25%;
-        margin-top: 0;
-    }
-}
-
-/*@media (min-width: 1920px) {*/
-/*    .App{*/
-/*        zoom: 70%;*/
-/*    }*/
-/*}*/
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1) {
-    /* CSS */
-}
 
 @media (min-width: 13.1in) and (max-width: 14in) {
     .App{
@@ -3546,4 +3504,443 @@ and (orientation: portrait) {
     .content-header-Consultant{
         padding-top: 20% !important;
     }
+}
+
+/* Styles spécifiques pour la tablette en mode portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .content-header-home {
+        padding-top: 20% !important;
+        flex-direction: column;
+        display: grid !important;
+        height: 100vh;
+    }
+
+    .content-header-Investors {
+        padding-top: 20% !important;
+        flex-direction: column;
+        display: grid !important;
+        height: 120vh;
+    }
+
+    .content-header-Consultant {
+        padding-top: 20% !important;
+        flex-direction: column;
+        display: grid !important;
+        height: 115vh;
+    }
+
+    .selected-button-c {
+        width: 43% !important;
+        color: white;
+        font-size: 24px;
+        letter-spacing: 0px;
+        align-items: center;
+        display: flex;
+        height: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding-left: 8%;
+        margin-left: 0;
+    }
+
+    .selected-button-i {
+        width: 50% !important;
+        color: white;
+        font-size: 24px;
+        letter-spacing: 0px;
+        align-items: center;
+        display: flex;
+        height: 80px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .content-menu-desktop{
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10%;
+        width: 80%;
+        margin-top: 3%;
+        zoom: 85%;
+        display: none !important;
+    }
+
+    .big-title-investors{
+        width: 100%;
+        font-size: 73px;
+        margin-top: -20%;
+    }
+
+    .tablette-only{
+        display: block;
+    }
+
+    /*.content-menu-mobile{*/
+    /*    display: flex;*/
+    /*    padding-top: 2%;*/
+    /*    width: 70%;*/
+    /*    margin-left: 15%;*/
+    /*    z-index: 2000;*/
+    /*    position: relative;*/
+    /*}*/
+
+    .content-img-header{
+        grid-row: 1;
+        width: auto;
+        text-align: center;
+    }
+
+    .pic-header {
+        object-fit: contain;
+        margin-left: -35%;
+        width: 430px;
+    }
+
+    .screen{
+        margin-left: 0%;
+        width: 80%;
+        margin-top: -25%;
+    }
+
+    .subtitle-header{
+        font-size: 28px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 0;
+        color: #271350;
+        line-height: 1.3em;
+        font-weight: 600;
+        width: 90%;
+    }
+
+    .selected-button{
+        background: #FFCD3B;
+        z-index: 2;
+        width: 410px !important;
+        color: #271350;
+        letter-spacing: 0px;
+        align-items: center;
+        display: flex;
+        font-size: 28px;
+    }
+
+    .content-headband{
+        margin-top: 0;
+    }
+
+    .text-concept{
+        color: #271350;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+        letter-spacing: 1px;
+        margin-top: 0;
+        font-size: 28px;
+    }
+
+    .block-text-meeting {
+        width: 90%;
+        margin-left: 5%;
+
+    }
+
+    .pic_solution{
+        width: 25em;
+        border-radius: 40px;
+        height: 25em;
+    }
+
+    .content-advantage {
+        height: auto;
+    }
+
+    .big-title-solution{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text-solution-right{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text-solution-left{
+        width: 90%;
+    }
+
+    #step {
+        border-radius: 40px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .content-block-offers{
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+    }
+
+    .block-tarif {
+        width: 23em;
+    }
+
+    .small-txt-offers {
+        font-size: 20px;
+    }
+
+    .content-community{
+        width: 90%;
+        margin-left: 5%;
+        justify-content: space-between;
+        padding-top: 3%;
+    }
+
+    .content-subscribe{
+        width: 85%;
+    }
+
+    .content-card-s{
+        justify-content: space-between;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .input-contact{
+        width: 50%;
+    }
+
+    .learn-more-form {
+        background: #FFCD3B;
+        width: 30% !important;
+        margin-left: 35% !important;
+        margin-bottom: 5% !important;
+        margin-top: 3%;
+        height: 70px;
+        border-radius: 40px;
+        font-size: 20px;
+    }
+
+    .mobile-menu-button {
+        margin-bottom: 10px;
+        margin-top: 3%;
+        font-size: 30px;
+        color: #271350;
+    }
+
+    .img-i {
+        width: 40%;
+    }
+
+    .text-i-1 {
+        font-size: 33px;
+    }
+
+    .block-i {
+        width: 30em;
+        height: 30em;
+    }
+
+    .content-block-i {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .img-i-p {
+        width: 25%;
+        margin-top: 5%;
+    }
+
+    .img-i-t {
+        width: 20%;
+    }
+
+    .img-i-4 {
+        width: 15%;
+        margin-top: 5%;
+    }
+
+    .content-headband-c{
+        margin-top: 0%;
+    }
+
+    .content-adv-c{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .content-advantages{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+
+}
+
+/* Responsive tablette en mode paysage */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /*.content-menu-mobile{*/
+    /*    display: block;*/
+    /*}*/
+}
+
+/* Responsive Ipad mini */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .content-menu-mobile {
+        z-index: 2000;
+        position: relative;
+    }
+
+    .screen{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: -15%;
+    }
+
+    .big-title-investors{
+        width: 100%;
+        font-size: 73px;
+        line-height: inherit;
+        margin-top: 5%;
+        text-align: left;
+    }
+
+    .selected-button {
+        background: #FFCD3B;
+        z-index: 2;
+        width: 410px !important;
+        color: #271350;
+        letter-spacing: 0px;
+        align-items: center;
+        display: flex;
+        font-size: 28px;
+        margin-left: 0;
+        padding-left: 2%;
+    }
+
+    .title-offers{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .content-headband{
+        height: auto;
+        font-size: 28px;
+    }
+
+    .text-concept{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .pic-concept{
+        width: 300px;
+    }
+
+    .txt-w{
+        font-size: 30px;
+        margin-top: -5%;
+    }
+
+    .small-title-w{
+        font-size: 28px;
+    }
+
+    .btn-cta-h{
+        width: 35% !important;
+        height: 3em;
+        font-size: 28px;
+    }
+
+    .content-advantage {
+        height: auto;
+        width: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content: space-between;
+    }
+
+    .pic_solution {
+        width: 25em;
+        border-radius: 40px;
+        height: 25em;
+        margin-right: 5%;
+    }
+
+    .content-block-i {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .block-i {
+        width: 28em;
+        height: 28em;
+    }
+
+    .block-tarif {
+        width: 40em;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+
+    .small-txt-offers {
+        font-size: 25px;
+    }
+
+    .block-text-meeting {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .small-title-w {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .input-contact{
+        margin-left: 0 !important;
+        margin-top: 3%;
+        padding-left: 5%;
+        width: 45%;
+    }
+
+    .content-header-home{
+        height: 130vh;
+    }
+}
+
+/* Surface duo pro */
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px) and (orientation: portrait) {
+    .screen {
+        width: 520px;
+        margin: 0 auto;
+        margin-top: -20%;
+    }
+
+    .selected-button{
+        width: 60% !important;
+        margin-left: 15%;
+    }
+
+    .buttons-investors {
+        width: 75%;
+        display: flex;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .btn-cta-c {
+        width: 40% !important;
+    }
+
+    .content-adv-c {
+        transform-origin: center;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: portrait) {
 }
