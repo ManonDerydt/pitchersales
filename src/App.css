@@ -232,7 +232,6 @@ button:active {
 .subtitle-header{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    /*font-family: 'GilroyLight', sans-serif;*/
     margin-top: 0;
     color: #271350;
     line-height: 1.3em;
@@ -487,7 +486,7 @@ color: black;
 
 .join-us{
     background: none;
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 1.5em;
     height: 2.5em;
     padding-right: 1.5em;
@@ -2587,13 +2586,14 @@ and (orientation: portrait) {
 }
 
 .big-title-investors{
-    font-size: 60px;
+    font-size: 65px;
     text-align: left;
     font-weight: 800;
     width: 90%;
     margin-bottom: 3%;
     color: #271350;
     line-height: 85px;
+    letter-spacing: -3px;
 }
 
 .screen{
@@ -3475,8 +3475,8 @@ and (orientation: portrait) {
 
 
 @media (min-width: 13.1in) and (max-width: 14in) {
-    .App{
-        zoom: 70%
+    .App {
+       zoom: 70%;
     }
 
     .content-header-home{
