@@ -2,7 +2,11 @@ body{
     max-width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 20px;
+
+}
+
+.html{
+    font-size: 16px;
 }
 
 /************************COLORS************************/
@@ -266,11 +270,12 @@ width: 3em;
     width: 1000px;
     object-fit: contain;
     height: auto;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .content-text-welcome{
     max-width: 50%;
+    align-self: end;
 }
 
 .content-welcome{
@@ -282,7 +287,7 @@ width: 3em;
 
 .txt-welcome{
     width: 85%;
-    font-size: 1.3rem;
+    font-size: clamp(1rem, 4vw, 1.4rem);
 }
 
 .content-icons{
@@ -307,13 +312,13 @@ width: 3em;
 .btn-welcome{
     background: #FFCD3B;
     z-index: 2;
-    font-size: 1.3rem;
     letter-spacing: 0px;
     align-items: center;
     height: 3em;
     border-radius: 45px;
     padding-left: 5%;
     padding-right: 5%;
+    font-size: clamp(1rem, 4vw, 1.4rem);
 }
 
 /****************WELCOME****************/
@@ -333,10 +338,10 @@ width: 3em;
     padding: 1rem;
     transition: all 0.2s ease-in-out;
     border: none;
-    font-size: 1.3rem;
     box-shadow: 0 0 5px rgb(0 0 0 / 20%);
     display: flex !important;
     text-align: center;
+    font-size: clamp(1rem, 4vw, 1.4rem);
 }
 
 .input-container input:focus {
@@ -363,7 +368,7 @@ width: 3em;
 }
 
 .icons{
-    font-size: 1.8em;
+    font-size: clamp(1.3rem, 4vw, 2rem);
 }
 
 .input-welcome{
@@ -378,8 +383,8 @@ width: 3em;
 }
 
 .title-welcome{
-    font-size: 4rem;
     margin-bottom: 0;
+    font-size: clamp(2.5rem, 4vw, 4rem);
 }
 
 .button-container {
