@@ -243,7 +243,7 @@ button:active {
     color: #271350;
     line-height: 1.3em;
     font-weight: 600;
-    width: 60%;
+    width: 80%;
 }
 
 .fade {
@@ -266,10 +266,10 @@ width: 3em;
 }
 
 .pic-welcome{
-    width: 1000px;
+    width: 90%;
     object-fit: contain;
     height: auto;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .content-text-welcome{
@@ -2222,7 +2222,7 @@ a{
     align-items: center;
     justify-content: space-between;
     margin-left: 15%;
-    width: 70%;
+    max-width: 70%;
     margin-top: 3%;
 }
 
@@ -2247,24 +2247,26 @@ a{
 
 .content-header-Investors{
     background: linear-gradient(rgba(230, 204, 255, 0.6) -21%,white 95%);
-    height: 66vh;
+    height: 65vh;
     margin-top: -15%;
     align-items: center;
     padding-top: 17%;
-    padding-right: 15%;
+    padding-right: 5%;
     padding-left: 15%;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 80%;
 }
 
 .content-header-Consultant{
     background: linear-gradient(rgba(224, 122, 122, 0.6) -21%,white 95%);
-    height: 66vh;
+    height: 65vh;
     margin-top: -15%;
     align-items: center;
     padding-top: 17%;
-    padding-right: 15%;
+    padding-right: 5%;
     padding-left: 15%;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 80%;
 }
 
 .content-header-home{
@@ -2277,6 +2279,10 @@ a{
     padding-left: 15%;
     justify-content: space-around;
     width: 80%;
+}
+
+.content-img-header{
+    max-width: 50%;
 }
 
 .big-title-investors{
