@@ -18,6 +18,7 @@ import Investors from "./Investors/Investors";
 import HeaderInvestors from "./Investors/Header-investors";
 import Community from "./Home/Community";
 import Consultant from "./Consultant/Consultant";
+import WaitingPage from "./WaitingPage";
 
 function SectionInvestors() {
     const location = useLocation();
@@ -84,6 +85,7 @@ function App() {
 
             <BrowserRouter>
                 <Switch>
+                    <Route path="/welcome" component={WaitingPage} exact />
                     <Route path="/investors" component={Investors} exact />
                     <Route path="/consultant" component={Consultant} exact />
                     <Route path="/home" render={() => (
@@ -137,7 +139,7 @@ function App() {
                         </>
                     )} exact />
                     <Route exact path="/">
-                        <Redirect to="/home" exact />
+                        <Redirect to="/welcome" exact />
                     </Route>
                 </Switch>
             </BrowserRouter>
