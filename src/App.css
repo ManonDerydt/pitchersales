@@ -3619,6 +3619,8 @@ a{
         border-radius: 40px 0 0 40px;
         margin: auto;
         display: block;
+        border: 2px solid lightgray;
+        border-right: none;
     }
 
     .input-container button{
