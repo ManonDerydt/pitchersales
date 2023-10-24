@@ -294,13 +294,13 @@ width: 3em;
 }
 
 .content-icons{
-    width: 15%;
+    width: 17%;
     margin-top: 5%;
-    margin-left: 65%;
+    margin-left: 60%;
 }
 
 .icon-arrow{
-    font-size: 20px;
+    font-size: 1.5rem;
     align-self: center;
 }
 
@@ -322,6 +322,7 @@ width: 3em;
     padding-left: 5%;
     padding-right: 5%;
     font-size: clamp(1rem, 4vw, 1.3rem);
+    color: black;
 }
 
 /****************WELCOME****************/
@@ -340,7 +341,7 @@ width: 3em;
     flex-basis: 30%;
     transition: all 0.2s ease-in-out;
     border: none;
-    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%) !important;
     display: flex !important;
     text-align: center;
     font-size: clamp(1rem, 4vw, 1.3rem);
