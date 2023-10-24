@@ -62,17 +62,20 @@ function WaitingPage() {
 
                     <div className="content-input-welcome">
                         <div className="input-container">
-                            <form onSubmit={handleSubmit} className="d-flex-desktop">
-                                <input
-                                    type="text"
-                                    placeholder="Je m'inscris à la newsletter"
-                                    value={email}
-                                    className="d-flex-desktop"
-                                    onChange={(e) => setEmail(e.target.value)}
-                                />
-                                <button className="button" type="submit">
-                                    <FaChevronRight className="icon-arrow" />
-                                </button>
+                            <form onSubmit={handleSubmit}>
+                                <div className="d-flex-desktop">
+                                    <input
+                                        type="text"
+                                        placeholder="Je m'inscris à la newsletter"
+                                        value={email}
+                                        className="d-flex-desktop"
+                                        onChange={(e) => setEmail(e.target.value)}
+                                    />
+                                    <button className="button" type="submit">
+                                        <FaChevronRight className="icon-arrow" />
+                                    </button>
+                                </div>
+
                             </form>
                         </div>
                     </div>

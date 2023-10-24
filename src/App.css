@@ -327,13 +327,15 @@ width: 3em;
 
 .input-container input {
     border-radius: 45px 0 0 45px;
-    width: 40em;
+    width: 14em;
     flex-basis: 30%;
     padding: 1rem;
     transition: all 0.2s ease-in-out;
     border: none;
     font-size: 1.3em;
     box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    display: flex !important;
+    text-align: center;
 }
 
 .input-container input:focus {
