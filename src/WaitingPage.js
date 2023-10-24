@@ -51,7 +51,7 @@ function WaitingPage() {
                 <div>
                     <img src={pic1} className="pic-welcome"/>
                 </div>
-                <div>
+                <div className="content-text-welcome">
                     <h2 className="title-welcome">Démarrez l'aventure<span className='color-orange'>.</span></h2>
                     <p className="txt-welcome">
                         Inscrivez-vous dès à présent à notre liste d'attente et levez jusqu'à 50.000€ en moins de 50 jours. Nous reviendrons vers vous rapidement.
