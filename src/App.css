@@ -276,6 +276,7 @@ width: 3em;
 .content-text-welcome{
     max-width: 50%;
     align-self: end;
+    margin-top: 5%;
 }
 
 .content-welcome{
@@ -312,9 +313,9 @@ width: 3em;
 .btn-welcome{
     background: #FFCD3B;
     z-index: 2;
+    height: 3.8rem;
     letter-spacing: 0px;
     align-items: center;
-    height: 3em;
     border-radius: 45px;
     padding-left: 5%;
     padding-right: 5%;
@@ -335,13 +336,15 @@ width: 3em;
     border-radius: 45px 0 0 45px;
     width: 14em;
     flex-basis: 30%;
-    padding: 1rem;
     transition: all 0.2s ease-in-out;
     border: none;
     box-shadow: 0 0 5px rgb(0 0 0 / 20%);
     display: flex !important;
     text-align: center;
     font-size: clamp(1rem, 4vw, 1.4rem);
+    height: 3.8rem;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .input-container input:focus {

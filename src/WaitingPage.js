@@ -66,7 +66,7 @@ function WaitingPage() {
                                 <div className="d-flex-desktop">
                                     <input
                                         type="text"
-                                        placeholder="Je m'inscris à la newsletter"
+                                        placeholder="Inscription à la newsletter"
                                         value={email}
                                         className="d-flex-desktop"
                                         onChange={(e) => setEmail(e.target.value)}
