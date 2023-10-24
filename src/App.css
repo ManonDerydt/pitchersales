@@ -2,7 +2,6 @@ body{
     max-width: 100%;
     padding: 0;
     margin: 0;
-
 }
 
 .html{
@@ -106,6 +105,10 @@ body{
 
 .m-b-O{
     margin-bottom: 0;
+}
+
+.d-flex{
+    display: flex !important;
 }
 
 /**************************FONT****************************/
@@ -270,7 +273,7 @@ width: 3em;
     width: 1000px;
     object-fit: contain;
     height: auto;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .content-text-welcome{
@@ -283,12 +286,11 @@ width: 3em;
     width: 100%;
     margin: 0 auto;
     align-items: center;
-    display: flex;
 }
 
 .txt-welcome{
     width: 85%;
-    font-size: clamp(1rem, 4vw, 1.4rem);
+    font-size: clamp(1rem, 4vw, 1.3rem);
 }
 
 .content-icons{
@@ -313,13 +315,13 @@ width: 3em;
 .btn-welcome{
     background: #FFCD3B;
     z-index: 2;
-    height: 3.8rem;
+    height: 3.5rem;
     letter-spacing: 0px;
     align-items: center;
     border-radius: 45px;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: clamp(1rem, 4vw, 1.4rem);
+    font-size: clamp(1rem, 4vw, 1.3rem);
 }
 
 /****************WELCOME****************/
@@ -341,8 +343,8 @@ width: 3em;
     box-shadow: 0 0 5px rgb(0 0 0 / 20%);
     display: flex !important;
     text-align: center;
-    font-size: clamp(1rem, 4vw, 1.4rem);
-    height: 3.8rem;
+    font-size: clamp(1rem, 4vw, 1.3rem);
+    height: 3.5rem;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -3170,6 +3172,13 @@ a{
         position: relative;
     }
 
+    .content-text-welcome {
+        max-width: 100%;
+        align-self: end;
+        margin-top: 5%;
+        text-align: center;
+    }
+
     .screen{
         margin-left: 0%;
         width: 100%;
@@ -3581,9 +3590,13 @@ a{
         display: grid !important;
     }
 
+    .input-container{
+        display: inline-block;
+    }
+
     .pic-welcome{
-        width: 80%;
-        margin-left: 10%;
+        /*width: 80%;*/
+        /*margin-left: 10%;*/
     }
 
     .title-welcome {
@@ -3599,23 +3612,24 @@ a{
     }
 
     .input-container input{
-        flex-basis: 50% !important;
-        margin-left: 15%;
         height: 3em;
         font-size: 25px !important;
         text-align: center;
         border-radius: 40px 0 0 40px;
+        margin: auto;
+        display: block;
     }
 
     .input-container button{
         font-size: 25px;
         border-radius: 0 40px 40px 0;
+        flex-basis: 7%;
     }
 
     .btn-welcome{
-        width: 50%;
-        margin-left: 25%;
-        height: 4em !important;
+        width: 30%;
+        margin-left: 0;
+        height: 3em !important;
         font-size: 25px !important;
     }
 
@@ -3630,9 +3644,9 @@ a{
 }
 
 @media screen and (max-width: 1280px) and (max-height: 810px) {
-    .input-container input {
-        margin-left: 0;
-    }
+    /*.input-container input {*/
+    /*    margin-left: 0;*/
+    /*}*/
 
     .pic-welcome {
         width: 700px !important;
@@ -3642,9 +3656,9 @@ a{
         margin-left: 0 !important;
     }
 
-    .content-icons {
-        margin-left: 70% !important;
-    }
+    /*.content-icons {*/
+    /*    margin-left: 70% !important;*/
+    /*}*/
 }
 
 /*@media screen and (min-width: 360px) and (max-width: 719px) and (min-height: 540px) and (max-height: 1439px) {*/
@@ -3735,6 +3749,41 @@ a{
     .logo{
         width: 11em;
         margin-top: 2em;
+    }
+
+    .input-container{
+        display: inline-block;
+        padding: 0.3rem;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .content-icons{
+        width: auto;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .icons {
+        font-size: clamp(1.3rem, 4vw, 2rem);
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .content-text-welcome {
+        max-width: 98%;
+        align-self: end;
+        margin-top: 5%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .txt-welcome {
+        width: 80%;
+        font-size: clamp(1rem, 4vw, 1.3rem);
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     #cookiePopup{

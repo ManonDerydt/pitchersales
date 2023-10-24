@@ -47,7 +47,7 @@ function WaitingPage() {
     return (
         <div className="welcome">
             <ToastContainer />
-            <div className="content-welcome">
+            <div className="content-welcome d-flex-desktop">
                 <div>
                     <img src={pic1} className="pic-welcome"/>
                 </div>
@@ -63,7 +63,7 @@ function WaitingPage() {
                     <div className="content-input-welcome">
                         <div className="input-container">
                             <form onSubmit={handleSubmit}>
-                                <div className="d-flex-desktop">
+                                <div className="d-flex-desktop d-flex">
                                     <input
                                         type="text"
                                         placeholder="Inscription à la newsletter"
@@ -101,15 +101,3 @@ function WaitingPage() {
 }
 
 export default WaitingPage;
-
-//
-//     render() {
-//
-//         return (
-
-//         )
-//     }
-// }
-//
-// export default WaitingPage
-//
