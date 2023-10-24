@@ -43,9 +43,7 @@ class Header extends React.Component {
                             </div>
                         </div>
                         <div className="content-img-header">
-                            <div className="element-4">
-                                <img src={screen} className="screen"/>
-                            </div>
+                            <img src={screen} className="screen"/>
                         </div>
                     </div>
                 </div>

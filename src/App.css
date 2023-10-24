@@ -157,15 +157,11 @@ body{
     background: none;
 }
 
-.content-img-header{
-    width: 33%;
-}
-
 .btn-menu-subscribe-h{
     background: #FFCD3B;
     width: 200px !important;
     height: 3em;
-    font-size: 22px;
+    font-size: 1.3rem;
     border-radius: 4em;
     color: #271350;
     font-family: 'Montserrat', sans-serif;
@@ -241,7 +237,7 @@ button:active {
 }
 
 .subtitle-header{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     color: #271350;
@@ -393,6 +389,10 @@ width: 3em;
     margin-bottom: 0;
     font-size: clamp(2.5rem, 4vw, 4rem);
 }
+.button-container-investors{
+    max-width: 100%;
+    width: 100%;
+}
 
 .button-container {
     display: flex;
@@ -443,7 +443,7 @@ width: 3em;
     z-index: 2;
     width: 350px !important;
     color: #271350;
-    font-size: 22px;
+    font-size: 1.3rem;
     letter-spacing: 0px;
     align-items: center;
     display: flex;
@@ -618,7 +618,7 @@ color: black;
 
 .join-us{
     background: none;
-    font-size: 24px;
+    font-size: 1.3rem;
     padding-left: 1.5em;
     height: 2.5em;
     padding-right: 1.5em;
@@ -2224,7 +2224,6 @@ a{
     margin-left: 15%;
     width: 70%;
     margin-top: 3%;
-    zoom: 85%;
 }
 
 
@@ -2270,17 +2269,18 @@ a{
 
 .content-header-home{
     background: linear-gradient(rgba(255, 205, 59, 0.6) -21%,white 95%);
-    height: 66vh;
+    height: 65vh;
     margin-top: -15%;
     align-items: center;
     padding-top: 17%;
-    padding-right: 15%;
+    padding-right: 5%;
     padding-left: 15%;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 80%;
 }
 
 .big-title-investors{
-    font-size: 65px;
+    font-size: clamp(2.5rem,4vw,4rem);
     text-align: left;
     font-weight: 800;
     width: 90%;
@@ -2291,8 +2291,7 @@ a{
 }
 
 .screen{
-    margin-left: -50%;
-    width: 730px;
+    max-width: 90%;
 }
 
 .buttons-investors{
@@ -3353,7 +3352,6 @@ a{
         margin-left: 10%;
         width: 80%;
         margin-top: 3%;
-        zoom: 85%;
         display: none !important;
     }
 
