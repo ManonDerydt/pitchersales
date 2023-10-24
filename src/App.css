@@ -1,3 +1,9 @@
+body{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 /************************COLORS************************/
 
 .color-orange{
@@ -275,7 +281,7 @@ width: 3em;
 
 .txt-welcome{
     width: 85%;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 .content-icons{
@@ -300,10 +306,10 @@ width: 3em;
 .btn-welcome{
     background: #FFCD3B;
     z-index: 2;
-    font-size: 20px;
+    font-size: 1.3em;
     letter-spacing: 0px;
     align-items: center;
-    height: 60px;
+    height: 3em;
     border-radius: 45px;
     padding-left: 5%;
     padding-right: 5%;
@@ -326,7 +332,7 @@ width: 3em;
     padding: 1rem;
     transition: all 0.2s ease-in-out;
     border: none;
-    font-size: 20px;
+    font-size: 1.3em;
     box-shadow: 0 0 5px rgb(0 0 0 / 20%);
 }
 
@@ -354,7 +360,7 @@ width: 3em;
 }
 
 .icons{
-    font-size: 30px;
+    font-size: 1.8em;
 }
 
 .input-welcome{
@@ -369,7 +375,7 @@ width: 3em;
 }
 
 .title-welcome{
-    font-size: 70px;
+    font-size: 4em;
     margin-bottom: 0;
 }
 
