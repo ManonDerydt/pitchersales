@@ -266,10 +266,10 @@ width: 3em;
 }
 
 .pic-welcome{
-    width: 90%;
+    width: 100%;
     object-fit: contain;
     height: auto;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .content-text-welcome{
