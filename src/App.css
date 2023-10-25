@@ -2500,6 +2500,12 @@ a{
         display: none;
     }
 
+    .input-container input{
+        flex-basis: auto;
+        width: 20em;
+        height: auto;
+    }
+
     .content-input-welcome{
         display: flex;
         justify-content: center;
