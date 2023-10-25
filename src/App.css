@@ -2499,6 +2499,14 @@ a{
     .tablette-only{
         display: none;
     }
+
+    .content-input-welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
     .content-header-home{
         height: 50em;
     }
@@ -3601,8 +3609,9 @@ a{
     }
 
     .pic-welcome{
-        /*width: 80%;*/
-        /*margin-left: 10%;*/
+        width: 100%;
+        margin-left: auto;
+        max-width: 100%;
     }
 
     .title-welcome {
@@ -3657,7 +3666,8 @@ a{
     /*}*/
 
     .pic-welcome {
-        width: 700px !important;
+        width: 100%;
+        max-width: 100%;
     }
 
     .btn-welcome {
