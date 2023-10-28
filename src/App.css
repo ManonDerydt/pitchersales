@@ -159,13 +159,14 @@ body{
 
 .btn-menu-subscribe-h{
     background: #FFCD3B;
-    width: 200px !important;
-    height: 3em;
-    font-size: 1.3rem;
+    height: clamp(0.5rem,3.5vw,4rem);
+    font-size: clamp(0rem,1.1vw,1.2rem);
     border-radius: 4em;
     color: #271350;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .btn-menu-subscribe-i{
@@ -237,7 +238,7 @@ button:active {
 }
 
 .subtitle-header{
-    font-size: 1.3rem;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     color: #271350;
@@ -391,7 +392,7 @@ width: 3em;
 }
 .button-container-investors{
     max-width: 100%;
-    width: 100%;
+    width: 80%;
 }
 
 .button-container {
@@ -413,12 +414,12 @@ width: 3em;
 
 .mix-btn{
     position: relative;
-    width: 370px !important;
     height: 3em;
     border-radius: 4em;
     font-size: 22px;
     border: none;
     transition: 0.3s;
+    width: 55%;
 }
 
 .icon-btn-menu{
@@ -441,9 +442,8 @@ width: 3em;
 .selected-button {
     background: #FFCD3B;
     z-index: 2;
-    width: 350px !important;
     color: #271350;
-    font-size: 1.3rem;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     letter-spacing: 0px;
     align-items: center;
     display: flex;
@@ -588,7 +588,7 @@ color: black;
 }
 
 .logo{
-    width: 13em;
+    width: clamp(10rem,1vw,0.1rem);
 }
 
 .content-menu-mobile{
@@ -618,7 +618,7 @@ color: black;
 
 .join-us{
     background: none;
-    font-size: 1.3rem;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     padding-left: 1.5em;
     height: 2.5em;
     padding-right: 1.5em;
@@ -733,6 +733,10 @@ color: black;
     margin-left: 5%;
     margin-top: 5%;
     background: #EFDCFF;
+}
+
+.content-link-menu{
+    width: 100%;
 }
 
 .content-community{
@@ -2147,7 +2151,7 @@ a{
     width: 100%;
     margin-top: 8%;
     text-align: center;
-    font-size: 30px;
+    font-size: clamp(0.5rem,3.2vw,1.5rem);
     background: #271350;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2218,12 +2222,18 @@ a{
     display: none;
 }
 
-.content-menu-desktop{
-    align-items: center;
-    justify-content: space-between;
+.style-menu{
+    align-items: baseline;
     margin-left: 15%;
-    max-width: 70%;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.content-menu-desktop{
+    justify-content: space-between;
+    max-width: 65%;
     margin-top: 3%;
+    align-items: center;
 }
 
 
@@ -2275,29 +2285,32 @@ a{
     margin-top: -15%;
     align-items: center;
     padding-top: 17%;
-    padding-right: 5%;
+    padding-right: 15%;
     padding-left: 15%;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.content-img-header-investors{
     width: 80%;
 }
 
 .content-img-header{
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .big-title-investors{
-    font-size: clamp(2.5rem,4vw,4rem);
+    font-size: clamp(0.5rem,3.2vw,7rem);
     text-align: left;
     font-weight: 800;
     width: 90%;
     margin-bottom: 3%;
     color: #271350;
-    line-height: 85px;
     letter-spacing: -3px;
 }
 
 .screen{
-    max-width: 90%;
+    max-width: 110%;
 }
 
 .buttons-investors{

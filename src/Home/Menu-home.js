@@ -54,9 +54,9 @@ const MenuHome = ({ location }) => {
             </div>
 
             <div className={`desktop-only ${isMenuOpen ? 'show-menu' : ''}`}>
-                <div className="content-menu-desktop d-flex-desktop">
+                <div className="d-flex-desktop style-menu">
                     <Link to="/"><button className="btn"><img src={logo} className="logo" alt="pitchersales" /></button></Link>
-                    <div>
+                    <div className="d-flex-desktop content-link-menu content-menu-desktop">
                         <Link to="/">
                             <button
                                 id="projectHolder"
