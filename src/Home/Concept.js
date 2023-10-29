@@ -43,7 +43,7 @@ class Concept extends React.Component {
                                         <div className="w-30">
                                             <img src={invest} className="pic-concept"/>
                                             {/*<h3 className="txt-w">Des investisseurs au top</h3>*/}
-                                            <h3 className="txt-w text-center">2. Choisi un nombre d'investisseurs</h3>
+                                            <h3 className="txt-w text-center">2. Choisi un nombre<br/> d'investisseurs</h3>
                                             <p className="small-title-w text-center">
                                                 Nous mettons à ta disposition différentes solutions pour t'aider à convaincre les partenaires financiers.
                                             </p>

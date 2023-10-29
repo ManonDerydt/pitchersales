@@ -25,7 +25,7 @@ class Solution extends React.Component {
                                         <img src={pic1} className="pic_solution"/>
                                     </Fade>
                                     <Fade bottom delay={200}>
-                                        <div className="content-block-solution">
+                                        <div className="content-block-solution content-s-right">
                                             <p className="mini-title-solution color-orange">Concept</p>
                                             <h2 className="big-title-solution ">Pitch en ligne devant <span className="color-orange"><br/>un panel d'investisseurs.</span></h2>
                                             <p className="text-solution-right">
@@ -58,7 +58,7 @@ class Solution extends React.Component {
                                 <div className="d-flex-desktop m-t-10">
                                     <img src={pic3} className="pic_solution"/>
                                     <Fade bottom>
-                                        <div className="content-block-solution">
+                                        <div className="content-block-solution content-s-right">
                                             <p className="mini-title-solution blue-color-o">Concept</p>
                                             <h2 className="big-title-solution m-l-10">Reçois ton financement<span className="blue-color-o"> <br/> en moins de 50 jours.</span></h2>
                                             <p className="text-solution-right">
