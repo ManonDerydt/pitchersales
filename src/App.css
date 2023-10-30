@@ -172,20 +172,26 @@ body{
 
 .btn-menu-subscribe-i{
     background: #9A41FF;
-    color: white;
-    width: 200px !important;
-    height: 3em;
-    font-size: 20px;
+    height: clamp(0.5rem,3.5vw,4rem);
+    font-size: clamp(0rem,1.1vw,1.2rem);
     border-radius: 4em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .btn-menu-subscribe-c{
     background:  #FF7569;
     color: white;
-    width: 200px !important;
-    height: 3em;
-    font-size: 20px;
+    height: clamp(0.5rem,3.5vw,4rem);
+    font-size: clamp(0rem,1.1vw,1.2rem);
     border-radius: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 button::before, button::after {
@@ -458,7 +464,7 @@ width: 3em;
 .selected-button-c {
     background: #FF7569;
     z-index: 2;
-    width: 350px !important;
+    width: 65% !important;
     color: white;
     font-size: 22px;
     letter-spacing: 0px;
@@ -469,7 +475,7 @@ width: 3em;
 .selected-button-i {
     background: #9A41FF;
     z-index: 2;
-    width: 40% !important;
+    width: 65% !important;
     color: white;
     font-size: 22px;
     letter-spacing: 0px;
@@ -480,7 +486,7 @@ width: 3em;
 
 .txt-solutions-c{
     text-align: center;
-    font-size: 20px;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     /*font-family: 'GilroyLight', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
     padding-left: 10%;
@@ -630,6 +636,30 @@ color: black;
     font-weight: 600;
 }
 
+.join-us-consultant{
+    background: none;
+    font-size: clamp(0rem,1.1vw,1.2rem);
+    padding-left: 1.5em;
+    height: 2.5em;
+    padding-right: 1.5em;
+    border: none;
+    color: #271350;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.join-us-investors{
+    background: none;
+    font-size: clamp(0rem,1.1vw,1.2rem);
+    padding-left: 1.5em;
+    height: 2.5em;
+    padding-right: 1.5em;
+    border: none;
+    color: #271350;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
 .join-us:hover{
     color: #FFCD3B;
     background: none;
@@ -637,10 +667,12 @@ color: black;
 
 .join-us-investors:hover{
     color: #9A41FF;
+    background: none;
 }
 
 .join-us-consultant:hover{
     color: #FF7569;
+    background: none;
 }
 
 .contact:hover{
@@ -688,9 +720,9 @@ color: black;
 }
 .content-block-offers{
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -763,16 +795,16 @@ color: black;
 .title-com{
     text-align: left;
     letter-spacing: 3px;
-    font-size: 45px;
     color: #271350;
     width: 105%;
-    margin-bottom: 0;
     margin-top: 0;
+    font-size: clamp(1rem,2vw,3rem);
+    font-weight: 800;
 }
 
 .txt-com{
     text-align: left;
-    font-size: 20px;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'GilroyLight', sans-serif;*/
     line-height: 35px;
@@ -786,7 +818,8 @@ color: black;
 
 .pic-header{
     object-fit: contain;
-    margin-left: -35%;
+    margin-left: -40%;
+    width: clamp(200px, 40vw, 521px);
 }
 
 .content-offers-price{
@@ -934,7 +967,7 @@ color: black;
 .p-s{
     text-align: center;
     margin-top: 0%;
-    font-size: 18px;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'GilroyLight', sans-serif;*/
 }
@@ -1120,7 +1153,7 @@ button.learn-more:active::before {
     text-align: center;
     padding-top: 0px;
     letter-spacing: 3px;
-    font-size: 45px;
+    font-size: clamp(1rem,2vw,3rem);
 }
 
 .title-hidden{
@@ -1267,7 +1300,7 @@ button.learn-more:active::before {
     margin-top: 10%;
     background: #f1f4f8;
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 5%;
     padding-top: 5%;
     padding-bottom: 10%;
 }
@@ -1684,7 +1717,7 @@ button.learn-more:active::before {
 
 .section-concept{
     width: 100%;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .big-title-concept{
@@ -1935,12 +1968,14 @@ button.learn-more:active::before {
     border-radius: 40px;
     margin-bottom: 0;
     padding-left: 3%;
-    width: 27%;
+    width: 28%;
     font-family: monospace;
     margin-top: 2em;
     margin: 0 auto;
+    margin-top: 0px;
     margin-top: 2%;
     box-shadow: 0 0 10px #ffe7a0;
+    font-size: clamp(0rem,1.1vw,1.2rem);
 }
 
 .input-contact-select {
@@ -2044,11 +2079,11 @@ button.learn-more:active::before {
 
 .title-step-c{
     text-align: center;
-    letter-spacing: 3px;
-    font-size: 45px;
+    font-size: clamp(1rem,2vw,3rem);
     color: black;
     margin-bottom: 0;
     margin-top: 0;
+    font-weight: 800;
 }
 
 
@@ -2123,7 +2158,7 @@ a{
 .join-footer{
     text-align: center;
     margin-top: 3%;
-    font-size: 3.2em;
+    font-size: clamp(1rem,2vw,3rem);
     width: 40%;
     margin-left: 30%;
 }
@@ -2271,7 +2306,7 @@ a{
     margin-top: -15%;
     align-items: center;
     padding-top: 17%;
-    padding-right: 10%;
+    padding-right: 5%;
     padding-left: 15%;
     justify-content: space-around;
     width: 80%;
@@ -2283,7 +2318,7 @@ a{
     margin-top: -15%;
     align-items: center;
     padding-top: 17%;
-    padding-right: 10%;
+    padding-right: 5%;
     padding-left: 15%;
     justify-content: space-around;
     width: 80%;
@@ -2330,11 +2365,12 @@ a{
 }
 
 .block-i{
-    width: 38em;
-    height: 40em;
+    width: 45%;
+    height: auto;
     margin: 0 auto;
     margin-top: 2%;
     border-radius: 1.875rem;
+    padding-bottom: 5%;
 }
 
 .content-block-i{
@@ -2432,7 +2468,7 @@ a{
 
 .text-i-1{
     color: white;
-    font-size: 40px;
+    font-size: clamp(1rem,2vw,3rem);
     padding-top: 15%;
     padding-left: 5%;
     margin-top: 0;
@@ -2441,11 +2477,12 @@ a{
 }
 
 .img-i{
-    width: 60%;
+    width: 45%;
+    margin-top: 5%;
 }
 
 .img-i-t{
-    width: 35%;
+    width: 25%;
 }
 
 .img-i-p{
@@ -2459,12 +2496,12 @@ a{
 
 .img-i-j{
     width: 25%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .img-i-4{
     width: 20%;
-    margin-top: 0%;
+    margin-top: 5%;
 }
 
 .r1{

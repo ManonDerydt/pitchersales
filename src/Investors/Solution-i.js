@@ -28,7 +28,7 @@ class Solution extends React.Component {
                                     <img src={pic1} className="pic_solution"/>
                                 </Fade>
                                 <Fade bottom delay={200}>
-                                    <div className="content-block-solution">
+                                    <div className="content-block-solution content-s-right">
                                         <p className="mini-title-solution color-orange">Concept</p>
                                         <h2 className="big-title-solution ">Découvrez les projets<span className="color-orange"><br/> lors des meetings en ligne.</span></h2>
                                         <p className="text-solution-right">
@@ -45,7 +45,7 @@ class Solution extends React.Component {
                             <div className="d-flex-desktop m-t-10 content-solution-mobile">
                                 <div className="content-block-solution">
                                     <p className="mini-title-solution  green-color m-l-0">Concept</p>
-                                    <h2 className="big-title-solution big-title-solution-left">Des professionnels dédiés<span className="green-color"> guident les entrepreneurs.</span></h2>
+                                    <h2 className="big-title-solution big-title-solution-left">Des professionnels dédiés<br/><span className="green-color"> guident les entrepreneurs.</span></h2>
                                     <p className="text-solution-left">
                                         Pour accompagner les porteurs de projet dans leur démarche, notre écosystème est composé de conseillers qui ont une expertise dans le domaine du
                                         financement afin de les accompagner tout au long de leurs parcours de levée de fonds.
@@ -60,7 +60,7 @@ class Solution extends React.Component {
                             <div className="d-flex-desktop m-t-10">
                                 <img src={pic3} className="pic_solution"/>
                                 <Fade bottom>
-                                    <div className="content-block-solution">
+                                    <div className="content-block-solution content-s-right">
                                         <p className="mini-title-solution blue-color-o">Concept</p>
                                         <h2 className="big-title-solution m-l-10">Prenez votre décision<span className="blue-color-o"> <br/> endéans les 50 jours.</span></h2>
                                         <p className="text-solution-right">

@@ -42,7 +42,7 @@ class AdvantagesConsultant extends React.Component {
                                     <img src={pic2} className="pic_solution"/>
                                 </Fade>
                                 <Fade bottom delay={200}>
-                                    <div className="content-block-solution">
+                                    <div className="content-block-solution content-s-right">
                                         <p className="mini-title-solution red-color">Concept</p>
                                         <h2 className="big-title-solution ">Mentorez des startups <span className="red-color"><br/>pour leurs parcours de financement.</span></h2>
                                         <p className="text-solution-right">
@@ -58,7 +58,7 @@ class AdvantagesConsultant extends React.Component {
                             <div className="d-flex-desktop m-t-10 content-solution-mobile">
                                 <div className="content-block-solution">
                                     <p className="mini-title-solution  dark-blue m-l-0">Concept</p>
-                                    <h2 className="big-title-solution big-title-solution-left">Intégrez une équipe de <span className="dark-blue">professionnels dévoués.</span></h2>
+                                    <h2 className="big-title-solution big-title-solution-left">Intégrez une équipe de <br/><span className="dark-blue">professionnels dévoués.</span></h2>
                                     <p className="text-solution-left">
                                         En tant que conseiller chez Pitchersales, vous faites partie intégrante de notre mission. Vous bénéficierez
                                         du soutien de notre équipe et de ressources adaptées pour optimiser votre coaching. Votre expertise combinée

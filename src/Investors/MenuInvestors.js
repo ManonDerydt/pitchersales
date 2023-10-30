@@ -15,7 +15,6 @@ const MenuInvestors = () => {
         setActiveButton(buttonId);
     }
 
-
     return (
         <div>
             <div className="mobile-only">
@@ -41,13 +40,13 @@ const MenuInvestors = () => {
             </div>
 
             <div className={`desktop-only ${isMenuOpen ? 'show-menu' : ''}`}>
-                <div className="content-menu-desktop d-flex-desktop">
+                <div className="d-flex-desktop style-menu">
                     <Link to="/"><button className="btn"><img src={logo} className="logo" alt="pitchersales" /></button></Link>
-                    <div>
+                    <div className="d-flex-desktop content-link-menu content-menu-desktop">
                         <Link to="/">
                             <button
                                 id="projectHolder"
-                                className={`join-us join-us-investors ${activeButton === 'projectHolder' ? 'active-home' : ''}`}
+                                className={`join-us-investors ${activeButton === 'projectHolder' ? 'active-home' : ''}`}
                                 onClick={() => handleSetActiveButton('projectHolder')}
                             >
                                 Porteur de projet
@@ -56,7 +55,7 @@ const MenuInvestors = () => {
                         <Link to="/investors">
                             <button
                                 id="investors"
-                                className={`join-us join-us-investors ${activeButton === 'investors' ? 'active-home' : ''}`}
+                                className={`join-us-investors ${activeButton === 'investors' ? 'active-home' : ''}`}
                                 onClick={() => handleSetActiveButton('investors')}
                             >
                                 Investisseurs
@@ -65,7 +64,7 @@ const MenuInvestors = () => {
                         <Link to="/consultant">
                             <button
                                 id="consultants"
-                                className={`join-us join-us-investors ${activeButton === 'consultants' ? 'active-home' : ''}`}
+                                className={`join-us-investors ${activeButton === 'consultants' ? 'active-home' : ''}`}
                                 onClick={() => handleSetActiveButton('consultants')}
                             >
                                 Conseillers
@@ -75,6 +74,42 @@ const MenuInvestors = () => {
                     </div>
                 </div>
             </div>
+
+            {/*<div className={`desktop-only ${isMenuOpen ? 'show-menu' : ''}`}>*/}
+            {/*    <div className="content-menu-desktop d-flex-desktop">*/}
+            {/*        <Link to="/"><button className="btn"><img src={logo} className="logo" alt="pitchersales" /></button></Link>*/}
+            {/*        <div>*/}
+            {/*            <Link to="/">*/}
+            {/*                <button*/}
+            {/*                    id="projectHolder"*/}
+            {/*                    className={`join-us join-us-investors ${activeButton === 'projectHolder' ? 'active-home' : ''}`}*/}
+            {/*                    onClick={() => handleSetActiveButton('projectHolder')}*/}
+            {/*                >*/}
+            {/*                    Porteur de projet*/}
+            {/*                </button>*/}
+            {/*            </Link>*/}
+            {/*            <Link to="/investors">*/}
+            {/*                <button*/}
+            {/*                    id="investors"*/}
+            {/*                    className={`join-us join-us-investors ${activeButton === 'investors' ? 'active-home' : ''}`}*/}
+            {/*                    onClick={() => handleSetActiveButton('investors')}*/}
+            {/*                >*/}
+            {/*                    Investisseurs*/}
+            {/*                </button>*/}
+            {/*            </Link>*/}
+            {/*            <Link to="/consultant">*/}
+            {/*                <button*/}
+            {/*                    id="consultants"*/}
+            {/*                    className={`join-us join-us-investors ${activeButton === 'consultants' ? 'active-home' : ''}`}*/}
+            {/*                    onClick={() => handleSetActiveButton('consultants')}*/}
+            {/*                >*/}
+            {/*                    Conseillers*/}
+            {/*                </button>*/}
+            {/*            </Link>*/}
+            {/*            <button className="btn-menu-subscribe btn-menu-subscribe-i">Je m'inscris</button>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
             <div className="tablette-only">
                 <div className="content-menu-mobile">

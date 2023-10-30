@@ -5,7 +5,7 @@ import Hamburger from 'hamburger-react';
 import menu from "../assets/menu.png";
 
 
-const MenuHome = ({ location }) => {
+const MenuConsultant = ({ location }) => {
     const [isMenuOpen, setMenuOpen] = useState(false);
     const [activeButton, setActiveButton] = useState('');
 
@@ -118,4 +118,4 @@ const MenuHome = ({ location }) => {
     );
 }
 
-export default withRouter(MenuHome);
+export default withRouter(MenuConsultant);
