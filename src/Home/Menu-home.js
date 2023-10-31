@@ -11,10 +11,7 @@ const MenuConsultant = ({ location }) => {
 
     const toggleMenu = () => {
         setMenuOpen(prevState => !prevState);
-        // const body = document.body;
-        // body.classList.add('show-loader');
     }
-
     const handleSetActiveButton = (buttonId) => {
         setActiveButton(buttonId);
     }
@@ -24,13 +21,31 @@ const MenuConsultant = ({ location }) => {
         body.classList.remove('show-loader');
     }, [location]);
 
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <div>
             <div className="mobile-only">
                 <div className="content-menu-mobile">
                     <img src={logo} className="logo"/>
-                    <Hamburger toggled={isMenuOpen} toggle={toggleMenu} className="menu-burger" />
+                    <div className={`menu-burger ${isScrolled ? 'scrolled' : ''}`}>
+                        <Hamburger toggled={isMenuOpen} toggle={toggleMenu} className="menu-burger" />
+                    </div>
                 </div>
                 {/* Menu mobile */}
                 <div className={`mobile-menu ${isMenuOpen ? 'show-menu' : ''}`}>

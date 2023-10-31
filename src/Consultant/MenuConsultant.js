@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import logo from "../assets/logo-3.png";
 import { Link, withRouter } from 'react-router-dom';
 import Hamburger from 'hamburger-react';
@@ -15,21 +15,43 @@ const MenuHome = ({ location }) => {
         setActiveButton(buttonId);
     }
 
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div>
             <div className="mobile-only">
                 <div className="content-menu-mobile">
-                    <Link to="/"><img src={logo} className="logo" alt="pitchersales"/></Link>
-                    <Hamburger toggled={isMenuOpen} toggle={toggleMenu} className="menu-burger" />
+                    <img src={logo} className="logo"/>
+                    <div className={`menu-burger ${isScrolled ? 'scrolled' : ''}`}>
+                        <Hamburger toggled={isMenuOpen} toggle={toggleMenu} className="menu-burger" />
+                    </div>
                 </div>
-
                 {/* Menu mobile */}
                 <div className={`mobile-menu ${isMenuOpen ? 'show-menu' : ''}`}>
                     <Link to="/" onClick={toggleMenu}>
-                        <button className="mobile-menu-button">Porteurs de projet</button>
+                        <button className="mobile-menu-button">
+                            Porteur de projet
+                        </button>
                     </Link><br/>
                     <Link to="/investors" onClick={toggleMenu}>
-                        <button className="mobile-menu-button">Investisseurs</button>
+                        <button className="mobile-menu-button">
+                            Investisseurs
+                        </button>
                     </Link><br/>
                     <Link to="/consultant" onClick={toggleMenu}>
                         <button className="mobile-menu-button">
@@ -39,18 +61,6 @@ const MenuHome = ({ location }) => {
                     <button className="mobile-menu-button consultant-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button>
                 </div>
             </div>
-
-            {/*<div className="desktop-only">*/}
-            {/*    <div className="content-menu-desktop d-flex-desktop">*/}
-            {/*        <Link to="/"><button className="btn"><img src={logo} className="logo" alt="pitchersales"/></button></Link>*/}
-            {/*        <div>*/}
-            {/*            <Link to="/"><button className="join-us join-us-consultant">Porteur de projet</button></Link>*/}
-            {/*            <Link to="/investors"><button className="join-us join-us-consultant">Investisseurs</button></Link>*/}
-            {/*            <Link to="/consultant"><button className="join-us join-us-consultant">Conseillers</button></Link>*/}
-            {/*            <button className="btn-menu-subscribe btn-menu-subscribe-c">Je m'inscris</button>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
 
             <div className={`desktop-only ${isMenuOpen ? 'show-menu' : ''}`}>
                 <div className="d-flex-desktop style-menu">
