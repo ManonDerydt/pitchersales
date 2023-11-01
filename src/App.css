@@ -3849,6 +3849,7 @@ a{
     .content-icons{
         width: auto;
         margin-top: 5% !important;
+        margin-left: 15%;
     }
 
     .icons {
@@ -4079,7 +4080,7 @@ a{
     }
 
     .block-footer{
-        margin-left: 6%;
+        margin-left: 15%;
         font-size: 10px;
         margin-top: 5%;
     }
@@ -4100,6 +4101,7 @@ a{
     .content-footer{
         font-size: clamp(1.1rem,1.1vw,1.7rem);
         padding-top: 5%;
+        margin-left: 15%;
     }
 
     .small-logo{
@@ -4114,9 +4116,9 @@ a{
     .text-footer {
         font-size: clamp(0.8rem,1.1vw,0.3rem);
         width: 60%;
-        margin: 0 auto;
         padding-top: 1%;
         font-weight: 200;
+        margin-left: 15%;
     }
 
     .form-s {
