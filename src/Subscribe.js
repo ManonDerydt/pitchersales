@@ -6,6 +6,8 @@ import Fade from "react-reveal/Fade";
 import pic1 from "../src/assets/Investors/fusée.png";
 import pic2 from "../src/assets/subscribe/bag.png";
 import pic3 from "../src/assets/subscribe/buble.png";
+import smallLogo from "./assets/small-logo.png";
+import {FaChevronRight} from "react-icons/fa";
 
 function Subscribe() {
     const [selectedRole, setSelectedRole] = useState('');
@@ -18,8 +20,18 @@ function Subscribe() {
         setSelectedRole(role);
     };
 
+    const isValidEmail = (email) => {
+        const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        return regex.test(email);
+    };
+
     const handleSubmit = async (event) => {
         event.preventDefault();
+
+        if (!isValidEmail(email)) {
+            toast.error("Veuillez entrer une adresse e-mail valide.");
+            return;
+        }
 
         const data = {
             fields: {
@@ -40,8 +52,9 @@ function Subscribe() {
 
         try {
             const response = await axios.post("https://api.airtable.com/v0/appuGqsNoi0cpTheH/Table%201?maxRecords=3&view=Grid%20view", data, config);
+            setEmail('');
             console.log(response.data);
-            toast.success("Votre formulaire a été soumis avec succès !");
+            toast.success("Votre email a été soumis avec succès !");
         } catch (error) {
             console.error(error);
             toast.error("Une erreur s'est produite lors de la soumission du formulaire.");
@@ -53,61 +66,35 @@ function Subscribe() {
             <div className="content-subscribe" id="subscribe">
                 <ToastContainer />
                 <Fade bottom delay={200}>
+                    <div className="text-center">
+                        <img src={smallLogo} className="small-logo logo-s"/>
+                    </div>
                     <div className>
                         <h2 className="title-subscribe">On s'inscrit ?<br /><span className="color-orange">Tout d'abord, faisons connaissance !</span></h2>
                     </div>
-                    <form onSubmit={handleSubmit} className="form">
-                        <div className="d-flex-desktop d-flex-mobile content-card-s">
-                            <div
-                                className={`card-s ${selectedRole === 'porteur_projet' ? 'selected-img' : ''}`}
-                                onClick={() => handleCardClick('porteur_projet')}
-                            >
-                                <img src={pic1} className={`pic-s ${selectedRole === 'porteur_projet' ? 'selected' : ''}`} alt="Pic 1" />
-                                <p className="p-s">Porteur de projet</p>
-                            </div>
-                            <div
-                                className={`card-s ${selectedRole === 'investisseur' ? 'selected-img' : ''}`}
-                                onClick={() => handleCardClick('investisseur')}
-                            >
-                                <img src={pic2} className={`pic-s ${selectedRole === 'investisseur' ? 'selected' : ''}`} alt="Pic 2" />
-                                <p className="p-s">Investisseurs</p>
-                            </div>
-                            <div
-                                className={`card-s ${selectedRole === 'conseiller' ? 'selected-img' : ''}`}
-                                onClick={() => handleCardClick('conseiller')}
-                            >
-                                <img src={pic3} className={`pic-s ${selectedRole === 'conseiller' ? 'selected' : ''}`} alt="Pic 3" />
-                                <p className="p-s">Conseillers</p>
-                            </div>
+                    <p className="subtitle-subscribe">
+                        Inscris-toi à la newsletter pour ne rien rater sur de nouvelles opportunités.
+                    </p>
+
+                    <div className="content-input-welcome">
+                        <div className="input-container">
+                            <form onSubmit={handleSubmit} className="form-s">
+                                <div className="d-flex-desktop d-flex-mobile">
+                                    <input
+                                        type="text"
+                                        placeholder="Inscription à la newsletter"
+                                        value={email}
+                                        className="d-flex-desktop"
+                                        onChange={(e) => setEmail(e.target.value)}
+                                    />
+                                    <button className="button" type="submit">
+                                        <FaChevronRight className="icon-arrow" />
+                                    </button>
+                                </div>
+
+                            </form>
                         </div>
-                        <div className="text-center">
-                            <label>
-                                <input
-                                    required
-                                    className="input-contact"
-                                    placeholder="Votre nom et prénom"
-                                    type="text"
-                                    value={fullName}
-                                    onChange={(e) => setFullName(e.target.value)}
-                                />
-                            </label>
-                            <br />
-                            <label>
-                                <input
-                                    required
-                                    className="input-contact"
-                                    placeholder="Votre adresse email"
-                                    type="email"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                />
-                            </label>
-                            <br />
-                        </div>
-                        <button className="learn-more-form btn-form" type="submit">
-                            Soumettre
-                        </button>
-                    </form>
+                    </div>
                 </Fade>
             </div>
         </div>

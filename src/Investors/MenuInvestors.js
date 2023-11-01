@@ -10,7 +10,6 @@ const MenuInvestors = () => {
     const toggleMenu = () => {
         setMenuOpen(prevState => !prevState);
     }
-
     const handleSetActiveButton = (buttonId) => {
         setActiveButton(buttonId);
     }

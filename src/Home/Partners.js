@@ -14,7 +14,7 @@ import styled from "styled-components";
 class Partners extends React.Component {
     render() {
         return (
-            <div>
+            <div className="w-100">
                 <Fade bottom delay={200}>
                     <div id="step" className="content-solutions d-flex-desktop">
                         {/*<Background>*/}

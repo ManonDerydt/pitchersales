@@ -19,7 +19,7 @@ class Solution extends React.Component {
         return (
             <div className="content-advantage">
 
-                <div>
+                <div className="small-content-advantage">
                     {/*<h2 className="special-color title-offers">Une nouvelle approche <br/><span className="color-orange">de financement.</span></h2>*/}
                     <div className="m-t-5">
                         <Fade bottom>

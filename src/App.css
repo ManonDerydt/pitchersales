@@ -273,6 +273,10 @@ width: 3em;
     height: 85vh;
 }
 
+.form-s{
+    margin: 0 auto;
+}
+
 .pic-welcome{
     width: 100%;
     object-fit: contain;
@@ -298,9 +302,48 @@ width: 3em;
 }
 
 .content-icons{
-    width: 17%;
-    margin-top: 5%;
-    margin-left: 60%;
+    width: 10%;
+    margin-top: 2% !important;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+.subtitle-subscribe{
+    text-align: center;
+    font-size: clamp(0rem,1.1vw,1.2rem);
+}
+
+.input-footer{
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 0;
+    padding-left: 3%;
+    width: 22%;
+    font-family: monospace;
+    font-size: clamp(0rem,1.1vw,1.2rem);
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+.small-logo{
+    padding-top: 3%;
+}
+
+.content-footer{
+    width: 60%;
+    justify-content: space-between;
+    text-align: start;
+    margin-left: 20%;
+    margin-top: 4%;
+    font-size: clamp(0rem,1.1vw,1.2rem);
+}
+
+.block-menu-footer{
+    list-style: none;
+    padding-left: 0;
+    line-height: 35px;
+    font-weight: 200;
 }
 
 .icon-arrow{
@@ -329,30 +372,43 @@ width: 3em;
     color: black;
 }
 
+.hr-footer{
+    width: 60%;
+}
+
+.text-footer{
+    font-size: clamp(0rem,1.1vw,0.9rem);
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 1%;
+    font-weight: 200;
+}
+
 /****************WELCOME****************/
 .input-container {
-    display: flex;
     padding: 0.3rem;
     gap: 0.3rem;
     padding-right: 0;
-    margin-top: 5%;
+    margin-top: 3%;
     height: 50px;
+    margin-bottom: 2%;
 }
 
 .input-container input {
     border-radius: 45px 0 0 45px;
-    width: 14em;
-    flex-basis: 30%;
+    width: 42em;
+    flex-basis: 20%;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 0 5px rgb(0 0 0 / 20%) !important;
     display: flex !important;
     text-align: center;
-    font-size: clamp(1rem, 4vw, 1.3rem);
+    font-size: clamp(0rem,1.1vw,1.2rem);
     height: 3.5rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     border: 1px solid #F0F0F0 !important;
     border-right: none;
+    margin-left: 35%;
 }
 
 .input-container input:focus {
@@ -360,18 +416,21 @@ width: 3em;
 }
 
 .input-container button {
-    flex-basis: 15%;
-    padding: 1rem;
-    background: #FFCD3B;
+    flex-basis: 3%;
+    background: rgb(255, 205, 59);
     font-weight: 900;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     color: white;
     border: none;
-    width: 20%;
-    border-radius: 0 45px 45px 0;
-    transition: all 0.2s ease-in-out;
+    border-radius: 0px 45px 45px 0px;
+    transition: all 0.2s ease-in-out 0s;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .input-container button:hover {
@@ -433,7 +492,7 @@ width: 3em;
 .icon-btn-menu{
     width: 70px;
     margin-left: 3%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .icon-btn-menu-c{
@@ -455,6 +514,10 @@ width: 3em;
     letter-spacing: 0px;
     align-items: center;
     display: flex;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 500;
 }
 
 .selected-button:hover {
@@ -465,23 +528,25 @@ width: 3em;
 .selected-button-c {
     background: #FF7569;
     z-index: 2;
-    width: 65% !important;
+    width: 45% !important;
     color: white;
-    font-size: 22px;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     letter-spacing: 0px;
     align-items: center;
     display: flex;
+    font-weight: 500;
 }
 
 .selected-button-i {
     background: #9A41FF;
     z-index: 2;
-    width: 65% !important;
+    width: 45% !important;
     color: white;
-    font-size: 22px;
+    font-size: clamp(0rem,1.1vw,1.2rem);
     letter-spacing: 0px;
     align-items: center;
     display: flex;
+    font-weight: 500;
 
 }
 
@@ -721,9 +786,9 @@ color: black;
 }
 .content-block-offers{
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     display: flex;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 5%;
 }
 
@@ -1095,12 +1160,14 @@ button.learn-more:active::before {
     font-size: 1.6em;
     color: black;
     width: 70%;
-    margin-left: 15%;
-    margin-top: 10%;
     font-weight: 800;
     background: #FFF7DA;
     padding-top: 3%;
     padding-bottom: 3%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+
 }
 
 .content-solutions-c{
@@ -1144,8 +1211,9 @@ button.learn-more:active::before {
     margin: 0 auto;
     padding: 5em;
     border-radius: 1.85em;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-top: 0;
+    margin-bottom: 2%;
 }
 
 .title-subscribe{
@@ -1189,14 +1257,16 @@ button.learn-more:active::before {
 /**************************Solution*************************/
 
 .content-advantages{
+    font-size: 1.6em;
+    color: black;
+    /* width: 70%; */
+    font-weight: 800;
+    background: #FFF7DA;
+    padding-top: 3%;
+    padding-bottom: 3%;
     width: 70%;
-    height: 35em;
-    background-color: white;
-    transform-origin: center;
-    margin-left: 15%;
+    margin: 0 auto;
     margin-top: 10%;
-    padding-bottom: 2%;
-    border-radius: 1.5em;
 }
 
 .title-advantages{
@@ -1298,29 +1368,35 @@ button.learn-more:active::before {
 
 .content-advantage{
     transform-origin: center;
-    margin-top: 10%;
+    margin-top: 5% !important;
     background: #f1f4f8;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 5%;
     padding-bottom: 10%;
+    margin: 0;
+    justify-content: center;
+    width: auto;
 }
 
+.small-content-advantage{
+    padding-top: 5%;
+    width: 70%;
+    margin: 0 auto;
+}
 .btn-cta-h{
     margin-top: 5%;
     background: #FFCD3B;
     z-index: 2;
     color: #271350;
-    font-size: 22px;
     letter-spacing: 0px;
     align-items: center;
     position: relative;
-    width: 370px !important;
+    width: auto;
     height: 3em;
     border-radius: 4em;
-    font-size: 22px;
+    font-size: clamp(1.3rem,7vw,1rem);
     border: none;
     transition: 0.3s;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .btn-cta-h:hover{
@@ -1332,13 +1408,15 @@ button.learn-more:active::before {
     background: #FFCD3B;
     color: #271350;
     letter-spacing: 0px;
-    width: 270px !important;
     height: 3em;
     border-radius: 4em;
-    font-size: 22px;
+    font-size: clamp(1.3rem,7vw,1rem);
     border: none;
     margin-left: 5%;
     margin-top: 1%;
+    width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .btn-cta-end:hover{
@@ -1964,19 +2042,25 @@ button.learn-more:active::before {
 }
 
 .input-contact {
-    height: 5em;
+    height: 55px;
     border: navajowhite;
     border-radius: 40px;
     margin-bottom: 0;
     padding-left: 3%;
-    width: 28%;
+    width: 25%;
     font-family: monospace;
-    margin-top: 2em;
     margin: 0 auto;
     margin-top: 0px;
     margin-top: 2%;
     box-shadow: 0 0 10px #ffe7a0;
     font-size: clamp(0rem,1.1vw,1.2rem);
+}
+
+.logo-s{
+    padding: 1.8%;
+    border-radius: 30px;
+    background: linear-gradient(#FFD37A -21%,#FFFBDF 95%);
+    border: 3px solid #462292;
 }
 
 .input-contact-select {
@@ -2072,7 +2156,6 @@ button.learn-more:active::before {
     text-align: left;
     font-size: clamp(1rem,2vw,3rem);
     color: #271350;
-    width: 105%;
     margin-bottom: 0;
     margin-top: 0;
     font-weight: 800;
@@ -2147,9 +2230,10 @@ a{
 }
 
 .block-footer{
-    margin-left: 5%;
+    margin-left: 20%;
     color: white;
     font-size: 15px;
+    margin-top: 1%;
 }
 
 .btn-footer{
@@ -2158,14 +2242,13 @@ a{
 
 .join-footer{
     text-align: center;
-    margin-top: 3%;
     font-size: clamp(1rem,2vw,3rem);
-    width: 40%;
-    margin-left: 30%;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2%;
 }
 
 .pitchersales{
-    margin-left: 0.5em;
     font-weight: 100;
     font-size: 14px;
 }
@@ -2557,523 +2640,7 @@ a{
 /************************RESPONSIVE MOBILE******************************/
 
 @media only screen and (max-width: 768px) {
-    .tablette-only{
-        display: none;
-    }
 
-    .mini-title-solution{
-        margin-left: 0;
-    }
-
-    .input-container input{
-        flex-basis: auto;
-        width: 15em;
-        height: auto;
-    }
-
-    .content-input-welcome{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
-
-    .content-header-home{
-        height: 50em;
-    }
-
-    .content-header-Investors{
-        height: 48em;
-    }
-
-    .content-header-Consultant{
-        height: 45em;
-    }
-
-
-    .small-txt-offers{
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-    }
-
-    .d-flex-mobile{
-        display: flex;
-    }
-
-    .section-HEADER {
-        position: relative;
-        z-index: 1;
-    }
-
-    .section-Headband {
-        position: relative;
-        z-index: 0;
-    }
-
-    .txt-w {
-        font-size: clamp(1.3rem,1.1vw,3rem);
-    }
-
-
-    /***************HEADER**************/
-    .content-header{
-        align-items: center;
-        width: 90%;
-        padding-left: 10%;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
-        padding-bottom: 0;
-        display: grid;
-        grid-template-rows: auto auto;
-        row-gap: 20px;
-        margin-top: -20%;
-    }
-
-    .big-title{
-        font-size: 38px;
-        font-weight: 700;
-        line-height: 47px;
-        margin-bottom: 3%;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .screen{
-        width: 380px;
-        margin: 0 auto;
-    }
-
-    .content-img-header{
-        grid-row: 1;
-        width: inherit;
-        text-align: center;
-        margin-top: 10%;
-    }
-
-    .content-container-investors{
-        grid-row: 2;
-    }
-
-    .icon-btn-menu{
-        width: 70px;
-        margin-left: 3%;
-        margin-right: 5%;
-    }
-
-    .subtitle-header{
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 8%;
-        color: #271350;
-        line-height: 30px;
-        font-weight: 600;
-        width: 100%;
-        text-align: left;
-    }
-
-    .selected-button{
-        width: 80% !important;
-        color: #271350;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        letter-spacing: 0px;
-        align-items: center;
-        display: flex;
-        height: 3em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        margin-top: 5%;
-        justify-content: center;
-    }
-
-    .selected-button-i{
-        width: 100% !important;
-        color: white;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        letter-spacing: 0px;
-        align-items: center;
-        display: flex;
-        height: 3em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        margin-top: 5%;
-        justify-content: center;
-    }
-
-    .selected-button-c{
-        width: 80% !important;
-        color: white;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        letter-spacing: 0px;
-        align-items: center;
-        display: flex;
-        height: 3em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        margin-top: 5%;
-        justify-content: center;
-    }
-
-    .icon-btn-menu-c{
-        display: none;
-    }
-
-    /***************BANNER**************/
-
-    .content-headband{
-        font-size: clamp(1.1rem,1.1vw,1.2rem);
-        width: auto;
-        padding: 3% !important;
-        margin-top: 0%;
-
-    }
-
-    .content-headband-c{
-        margin-top: 0%;
-        font-size: 18px;
-        width: auto;
-    }
-
-    .btn-cta-i{
-        width: 60% !important;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        font-weight: 600;
-    }
-
-    /***************OFFERS**************/
-
-    .title-offers{
-        font-size: clamp(1.7rem,1.1vw,3rem);
-        text-align: left;
-        width: 85%;
-        margin-left: 10%;
-        color: #271350;
-        margin-top: 10%;
-    }
-
-    .btn-offers{
-        margin-top: 7%;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        font-weight: 600;
-    }
-
-    .content-adv-c{
-        margin-top: 0;
-    }
-
-    .btn-cta-c{
-        width: 60% !important;
-        height: 3em;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        font-weight: 600;
-    }
-
-    .text-concept{
-        margin-left: 10%;
-        text-align: left;
-        line-height: 30px;
-        width: 80%;
-        font-size: 23px;
-    }
-
-    .block-text-meeting{
-        flex-direction: column;
-        width: auto;
-        margin-left: 0;
-    }
-
-    .w-30{
-        width: initial;
-    }
-
-    .content-s-right{
-        margin-left: 0;
-    }
-
-    .small-title-w{
-        width: 80%;
-        margin-left: 10%;
-        font-family: 'Montserrat', sans-serif;
-        /*font-family: 'GilroyLight', sans-serif;*/
-        font-weight: 700 !important;
-        margin-top: 0;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        line-height: 27px;
-        text-align: center;
-        letter-spacing: 1px;
-        color: #271350;
-    }
-
-    .img-i-t{
-        width: 25%;
-    }
-
-    .pic-concept{
-        width: 150px;
-        margin-top: 10%;
-    }
-
-    .btn-cta-h{
-        width: 60% !important;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        font-weight: 600;
-    }
-
-    .icon-btn-menu-i{
-        margin-right: 0;
-        display: none;
-    }
-
-    .icon-btn-menu{
-        margin-right: 0;
-        display: none;
-    }
-
-    .content-solutions-c{
-        width: 84%;
-        margin-left: 8%;
-    }
-
-        /***************CONCEPT**************/
-
-    .pic_solution{
-        width: 100%;
-        border-radius: 40px;
-        height: 17em;
-        grid-row: 1;
-    }
-
-    .big-title-solution{
-        margin-left: 0;
-        font-size: clamp(1.7rem,1.1vw,3rem);
-        width: 100%;
-    }
-
-    .text-solution-right{
-        margin-left: 0;
-        width: 100%;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        color: #271350;
-        margin-bottom: 20%;
-    }
-
-    .text-solution-left{
-        width: 100%;
-        color: #271350;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-    }
-
-    .content-solution-mobile{
-        display: grid;
-    }
-
-
-    /***************ADVANTAGES**************/
-
-    .block-i{
-        width: 95%;
-        margin-bottom: 5%;
-    }
-
-    .text-i-1{
-        font-size: clamp(1.7rem,1.1vw,3rem);
-        padding-left: 10%;
-    }
-
-    .img-i{
-        width: 45%;
-    }
-
-    .hands {
-        width: 55%;
-    }
-
-    .content-block-i{
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .content-advantage{
-        padding-top: 10%;
-        padding-bottom: 10%;
-        height: auto;
-        display: grid;
-        width: 70%;
-        margin-top: 0;
-    }
-
-    .content-solutions{
-        width: 84%;
-        margin-left: 7%;
-    }
-
-    /***************COMMUNITY**************/
-
-    .content-community{
-        width: 90%;
-        margin-left: 5%;
-    }
-
-    .text-com{
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .title-com{
-        font-size: clamp(1.7rem,1.1vw,3rem);
-        text-align: left;
-        width: 90%;
-        margin-left: 0%;
-        margin-top: 10%;
-        color: #271350;
-        font-weight: 800;
-        letter-spacing: inherit;
-    }
-
-    .pic-header{
-        display: none;
-    }
-
-    .content-img-header-investors {
-        margin-top: 0%;
-    }
-
-    .btn-com{
-        width: 100% !important;
-        margin-bottom: 10%;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        font-weight: 600;
-    }
-
-    .title-step{
-        font-size: 30px;
-        width: 90%;
-        margin-left: 10%;
-        margin-top: 10%;
-    }
-
-    .txt-solutions {
-        margin-left: 10%;
-        text-align: left;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        font-family: 'Montserrat', sans-serif;
-        /*font-family: 'GilroyLight', sans-serif;*/
-        width: 80%;
-        color: #271350;
-    }
-
-    .txt-com{
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-    }
-
-    .gift{
-        display: none;
-    }
-
-    .content-block-offers{
-        flex-direction: column;
-        margin-left: 0;
-        width: auto;
-    }
-
-    .block-tarif{
-        width: 84%;
-        border-radius: 30px;
-        border: 4px solid #f1f4f8;
-        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
-        margin-left: 7%;
-        margin-top: 10%;
-        padding-top: 5%;
-        padding-bottom: 10%;
-        height: auto;
-    }
-
-    .title-step-c{
-        text-align: left;
-        letter-spacing: 3px;
-        font-size: clamp(1.7rem,1.1vw,3rem);
-        color: #271350;
-        margin-bottom: 0;
-        margin-top: 0;
-        padding-left: 10%;
-        padding-top: 10%;
-    }
-
-    .txt-solutions-c {
-        text-align: left;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-    }
-
-    .btn-cta-end{
-        background: #FFCD3B;
-        color: black;
-        letter-spacing: 0px;
-        width: 70% !important;
-        height: 3em;
-        border-radius: 4em;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        border: none;
-        margin-left: 15%;
-        margin-top: 1%;
-        margin-bottom: 10%;
-        font-weight: 600;
-    }
-
-    .btn-cta-end-c{
-        letter-spacing: 0px;
-        width: 60% !important;
-        height: 3em;
-        border-radius: 4em;
-        font-size: clamp(1.1rem,1.1vw,1.7rem);
-        border: none;
-        margin-top: 1%;
-        margin-bottom: 10%;
-        margin-left: 0;
-        font-weight: 600;
-    }
-
-    .tittle-offers-1{
-        font-size: clamp(1.3rem,1.1vw,3rem);
-    }
-
-    .tittle-offers-2{
-        font-size: clamp(1.3rem,1.1vw,3rem);
-    }
-
-    .tittle-offers-3{
-        font-size: clamp(1.3rem,1.1vw,3rem);
-    }
-
-    .small-title-offers{
-        line-height: 15px;
-        width: 85%;
-    }
-
-    /***************COMMUNITY**************/
-
-    .content-card-s{
-        width: 120%;
-        margin-left: -10%;
-    }
-
-    .pic-s{
-        width: 75%;
-        padding-top: 10%;
-        margin-left: 15%;
-    }
-
-    .input-contact{
-        margin-top: 7%;
-        width: 110%;
-        margin-left: -10%;
-        padding-left: 10%;
-    }
-
-    .btn-form{
-        width: 70% !important;
-        margin-top: 8%;
-        font-size: 20px;
-        margin-left: 15% !important;
-    }
 
 
 }
@@ -3734,7 +3301,538 @@ a{
 /*    !*}*!*/
 /*}*/
 
+.lif:hover{
+    color: #FFCD3B;
+}
+
 @media only screen and (max-width: 768px) {
+    .tablette-only{
+        display: none;
+    }
+
+    .mini-title-solution{
+        margin-left: 0;
+    }
+
+    .input-container input{
+        flex-basis: auto;
+        width: 100%;
+        height: auto;
+        font-size: clamp(0.8rem,1.1vw,1rem);
+        margin-left: 0;
+        padding-left: 5%;
+
+    }
+
+    .input-container button {
+        flex-basis: 15%;
+    }
+
+
+        .content-input-welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .content-header-home{
+        height: 50em;
+    }
+
+    .content-header-Investors{
+        height: 48em;
+    }
+
+    .content-header-Consultant{
+        height: 45em;
+    }
+
+
+    .small-txt-offers{
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+    }
+
+    .d-flex-mobile{
+        display: flex;
+    }
+
+    .section-HEADER {
+        position: relative;
+        z-index: 1;
+    }
+
+    .section-Headband {
+        position: relative;
+        z-index: 0;
+    }
+
+    .txt-w {
+        font-size: clamp(1.3rem,1.1vw,3rem);
+    }
+
+
+    /***************HEADER**************/
+    .content-header{
+        align-items: center;
+        width: 90%;
+        padding-left: 10%;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 0;
+        display: grid;
+        grid-template-rows: auto auto;
+        row-gap: 20px;
+        margin-top: -20%;
+    }
+
+    .big-title{
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 47px;
+        margin-bottom: 3%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .screen{
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    .content-img-header{
+        grid-row: 1;
+        width: inherit;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .content-container-investors{
+        grid-row: 2;
+    }
+
+    .icon-btn-menu{
+        width: 70px;
+        margin-left: 3%;
+        margin-right: 5%;
+    }
+
+    .subtitle-header{
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 8%;
+        color: #271350;
+        line-height: 30px;
+        font-weight: 600;
+        width: 100%;
+        text-align: left;
+    }
+
+    .selected-button{
+        width: 80% !important;
+        color: #271350;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        letter-spacing: 0px;
+        align-items: center;
+        display: flex;
+        height: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .selected-button-i{
+        width: 100% !important;
+        color: white;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        letter-spacing: 0px;
+        align-items: center;
+        display: flex;
+        height: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .selected-button-c{
+        width: 80% !important;
+        color: white;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        letter-spacing: 0px;
+        align-items: center;
+        display: flex;
+        height: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .icon-btn-menu-c{
+        display: none;
+    }
+
+    /***************BANNER**************/
+
+    .content-headband{
+        font-size: clamp(1.1rem,1.1vw,1.2rem);
+        width: auto;
+        padding: 3% !important;
+        margin-top: 0%;
+
+    }
+
+    .content-headband-c{
+        margin-top: 0%;
+        font-size: 18px;
+        width: auto;
+    }
+
+    .btn-cta-i{
+        width: 60% !important;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-weight: 600;
+    }
+
+    /***************OFFERS**************/
+
+    .title-offers{
+        font-size: clamp(1.7rem,1.1vw,3rem);
+        text-align: left;
+        width: 85%;
+        margin-left: 10%;
+        color: #271350;
+        margin-top: 10%;
+    }
+
+    .btn-offers{
+        margin-top: 7%;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-weight: 600;
+    }
+
+    .content-adv-c{
+        margin-top: 0;
+    }
+
+    .btn-cta-c{
+        width: 60% !important;
+        height: 3em;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-weight: 600;
+    }
+
+    .text-concept{
+        margin-left: 10%;
+        text-align: left;
+        line-height: 30px;
+        width: 80%;
+        font-size: 23px;
+    }
+
+    .block-text-meeting{
+        flex-direction: column;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .w-30{
+        width: initial;
+    }
+
+    .content-s-right{
+        margin-left: 0;
+    }
+
+    .small-title-w{
+        width: 80%;
+        margin-left: 10%;
+        font-family: 'Montserrat', sans-serif;
+        /*font-family: 'GilroyLight', sans-serif;*/
+        font-weight: 700 !important;
+        margin-top: 0;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #271350;
+    }
+
+    .img-i-t{
+        width: 25%;
+    }
+
+    .pic-concept{
+        width: 150px;
+        margin-top: 10%;
+    }
+
+    .btn-cta-h{
+        width: 60% !important;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-weight: 600;
+    }
+
+    .icon-btn-menu-i{
+        margin-right: 0;
+        display: none;
+    }
+
+    .icon-btn-menu{
+        margin-right: 0;
+        display: none;
+    }
+
+    .content-solutions-c{
+        width: 84%;
+        margin-left: 8%;
+    }
+
+    /***************CONCEPT**************/
+
+    .pic_solution{
+        width: 100%;
+        border-radius: 40px;
+        height: 17em;
+        grid-row: 1;
+    }
+
+    .big-title-solution{
+        margin-left: 0;
+        font-size: clamp(1.7rem,1.1vw,3rem);
+        width: 100%;
+    }
+
+    .text-solution-right{
+        margin-left: 0;
+        width: 100%;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        color: #271350;
+        margin-bottom: 20%;
+    }
+
+    .text-solution-left{
+        width: 100%;
+        color: #271350;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+    }
+
+    .content-solution-mobile{
+        display: grid;
+    }
+
+
+    /***************ADVANTAGES**************/
+
+    .block-i{
+        width: 95%;
+        margin-bottom: 5%;
+    }
+
+    .text-i-1{
+        font-size: clamp(1.7rem,1.1vw,3rem);
+        padding-left: 10%;
+    }
+
+    .img-i{
+        width: 45%;
+    }
+
+    .hands {
+        width: 55%;
+    }
+
+    .content-block-i{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content-advantage{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        height: auto;
+        display: grid;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .content-solutions{
+        width: 84%;
+        margin-left: 7%;
+    }
+
+    /***************COMMUNITY**************/
+
+    .content-community{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .text-com{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .title-com{
+        font-size: clamp(1.7rem,1.1vw,3rem);
+        text-align: left;
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 10%;
+        color: #271350;
+        font-weight: 800;
+        letter-spacing: inherit;
+    }
+
+    .pic-header{
+        display: none;
+    }
+
+    .content-img-header-investors {
+        margin-top: 0%;
+    }
+
+    .btn-com{
+        width: 100% !important;
+        margin-bottom: 10%;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-weight: 600;
+    }
+
+    .title-step{
+        font-size: 30px;
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .txt-solutions {
+        margin-left: 10%;
+        text-align: left;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        font-family: 'Montserrat', sans-serif;
+        /*font-family: 'GilroyLight', sans-serif;*/
+        width: 80%;
+        color: #271350;
+    }
+
+    .txt-com{
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+    }
+
+    .gift{
+        display: none;
+    }
+
+    .content-block-offers{
+        flex-direction: column;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .block-tarif{
+        width: 84%;
+        border-radius: 30px;
+        border: 4px solid #f1f4f8;
+        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+        margin-left: 7%;
+        margin-top: 10%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        height: auto;
+    }
+
+    .title-step-c{
+        text-align: left;
+        letter-spacing: 3px;
+        font-size: clamp(1.7rem,1.1vw,3rem);
+        color: #271350;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+
+    .txt-solutions-c {
+        text-align: left;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+    }
+
+    .btn-cta-end{
+        background: #FFCD3B;
+        color: black;
+        letter-spacing: 0px;
+        width: 70% !important;
+        height: 3em;
+        border-radius: 4em;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        border: none;
+        margin-left: 15%;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        font-weight: 600;
+    }
+
+    .btn-cta-end-c{
+        letter-spacing: 0px;
+        width: 60% !important;
+        height: 3em;
+        border-radius: 4em;
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        border: none;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 0;
+        font-weight: 600;
+    }
+
+    .tittle-offers-1{
+        font-size: clamp(1.3rem,1.1vw,3rem);
+    }
+
+    .tittle-offers-2{
+        font-size: clamp(1.3rem,1.1vw,3rem);
+    }
+
+    .tittle-offers-3{
+        font-size: clamp(1.3rem,1.1vw,3rem);
+    }
+
+    .small-title-offers{
+        line-height: 15px;
+        width: 85%;
+    }
+
+    /***************COMMUNITY**************/
+
+    .content-card-s{
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    .pic-s{
+        width: 75%;
+        padding-top: 10%;
+        margin-left: 15%;
+    }
+
+    .input-contact{
+        margin-top: 7%;
+        width: 110%;
+        margin-left: -10%;
+        padding-left: 10%;
+    }
+
+    .btn-form{
+        width: 70% !important;
+        margin-top: 8%;
+        font-size: 20px;
+        margin-left: 15% !important;
+    }
+
     .logo{
         width: 9em;
         margin-top: 8%;
@@ -3750,8 +3848,7 @@ a{
 
     .content-icons{
         width: auto;
-        margin-left: 0;
-        margin-top: 5%;
+        margin-top: 5% !important;
     }
 
     .icons {
@@ -3812,6 +3909,8 @@ a{
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         transition: background-color 0.3s ease;
         border-radius: 100%;
+        width: auto;
+        margin-top: 10%;
     }
 
     .buttons-menu{
@@ -3980,12 +4079,49 @@ a{
     }
 
     .block-footer{
-        margin-left: 5%;
+        margin-left: 6%;
         font-size: 10px;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .footer{
-        height: 30em;
+        height: auto;
+    }
+
+    .logo-s{
+        width: 3.5em;
+        padding: 7%;
+    }
+
+    .subtitle-subscribe{
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+    }
+
+    .content-footer{
+        font-size: clamp(1.1rem,1.1vw,1.7rem);
+        padding-top: 5%;
+    }
+
+    .small-logo{
+        display: none;
+    }
+
+    .icons-footer{
+        margin-right: 3%;
+        font-size: 25px;
+    }
+
+    .text-footer {
+        font-size: clamp(0.8rem,1.1vw,0.3rem);
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 1%;
+        font-weight: 200;
+    }
+
+    .form-s {
+        margin: 0 auto;
+        width: 130%;
+        margin-left: -15%;
     }
 }

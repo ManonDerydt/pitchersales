@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Route, Switch, Redirect, useLocation} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, Redirect, useLocation, Link} from 'react-router-dom';
 import MenuHome from './Home/Menu-home'
 import Header from "./Home/Header";
 import Parters from "./Home/Partners";
@@ -85,7 +85,7 @@ function App() {
 
             <BrowserRouter>
                 <Switch>
-                    <Route path="/welcome" component={WaitingPage} exact />
+                    {/*<Route path="/welcome" component={WaitingPage} exact />*/}
                     <Route path="/investors" component={Investors} exact />
                     <Route path="/consultant" component={Consultant} exact />
                     <Route path="/home" render={() => (
@@ -139,7 +139,7 @@ function App() {
                         </>
                     )} exact />
                     <Route exact path="/">
-                        <Redirect to="/welcome" exact />
+                        <Redirect to="/home" exact />
                     </Route>
                 </Switch>
             </BrowserRouter>

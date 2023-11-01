@@ -129,6 +129,7 @@ const MenuConsultant = ({ location }) => {
                     <button className="mobile-menu-button home-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button>
                 </div>
             </div>
+
         </div>
     );
 }

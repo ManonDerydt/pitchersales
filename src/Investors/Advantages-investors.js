@@ -47,7 +47,6 @@ class AdvantagesInvestors extends React.Component {
             <div className="m-t-10 content-adv-i">
                 <Fade bottom>
                     <div className="d-flex-desktop content-block-i">
-
                         <div className="block-i block-i-3">
                             {/*<img src={r1} className="r1"/>*/}
                             <h3 className="text-i-1">
@@ -57,9 +56,7 @@ class AdvantagesInvestors extends React.Component {
                             <div className="text-center">
                                 <img src={purse} className="img-i"/>
                             </div>
-
                         </div>
-
 
                         <Fade bottom delay={200}>
                             <div className="block-i block-i-5">
@@ -71,7 +68,6 @@ class AdvantagesInvestors extends React.Component {
                                     <img src={plane} className="img-i-p"/>
                                 </div>
                             </div>
-
                         </Fade>
                     </div>
                 </Fade>
