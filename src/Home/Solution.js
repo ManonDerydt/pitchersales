@@ -20,7 +20,7 @@ class Solution extends React.Component {
 
                         <div className="m-t-5">
                             <Fade bottom>
-                                <div className="d-flex-desktop m-t-10">
+                                <div className="d-flex-desktop m-t-10 no-d-flex-tablet">
                                     <Fade>
                                         <img src={pic1} className="pic_solution"/>
                                     </Fade>
@@ -40,7 +40,7 @@ class Solution extends React.Component {
 
                             </Fade>
                             <Fade bottom>
-                                <div className="d-flex-desktop m-t-10 content-solution-mobile">
+                                <div className="d-flex-desktop m-t-10 content-solution-mobile no-d-flex-tablet">
                                     <div className="content-block-solution">
                                         <p className="mini-title-solution  green-color m-l-0">Concept</p>
                                         <h2 className="big-title-solution big-title-solution-left">Des professionnels dédiés<span className="green-color"><br/> pour t'assister.</span></h2>
@@ -55,7 +55,7 @@ class Solution extends React.Component {
                                 </div>
                             </Fade>
                             <Fade bottom>
-                                <div className="d-flex-desktop m-t-10">
+                                <div className="d-flex-desktop m-t-10 no-d-flex-tablet">
                                     <img src={pic3} className="pic_solution"/>
                                     <Fade bottom>
                                         <div className="content-block-solution content-s-right">

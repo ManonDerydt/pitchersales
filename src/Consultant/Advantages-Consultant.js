@@ -37,7 +37,7 @@ class AdvantagesConsultant extends React.Component {
                     {/*<h2 className="special-color title-offers">Une nouvelle approche <br/><span className="color-orange">de financement.</span></h2>*/}
                     <div className="m-t-5">
                         <Fade bottom>
-                            <div className="d-flex-desktop m-t-10">
+                            <div className="d-flex-desktop m-t-10 no-d-flex-tablet">
                                 <Fade>
                                     <img src={pic2} className="pic_solution"/>
                                 </Fade>
@@ -55,7 +55,7 @@ class AdvantagesConsultant extends React.Component {
 
                         </Fade>
                         <Fade bottom>
-                            <div className="d-flex-desktop m-t-10 content-solution-mobile">
+                            <div className="d-flex-desktop m-t-10 content-solution-mobile no-d-flex-tablet">
                                 <div className="content-block-solution">
                                     <p className="mini-title-solution  dark-blue m-l-0">Concept</p>
                                     <h2 className="big-title-solution big-title-solution-left">Intégrez une équipe de <br/><span className="dark-blue">professionnels dévoués.</span></h2>
