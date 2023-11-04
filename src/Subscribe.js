@@ -73,7 +73,7 @@ function Subscribe() {
                         <h2 className="title-subscribe">On s'inscrit ?<br /><span className="color-orange">Tout d'abord, faisons connaissance !</span></h2>
                     </div>
                     <p className="subtitle-subscribe">
-                        Inscris-toi à la newsletter pour ne rien rater sur de nouvelles opportunités.
+                        Inscrivez-vous à la newsletter pour ne rien rater les actulités et les opportunités de Pitchersales.
                     </p>
 
                     <div className="content-input-welcome">

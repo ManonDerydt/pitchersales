@@ -120,7 +120,7 @@ function App() {
                                 <Community/>
                             </section>
 
-                            <section className="section-subscribe">
+                            <section className="section-subscribe" id="subscribe">
                                 <Subscribe/>
                             </section>
 

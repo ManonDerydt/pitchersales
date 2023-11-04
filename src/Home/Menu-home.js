@@ -4,7 +4,6 @@ import { Link, withRouter } from 'react-router-dom';
 import Hamburger from 'hamburger-react';
 import menu from "../assets/menu.png";
 
-
 const MenuConsultant = ({ location }) => {
     const [isMenuOpen, setMenuOpen] = useState(false);
     const [activeButton, setActiveButton] = useState('');

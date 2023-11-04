@@ -297,6 +297,8 @@ width: 3em;
 .subtitle-subscribe{
     text-align: center;
     font-size: clamp(0rem,1.1vw,1.2rem);
+    width: 40%;
+    margin: 0 auto;
 }
 
 .input-footer{
