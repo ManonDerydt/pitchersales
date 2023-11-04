@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Switch, Redirect, useLocation, Link} from 'react-router-dom';
 import MenuHome from './Home/Menu-home'
@@ -47,7 +46,6 @@ function SectionConsultant() {
     );
 }
 
-
 function App() {
 
     const [showBanner, setShowBanner] = useState(false);
@@ -67,6 +65,21 @@ function App() {
     return (
         <div className="App">
 
+            {showBanner && (
+                <div className="cookie-banner">
+                    <img src={cookie} alt="cookie" className="cookie-image" />
+                    <p>
+                        Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser notre site, vous acceptez notre politique en matière de cookies.
+                    </p>
+                    <button className="accept-cookie" onClick={acceptCookies}>
+                        Accepter
+                    </button>
+                    <button className="refuse-cookie" onClick={acceptCookies}>
+                        Refuser
+                    </button>
+                </div>
+            )}
+
             <BrowserRouter>
                 <Switch>
                     {/*<Route path="/welcome" component={WaitingPage} exact />*/}
@@ -83,7 +96,6 @@ function App() {
                                 <Header/>
                             </section>
 
-
                             <section className="section-Headband">
                                 <Headband/>
                             </section>
@@ -99,10 +111,6 @@ function App() {
                             <section>
                                 <Parters />
                             </section>
-
-                            {/*<section>*/}
-                            {/*    <Advantages/>*/}
-                            {/*</section>*/}
 
                             <section>
                                 <Offers />
@@ -130,6 +138,4 @@ function App() {
         </div>
     );
 }
-
-
 export default App;

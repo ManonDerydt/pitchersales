@@ -34,8 +34,6 @@ class Footer extends React.Component {
                             <ul className="block-menu-footer">
                                 <li><a className="lif" href="mailto:manon@pitchersales.com">manon@pitchersales.com</a></li>
                                 <li className="lif">Demande de partenariat</li>
-                                <li className="lif">Tarif</li>
-                                <li className="lif">Fonctionnalité</li>
                             </ul>
                         </div>
 
@@ -62,17 +60,8 @@ class Footer extends React.Component {
                         <a href="https://www.facebook.com/profile.php?id=61552502016075" target="_blank">
                             <FiFacebook className="icons-footer icon-facebook" />
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61552502016075" target="_blank">
-                            <PiTiktokLogo className="icons-footer icon-facebook" />
-                        </a>
                         {/*<a href="https://www.facebook.com/profile.php?id=61552502016075" target="_blank">*/}
-                        {/*    <FiYoutube className="icons-footer icon-facebook" />*/}
-                        {/*</a>*/}
-                        {/*<a href="https://www.facebook.com/profile.php?id=61552502016075" target="_blank">*/}
-                        {/*    <FiTwitter className="icons-footer icon-facebook" />*/}
-                        {/*</a>*/}
-                        {/*<a href="https://www.facebook.com/profile.php?id=61552502016075" target="_blank">*/}
-                        {/*    <PiSnapchatLogoBold className="icons-footer icon-facebook" />*/}
+                        {/*    <PiTiktokLogo className="icons-footer icon-facebook" />*/}
                         {/*</a>*/}
                     </div>
 
