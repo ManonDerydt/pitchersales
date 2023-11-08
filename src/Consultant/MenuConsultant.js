@@ -58,7 +58,7 @@ const MenuHome = ({ location }) => {
                             Conseillers
                         </button>
                     </Link><br/>
-                    <button className="mobile-menu-button consultant-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button>
+                    <a className="link-btn-menu" href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank"><button className="mobile-menu-button consultant-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button></a>
                 </div>
             </div>
 
@@ -93,7 +93,7 @@ const MenuHome = ({ location }) => {
                                 Conseillers
                             </button>
                         </Link>
-                        <button className="btn-menu-subscribe btn-menu-subscribe-c">Je m'inscris</button>
+                        <a className="link-btn-menu" href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank"><button className="btn-menu-subscribe btn-menu-subscribe-c">Je m'inscris</button></a>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@ const MenuHome = ({ location }) => {
                             Conseillers
                         </button>
                     </Link><br/>
-                    <button className="mobile-menu-button home-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button>
+                    <a className="link-btn-menu" href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank"><button className="mobile-menu-button home-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button></a>
                 </div>
             </div>
         </div>

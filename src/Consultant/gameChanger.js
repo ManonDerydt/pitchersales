@@ -1,17 +1,6 @@
 import React from 'react';
 import Fade from "react-reveal/Fade";
 import hands from "../assets/hands.png"
-import bg from "../assets/solution/pic-14.png"
-import styled from "styled-components";
-
-// const Background = styled.div`
-//   background-image: url(${bg});
-//   background-size: cover;
-//   background-position: center;
-//   padding: 3%;
-//   border-radius: 40px;
-//   `;
-
 class GameChanger extends React.Component {
     render() {
         return (
@@ -27,15 +16,13 @@ class GameChanger extends React.Component {
                                 pouvoir d'être ce pivot décisif dans la trajectoire d'une startup. Votre expertise et votre engagement peuvent changers une idée prometteuse en
                                 une entreprise florissante. Rejoignez-nous, et soyez la différence qui propulse une startup vers le succès.
                             </p>
-                            <button className="btn-cta-end-c">Je découvre</button>
-
+                            <a href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank">
+                                <button className="btn-cta-end-c">Je découvre</button>
+                            </a>
                         </div>
                     </div>
                 </Fade>
             </div>
-
-
-
         )
     }
 }

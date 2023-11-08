@@ -36,17 +36,23 @@ class Footer extends React.Component {
                             <ul className="block-menu-footer">
                                 <li><a className="lif" href="mailto:manon@pitchersales.com">manon@pitchersales.com</a></li>
                                 <li className="lif" href="mailto:manon@pitchersales.com">Demande de partenariat</li>
+                                <li className="lif" href="mailto:manon@pitchersales.com">Rejoindre l'équipe</li>
                             </ul>
                         </div>
 
                         <div>
                             <p>À propos</p>
                             <ul className="block-menu-footer">
-                                <li className="lif" href="mailto:manon@pitchersales.com">Rejoindre l'équipe</li>
-                                <li >
+                                <li>
                                     <Link className="lif" to={Subscribe} smooth={true} duration={500}>
                                         Inscription à la newsletter
                                     </Link>
+                                </li>
+
+                                <li>
+                                    <a className="lif" href="/legalnotice">
+                                        Mentions légales
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -64,9 +70,6 @@ class Footer extends React.Component {
                         <a href="https://www.facebook.com/profile.php?id=61552502016075" target="_blank" className="lif" >
                             <FiFacebook className="icons-footer icon-facebook" />
                         </a>
-                        {/*<a href="https://www.facebook.com/profile.php?id=61552502016075" target="_blank">*/}
-                        {/*    <PiTiktokLogo className="icons-footer icon-facebook" />*/}
-                        {/*</a>*/}
                     </div>
 
                     <p className="text-footer">
@@ -83,7 +86,6 @@ class Footer extends React.Component {
                             <h2 className="pitchersales">©2023 | Pitchersales</h2>
                         </div>
                     </div>
-
                 </footer>
             </div>
         )

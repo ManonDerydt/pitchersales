@@ -16,13 +16,14 @@ class Community extends React.Component {
                                 <p className="txt-com">1. Tu ne fais rien et penses que tu n'es pas prêt. <br/>2. Tu continues à courir seul derrière les
                                     investisseurs sans succès.<br/> 3. Tu décides de rejoindre la communauté Pitchersales pour bénéficier de notre écosystème taillé pour que tu réussises.
                                 </p>
-                                <button className="btn-com">Je passe à l'étape supérieure</button>
+                                <a href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank">
+                                    <button className="btn-com">Je passe à l'étape supérieure</button>
+                                </a>
                             </div>
 
-                                <div className="d-flex-desktop content-img-com">
-                                    {/*<img src={pic1} className="pic-header"/>*/}
-                                    <img src={pic1} className="pic-header"/>
-                                </div>
+                            <div className="d-flex-desktop content-img-com">
+                                <img src={pic1} className="pic-header"/>
+                            </div>
                         </div>
                     </Fade>
                 </div>

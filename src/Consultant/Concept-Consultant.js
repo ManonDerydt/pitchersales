@@ -58,55 +58,13 @@ class ConceptInvestors extends React.Component {
                                         </div>
                                     </Fade>
                                 </div>
-                                <button className="btn-cta-c">
-                                    Découvrir les projets
-                                </button>
+                                <a href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank">
+                                    <button className="btn-cta-c">
+                                        Commencer l'aventure
+                                    </button>
+                                </a>
                             </Fade>
-                            {/*<div className="text-center">*/}
-                            {/*    <div className="d-flex-desktop">*/}
-                            {/*        <Fade left delay={900}>*/}
-                            {/*            <div className="block-concept align-baseline">*/}
-                            {/*                <h2 className="big-title-concept">*/}
-                            {/*                    Obtenez un accès privilégié à un réseau diversifié d'investisseurs correspondant à vos*/}
-                            {/*                    besoins et assurez le succès de votre levée de fonds*/}
-                            {/*                    <p className="emoji-item-concept">&#128184;</p>*/}
-                            {/*                </h2>*/}
-                            {/*            </div>*/}
-                            {/*        </Fade>*/}
-
-                            {/*        <Fade right delay={1200}>*/}
-                            {/*            <div className="block-concept align-baseline">*/}
-                            {/*                <h2 className="big-title-concept">*/}
-                            {/*                    Pitchez votre projet en ligne, atteignez des investisseurs au-delà de votre zone*/}
-                            {/*                    géographique et touchez un public plus vaste que jamais*/}
-                            {/*                    <p className="emoji-item-concept">&#128249;</p>*/}
-                            {/*                </h2>*/}
-                            {/*            </div>*/}
-                            {/*        </Fade>*/}
-
-                            {/*    </div>*/}
-                            {/*    <div className="d-flex-desktop">*/}
-                            {/*        <Fade left delay={1600}>*/}
-                            {/*            <div className="block-concept align-baseline">*/}
-                            {/*                <h2 className="big-title-concept">PitcherSales, c'est aussi une communauté solidaire de startups unies*/}
-                            {/*                    qui se soutiennent dans la poursuite de leur réussite*/}
-                            {/*                </h2>*/}
-                            {/*                <p className="emoji-item-concept">&#127919;</p>*/}
-                            {/*            </div>*/}
-                            {/*        </Fade>*/}
-                            {/*        <Fade right delay={1800}>*/}
-                            {/*            <div className="block-concept align-baseline">*/}
-                            {/*                <h2 className="big-title-concept">*/}
-                            {/*                    Nous proposons des formations pour affiner vos pitchs et atteindre un niveau de performance optimal.*/}
-                            {/*                    Faites la différence*/}
-                            {/*                </h2>*/}
-                            {/*                <p className="emoji-item-concept">&#128081;</p>*/}
-                            {/*            </div>*/}
-                            {/*        </Fade>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
                         </div>
-                        {/*<a href="#step"><button className="learn-more learn-more-concept">Découvrir</button></a>*/}
                     </div>
                 </Fade>
             </div>

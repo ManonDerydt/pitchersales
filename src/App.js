@@ -17,7 +17,7 @@ import Investors from "./Investors/Investors";
 import HeaderInvestors from "./Investors/Header-investors";
 import Community from "./Home/Community";
 import Consultant from "./Consultant/Consultant";
-import WaitingPage from "./WaitingPage";
+import LegalNotice from "./Legal/legalNotice";
 
 function SectionInvestors() {
     const location = useLocation();
@@ -85,6 +85,29 @@ function App() {
                     {/*<Route path="/welcome" component={WaitingPage} exact />*/}
                     <Route path="/investors" component={Investors} exact />
                     <Route path="/consultant" component={Consultant} exact />
+                    <Route path="/legalnotice" render={() => (
+                        <>
+                            <div className="menu-header-bg">
+                                <MenuHome />
+                            </div>
+
+                            <section>
+                                <LegalNotice/>
+                            </section>
+
+                            <section className="section-subscribe" id="subscribe">
+                                <Subscribe/>
+                            </section>
+
+                            <section>
+                                <Footer />
+                            </section>
+
+                        </>
+
+                    )} exact />
+
+
                     <Route path="/home" render={() => (
                         <>
                             <SectionInvestors />
@@ -124,15 +147,16 @@ function App() {
                                 <Subscribe/>
                             </section>
 
-
                             <section>
                                 <Footer />
                             </section>
                         </>
                     )} exact />
+
                     <Route exact path="/">
                         <Redirect to="/home" exact />
                     </Route>
+
                 </Switch>
             </BrowserRouter>
         </div>

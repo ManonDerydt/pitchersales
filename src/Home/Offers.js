@@ -202,7 +202,9 @@ class Header extends React.Component {
                         </div>
                     </div>
                     <div className="text-center">
-                        <button className="btn-offers">Je découvre Pitchersales</button>
+                        <a href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank">
+                            <button className="btn-offers">Je commence l'aventure</button>
+                        </a>
                     </div>
 
                 </Fade>

@@ -35,8 +35,13 @@ class Header extends React.Component {
                             </div>
                             <div className="element-2">
                                 <div className="buttons-investors">
-                                    <button className={selected === 'investisseur' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected' } onClick={() => this.selectOption('investisseur')}>
-                                        <img src={imageG} className="icon-btn-menu"/>
+                                    <button
+                                        className={selected === 'investisseur' ? 'mix-btn selected-button' : 'mix-btn deselected-button mix-btn-deselected'}
+                                        onClick={() => {
+                                            window.open('https://i59ic371bmw.typeform.com/to/dWincwIG', '_blank');
+                                        }}
+                                    >
+                                        <img src={imageG} className="icon-btn-menu" />
                                         Réserve ta place
                                     </button>
                                 </div>

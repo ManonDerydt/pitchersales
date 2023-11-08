@@ -57,7 +57,7 @@ const MenuInvestors = () => {
                             Conseillers
                         </button>
                     </Link><br/>
-                    <button className="mobile-menu-button investors-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button>
+                    <a className="link-btn-menu" href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank"><button className="mobile-menu-button investors-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button></a>
                 </div>
             </div>
 
@@ -92,7 +92,7 @@ const MenuInvestors = () => {
                                 Conseillers
                             </button>
                         </Link>
-                        <button className="btn-menu-subscribe btn-menu-subscribe-i">Je m'inscris</button>
+                        <a className="link-btn-menu" href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank"><button className="btn-menu-subscribe btn-menu-subscribe-i">Je m'inscris</button></a>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ const MenuInvestors = () => {
                             Conseillers
                         </button>
                     </Link><br/>
-                    <button className="mobile-menu-button home-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button>
+                    <a className="link-btn-menu" href="https://i59ic371bmw.typeform.com/to/dWincwIG" target="_blank"><button className="mobile-menu-button home-btn-menu-mobile" onClick={toggleMenu}>Je m'inscris</button></a>
                 </div>
             </div>
         </div>
