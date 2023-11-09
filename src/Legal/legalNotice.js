@@ -255,7 +255,7 @@ class legalNotice extends React.Component {
                     <h3 className="mini-title-notice">10. Accéder aux événements organisés par Pitchersales</h3>
                     <p className="light-f p-legal">
                         Pitchersales créera un outil permettant l’accès de ses Membres à des évènements organisés par Pitchersales.
-                        Pitchersales ne garantit pas un volume d’événements et les Membres comprennent qu’ils peuvent n’avoir accès à aucun événement si aucun événement n’est créé par Blast Club.
+                        Pitchersales ne garantit pas un volume d’événements et les Membres comprennent qu’ils peuvent n’avoir accès à aucun événement si aucun événement n’est créé par Pitchersales.
                     </p>
                     <h3 className="mini-title-notice">11. Notification d’incident</h3>
                     <p className="light-f p-legal">
