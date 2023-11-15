@@ -17,7 +17,7 @@ class ConceptInvestors extends React.Component {
                             </div>
 
                             <p className="text-concept">
-                                Aujourd'hui, trouver les bonnes startups/projets dans lesquelles investir est compliqué. Cela nécessite une veille constante, du temps et un large réseau.
+                                Aujourd'hui, trouver les bonnes startups/projets dans lesquels investir est compliqué. Cela nécessite une veille constante, du temps et un large réseau.
                                 Avec Pitchersales, ce processus est révolutionné ! Plus besoin de chercher activement les meilleures opportunités. Elles viennent à vous,
                                 vous permettant d'interagir et d'évaluer les startups/projets à fort potentiel lors de meetings en ligne. L'investissement ne se limite plus aux
                                 propositions bien connues ou aux recommandations de réseau. Avec nous, découvrez et capitalisez sur les pépites de demain.
