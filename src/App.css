@@ -601,7 +601,6 @@ width: 3em;
     color: #33D653;
     font-size: clamp(1.6rem,7vw,1rem);
     margin-bottom: 0;
-    line-height: 20px;
 }
 
 .menu-header-bg {
@@ -784,9 +783,9 @@ justify-content: space-between;
 }
 .content-block-offers{
     justify-content: space-between;
-    width: 70%;
+    width: 74%;
     display: flex;
-    margin-left: 15%;
+    margin-left: 13%;
     margin-top: 5%;
 }
 
@@ -1159,15 +1158,18 @@ button.learn-more:active::before {
 .content-solutions{
     font-size: 1.6em;
     color: black;
-    width: 70%;
     font-weight: 800;
     background: #FFF7DA;
     padding-top: 3%;
     padding-bottom: 3%;
-    width: 70%;
-    margin: 0 auto;
     margin-top: 10%;
+}
 
+.solutions{
+    box-sizing: border-box;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-solutions-c{
@@ -3063,7 +3065,7 @@ a{
 
     /***************OFFERS**************/
 
-    .title-offers{
+    .title-offers-price{
         font-size: clamp(1.7rem,1.1vw,3rem);
         text-align: left;
         width: 85%;
@@ -3224,8 +3226,8 @@ a{
     }
 
     .content-solutions{
-        width: 88%;
-        margin-left: 6%;
+        width: 100%;
+        margin-left: 0%;
     }
 
     /***************COMMUNITY**************/
@@ -3353,20 +3355,11 @@ a{
         font-weight: 600;
     }
 
-    .tittle-offers-1{
+    .title-offers{
         font-size: clamp(1.3rem,1.1vw,3rem);
         margin-top: 5%;
     }
 
-    .tittle-offers-2{
-        font-size: clamp(1.3rem,1.1vw,3rem);
-        margin-top: 5%;
-    }
-
-    .tittle-offers-3{
-        font-size: clamp(1.3rem,1.1vw,3rem);
-        margin-top: 5%;
-    }
 
     .small-title-offers{
         line-height: 15px;

@@ -24,7 +24,7 @@ class Header extends React.Component {
                                                     <img src={pic1} className="bitmoji"/>
                                                 </div>
                                                 <div className="content-offers-price">
-                                                    <h3 className="tittle-offers-1">Offre Premium</h3>
+                                                    <h3 className="title-offers-price tittle-offers-1">Offre Premium</h3>
                                                     <h3 className="price">1000€</h3>
                                                     <p className="small-title-offers">Paiement en plusieurs fois possible</p>
                                                 </div>
@@ -85,7 +85,7 @@ class Header extends React.Component {
                                                     <img src={pic2} className="bitmoji"/>
                                                 </div>
                                                 <div className="content-offers-price">
-                                                    <h3 className="tittle-offers-2">Offre Silver</h3>
+                                                    <h3 className="title-offers-price tittle-offers-2">Offre Silver</h3>
                                                     <h3 className="price">1800€</h3>
                                                     <p className="small-title-offers">Paiement en plusieurs fois possible</p>
                                                 </div>
@@ -142,7 +142,7 @@ class Header extends React.Component {
                                                         <img src={pic3} className="bitmoji"/>
                                                     </div>
                                                     <div className="content-offers-price">
-                                                        <h3 className="tittle-offers-3">Offre Gold</h3>
+                                                        <h3 className="title-offers-price tittle-offers-3">Offre Gold</h3>
                                                         <h3 className="price">3000€</h3>
                                                         <p className="small-title-offers">Paiement en plusieurs fois possible</p>
                                                     </div>
